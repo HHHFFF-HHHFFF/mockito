@@ -1,0 +1,192 @@
+{
+  "stage": "green-reference-v2",
+  "repository": "E:\\ANU\\COMP6120\\assignment4&5\\work\\issue3592-reference-validation",
+  "started_utc": "2026-10-20T05:02:00.5398619Z",
+  "finished_utc": "2026-10-20T05:04:27.1698565Z",
+  "head": "b83cf3959e3cabb24ab7f6089eb8455352714290",
+  "status": [
+    " M mockito-core/src/main/java/org/mockito/internal/configuration/DefaultDoNotMockEnforcer.java",
+    "?? mockito-core/src/test/java/org/mockitousage/annotation/DoNotMockMessageTest.java",
+    "?? mockito-core/src/test/java/org/mockitousage/annotation/custom/"
+  ],
+  "java": "Microsoft OpenJDK 17.0.18",
+  "gradle": "8.14.2",
+  "arguments": [
+    ":mockito-core:test",
+    "--tests",
+    "org.mockitousage.annotation.DoNotMockMessageTest",
+    "--tests",
+    "org.mockitousage.annotation.DoNotMockTest",
+    ":mockito-core:spotlessJavaCheck",
+    "--continue",
+    "--no-build-cache",
+    "--no-daemon",
+    "--no-scan",
+    "--console=plain",
+    "--init-script",
+    "E:\\ANU\\COMP6120\\assignment4&5\\work\\issue3592\\no-retry.init.gradle"
+  ],
+  "exit_code": 0,
+  "production_sha256_before": "59145749E634267995894DC762D67A6111A943EAD5F00A4F00EE427DA23D58E4",
+  "production_sha256_after": "59145749E634267995894DC762D67A6111A943EAD5F00A4F00EE427DA23D58E4",
+  "suites": [
+    {
+      "class": "org.mockitousage.annotation.DoNotMockMessageTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "name": "official_default_message_is_preserved",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "unrelated_annotation_does_not_prevent_mocking",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "custom_annotation_attributes_on_inherited_interface_are_included",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "official_reason_message_is_preserved",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "custom_annotation_attributes_on_superclass_are_included",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "custom_annotation_attributes_are_included",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "custom_annotation_attributes_on_extra_interface_are_included",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "custom_annotation_attributes_are_included_for_static_mocking",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "unannotated_type_can_be_mocked",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "custom_annotation_attributes_on_interface_are_included",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "custom_annotation_without_attributes_is_included",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "official_reason_message_is_preserved_for_static_mocking",
+          "failed": false,
+          "failure_message": null
+        }
+      ]
+    },
+    {
+      "class": "org.mockitousage.annotation.DoNotMockTest",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "name": "can_not_statically_mock_class_annotated_with_donotmock",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "thrown_exception_includes_non_mockable_reason",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_mock_class_with_custom_donotmock_annotation",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "thrown_exception_includes_special_non_mockable_reason",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_statically_mock_class_with_custom_donotmock_annotation",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_statically_mock_subclass_with_unmockable_interface",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_statically_mock_subclass_with_unmockable_interface_that_extends_non_mockable_interface",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_statically_mock_class_with_interface_annotated_with_donotmock",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_statically_mock_subclass_with_unmockable_superclass",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_mock_class_annotated_with_donotmock",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_mock_subclass_with_unmockable_superclass",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "thrown_exception_includes_special_non_mockable_reason_static",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_mock_class_with_interface_annotated_with_donotmock",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_mock_subclass_with_unmockable_interface",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_mock_subclass_with_unmockable_interface_that_extends_non_mockable_interface",
+          "failed": false,
+          "failure_message": null
+        },
+        {
+          "name": "can_not_mock_class_via_mock_annotation",
+          "failed": false,
+          "failure_message": null
+        }
+      ]
+    }
+  ]
+}

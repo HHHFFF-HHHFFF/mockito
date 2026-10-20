@@ -1,0 +1,577 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values
+Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: 
+com.sun.jna.platform.win32.Win32Exception: ��������
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringArray(SourceFile:921)
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringArray(SourceFile:898)
+	at com.gradle.scan.plugin.internal.dep.oshi.driver.windows.registry.HkeyPerformanceDataUtil.mapCounterIndicesFromRegistry(SourceFile:274)
+	at com.gradle.scan.plugin.internal.dep.oshi.driver.windows.registry.HkeyPerformanceDataUtil.<clinit>(SourceFile:51)
+	at com.gradle.scan.plugin.internal.dep.oshi.driver.windows.registry.ProcessPerformanceData.buildProcessMapFromRegistry(SourceFile:45)
+	at com.gradle.scan.plugin.internal.dep.oshi.software.os.windows.WindowsOperatingSystem.queryProcessMapFromRegistry(SourceFile:328)
+	at com.gradle.scan.plugin.internal.dep.oshi.util.Memoizer$1.get(SourceFile:65)
+	at com.gradle.scan.plugin.internal.dep.oshi.software.os.windows.WindowsOperatingSystem.processMapToList(SourceFile:298)
+	at com.gradle.scan.plugin.internal.dep.oshi.software.os.windows.WindowsOperatingSystem.queryAllProcesses(SourceFile:257)
+	at com.gradle.scan.plugin.internal.dep.oshi.software.common.AbstractOperatingSystem.getProcesses(SourceFile:86)
+	at com.gradle.scan.plugin.internal.resourceusage.capture.a.h.a(SourceFile:200)
+	at com.gradle.scan.plugin.internal.resourceusage.capture.a.h.<init>(SourceFile:73)
+	at com.gradle.scan.plugin.internal.resourceusage.capture.b.a(SourceFile:255)
+	at com.gradle.scan.plugin.internal.resourceusage.capture.b.a(SourceFile:263)
+	at java.base@17.0.18/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.18/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base@17.0.18/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base@17.0.18/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@17.0.18/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base@17.0.18/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@17.0.18/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.gradle.scan.plugin.internal.resourceusage.capture.b.j(SourceFile:227)
+	at org.gradle.internal.enterprise.impl.DefaultDevelocityPluginUnsafeConfigurationService.withConfigurationInputTrackingDisabled(DefaultDevelocityPluginUnsafeConfigurationService.java:38)
+	at com.gradle.scan.plugin.internal.service.b.b(SourceFile:349)
+	at com.gradle.scan.plugin.internal.service.b.a(SourceFile:80)
+	at com.gradle.scan.plugin.internal.service.b$a$1.a(SourceFile:316)
+	at com.gradle.scan.plugin.internal.resourceusage.capture.b.g(SourceFile:206)
+	at com.gradle.scan.plugin.internal.resourceusage.capture.b.l(SourceFile:94)
+	at java.base@17.0.18/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base@17.0.18/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.18/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base@17.0.18/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.18/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.18/java.lang.Thread.run(Thread.java:840)
+Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values
+Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :buildSrc:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :buildSrc:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :buildSrc:compilePluginsBlocks UP-TO-DATE
+> Task :buildSrc:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :
+Building version '5.24.1-SNAPSHOT'
+  - reason: shipkit-auto-version deduced snapshot based on tag: 'v5.24.0'
+Regression evidence: retries disabled; test task forced to execute.
+
+> Task :spotlessInternalRegisterDependencies UP-TO-DATE
+> Task :mockito-core:compileJava UP-TO-DATE
+> Task :mockito-core:copyMockMethodDispatcher UP-TO-DATE
+> Task :mockito-core:processResources NO-SOURCE
+> Task :mockito-core:removeInjectionPackageFromModuleInfo
+> Task :mockito-core:classes
+> Task :mockito-core:jar UP-TO-DATE
+> Task :mockito-core:compileTestFixturesJava UP-TO-DATE
+> Task :mockito-core:processTestFixturesResources NO-SOURCE
+> Task :mockito-core:testFixturesClasses UP-TO-DATE
+> Task :mockito-core:testFixturesJar UP-TO-DATE
+> Task :mockito-core:compileTestJava
+> Task :mockito-core:createTestResources UP-TO-DATE
+> Task :mockito-core:processTestResources NO-SOURCE
+> Task :mockito-core:testClasses
+
+> Task :mockito-core:test
+
+
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+> Task :mockito-core:test FAILED
+org.mockitousage.annotation.DoNotMockMessageTest
+
+  Test custom_annotation_attributes_on_inherited_interface_are_included FAILED
+
+  java.lang.AssertionError: 
+  Expecting throwable message:
+    "interface org.mockitousage.annotation.DoNotMockMessageTest$CustomInterface is annotated with @org.mockito.DoNotMock and can't be mocked."
+  to contain:
+    "Use ConcreteFake instead"
+  but did not.
+  
+  Throwable that failed the check:
+  
+  org.mockito.exceptions.misusing.DoNotMockException: interface org.mockitousage.annotation.DoNotMockMessageTest$CustomInterface is annotated with @org.mockito.DoNotMock and can't be mocked.
+  	at org.mockito.internal.MockitoCore.checkDoNotMockAnnotation(MockitoCore.java:114)
+  	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:81)
+  	at org.mockito.Mockito.mock(Mockito.java:2328)
+  	at org.mockito.Mockito.mock(Mockito.java:2243)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.lambda$custom_annotation_attributes_on_inherited_interface_are_included$7(DoNotMockMessageTest.java:89)
+  	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+  	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:905)
+  	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1473)
+  	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1316)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:123)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_attributes_on_inherited_interface_are_included(DoNotMockMessageTest.java:89)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+  	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+  	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+  	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+  	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+  	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+  	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+  	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+  	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+  	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+  	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+  	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+  	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+  	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+  	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+  	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+      at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:126)
+
+  Test custom_annotation_attributes_on_superclass_are_included FAILED
+
+  java.lang.AssertionError: 
+  Expecting throwable message:
+    "class org.mockitousage.annotation.DoNotMockMessageTest$CustomType is annotated with @org.mockito.DoNotMock and can't be mocked."
+  to contain:
+    "Use ConcreteFake instead"
+  but did not.
+  
+  Throwable that failed the check:
+  
+  org.mockito.exceptions.misusing.DoNotMockException: class org.mockitousage.annotation.DoNotMockMessageTest$CustomType is annotated with @org.mockito.DoNotMock and can't be mocked.
+  	at org.mockito.internal.MockitoCore.checkDoNotMockAnnotation(MockitoCore.java:114)
+  	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:81)
+  	at org.mockito.Mockito.mock(Mockito.java:2328)
+  	at org.mockito.Mockito.mock(Mockito.java:2243)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.lambda$custom_annotation_attributes_on_superclass_are_included$5(DoNotMockMessageTest.java:79)
+  	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+  	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:905)
+  	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1473)
+  	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1316)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:123)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_attributes_on_superclass_are_included(DoNotMockMessageTest.java:79)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+  	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+  	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+  	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+  	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+  	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+  	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+  	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+  	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+  	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+  	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+  	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+  	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+  	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+  	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+  	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+      at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:126)
+
+  Test custom_annotation_attributes_are_included FAILED
+
+  java.lang.AssertionError: 
+  Expecting throwable message:
+    "class org.mockitousage.annotation.DoNotMockMessageTest$CustomType is annotated with @org.mockito.DoNotMock and can't be mocked."
+  to contain:
+    "Use ConcreteFake instead"
+  but did not.
+  
+  Throwable that failed the check:
+  
+  org.mockito.exceptions.misusing.DoNotMockException: class org.mockitousage.annotation.DoNotMockMessageTest$CustomType is annotated with @org.mockito.DoNotMock and can't be mocked.
+  	at org.mockito.internal.MockitoCore.checkDoNotMockAnnotation(MockitoCore.java:114)
+  	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:81)
+  	at org.mockito.Mockito.mock(Mockito.java:2328)
+  	at org.mockito.Mockito.mock(Mockito.java:2243)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.lambda$custom_annotation_attributes_are_included$3(DoNotMockMessageTest.java:65)
+  	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+  	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:905)
+  	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1473)
+  	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1316)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:123)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_attributes_are_included(DoNotMockMessageTest.java:65)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+  	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+  	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+  	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+  	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+  	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+  	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+  	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+  	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+  	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+  	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+  	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+  	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+  	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+  	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+  	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+      at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:126)
+
+  Test custom_annotation_attributes_on_extra_interface_are_included FAILED
+
+  java.lang.AssertionError: 
+  Expecting throwable message:
+    "interface org.mockitousage.annotation.DoNotMockMessageTest$CustomInterface is annotated with @org.mockito.DoNotMock and can't be mocked."
+  to contain:
+    "Use ConcreteFake instead"
+  but did not.
+  
+  Throwable that failed the check:
+  
+  org.mockito.exceptions.misusing.DoNotMockException: interface org.mockitousage.annotation.DoNotMockMessageTest$CustomInterface is annotated with @org.mockito.DoNotMock and can't be mocked.
+  	at org.mockito.internal.MockitoCore.checkDoNotMockAnnotation(MockitoCore.java:114)
+  	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:81)
+  	at org.mockito.Mockito.mock(Mockito.java:2328)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.lambda$custom_annotation_attributes_on_extra_interface_are_included$8(DoNotMockMessageTest.java:95)
+  	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+  	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:905)
+  	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1473)
+  	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1316)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:123)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_attributes_on_extra_interface_are_included(DoNotMockMessageTest.java:94)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+  	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+  	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+  	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+  	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+  	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+  	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+  	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+  	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+  	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+  	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+  	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+  	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+  	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+  	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+  	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+      at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:126)
+
+  Test custom_annotation_attributes_are_included_for_static_mocking FAILED
+
+  java.lang.AssertionError: 
+  Expecting throwable message:
+    "class org.mockitousage.annotation.DoNotMockMessageTest$CustomType is annotated with @org.mockito.DoNotMock and can't be mocked."
+  to contain:
+    "Use ConcreteFake instead"
+  but did not.
+  
+  Throwable that failed the check:
+  
+  org.mockito.exceptions.misusing.DoNotMockException: class org.mockitousage.annotation.DoNotMockMessageTest$CustomType is annotated with @org.mockito.DoNotMock and can't be mocked.
+  	at org.mockito.internal.MockitoCore.checkDoNotMockAnnotation(MockitoCore.java:114)
+  	at org.mockito.internal.MockitoCore.mockStatic(MockitoCore.java:90)
+  	at org.mockito.Mockito.mockStatic(Mockito.java:2552)
+  	at org.mockito.Mockito.mockStatic(Mockito.java:2489)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.lambda$custom_annotation_attributes_are_included_for_static_mocking$4(DoNotMockMessageTest.java:72)
+  	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+  	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:905)
+  	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1473)
+  	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1316)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:123)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_attributes_are_included_for_static_mocking(DoNotMockMessageTest.java:70)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+  	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+  	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+  	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+  	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+  	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+  	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+  	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+  	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+  	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+  	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+  	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+  	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+  	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+  	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+  	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+      at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:126)
+
+  Test custom_annotation_attributes_on_interface_are_included FAILED
+
+  java.lang.AssertionError: 
+  Expecting throwable message:
+    "interface org.mockitousage.annotation.DoNotMockMessageTest$CustomInterface is annotated with @org.mockito.DoNotMock and can't be mocked."
+  to contain:
+    "Use ConcreteFake instead"
+  but did not.
+  
+  Throwable that failed the check:
+  
+  org.mockito.exceptions.misusing.DoNotMockException: interface org.mockitousage.annotation.DoNotMockMessageTest$CustomInterface is annotated with @org.mockito.DoNotMock and can't be mocked.
+  	at org.mockito.internal.MockitoCore.checkDoNotMockAnnotation(MockitoCore.java:114)
+  	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:81)
+  	at org.mockito.Mockito.mock(Mockito.java:2328)
+  	at org.mockito.Mockito.mock(Mockito.java:2243)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.lambda$custom_annotation_attributes_on_interface_are_included$6(DoNotMockMessageTest.java:84)
+  	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+  	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:905)
+  	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1473)
+  	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1316)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:123)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_attributes_on_interface_are_included(DoNotMockMessageTest.java:84)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+  	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+  	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+  	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+  	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+  	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+  	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+  	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+  	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+  	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+  	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+  	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+  	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+  	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+  	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+  	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+      at org.mockitousage.annotation.DoNotMockMessageTest.assertCustomMessage(DoNotMockMessageTest.java:126)
+
+  Test custom_annotation_without_attributes_is_included FAILED
+
+  java.lang.AssertionError: 
+  Expecting throwable message:
+    "class org.mockitousage.annotation.DoNotMockMessageTest$EmptyCustomType is annotated with @org.mockito.DoNotMock and can't be mocked."
+  to contain:
+    "@org.mockitousage.annotation.org.mockito.DoNotMock()"
+  but did not.
+  
+  Throwable that failed the check:
+  
+  org.mockito.exceptions.misusing.DoNotMockException: class org.mockitousage.annotation.DoNotMockMessageTest$EmptyCustomType is annotated with @org.mockito.DoNotMock and can't be mocked.
+  	at org.mockito.internal.MockitoCore.checkDoNotMockAnnotation(MockitoCore.java:114)
+  	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:81)
+  	at org.mockito.Mockito.mock(Mockito.java:2328)
+  	at org.mockito.Mockito.mock(Mockito.java:2243)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.lambda$custom_annotation_without_attributes_is_included$9(DoNotMockMessageTest.java:101)
+  	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+  	at org.assertj.core.api.AssertionsForClassTypes.catchThrowable(AssertionsForClassTypes.java:905)
+  	at org.assertj.core.api.Assertions.catchThrowable(Assertions.java:1473)
+  	at org.assertj.core.api.Assertions.assertThatThrownBy(Assertions.java:1316)
+  	at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_without_attributes_is_included(DoNotMockMessageTest.java:101)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+  	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+  	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+  	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+  	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+  	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+  	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+  	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+  	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+  	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+  	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+  	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+  	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+  	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+  	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+  	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+  	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+  	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+  	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+  	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+  	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+  	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+  	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+  	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+      at org.mockitousage.annotation.DoNotMockMessageTest.custom_annotation_without_attributes_is_included(DoNotMockMessageTest.java:104)
+
+
+FAILURE: Executed 28 tests in 3.3s (7 failed)
+
+
+28 tests completed, 7 failed
+
+> Task :mockito-core:spotlessJava
+> Task :mockito-core:spotlessJavaCheck
+
+[Incubating] Problems report is available at: file:///E:/ANU/COMP6120/assignment4&5/mockito/build/reports/problems/problems-report.html
+21 actionable tasks: 5 executed, 16 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':mockito-core:test'.
+> There were failing tests. See the report at: file:///E:/ANU/COMP6120/assignment4&5/mockito/mockito-core/build/reports/tests/test/index.html
+
+BUILD FAILED in 36s

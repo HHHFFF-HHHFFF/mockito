@@ -1,0 +1,15 @@
+// Keep deliberate red/green evidence runs to one attempt per logical test case.
+gradle.projectsEvaluated {
+    gradle.rootProject.allprojects { project ->
+        project.tasks.withType(org.gradle.api.tasks.testing.Test).configureEach { task ->
+            if (task.path == ':mockito-core:test') {
+                def retryExtension = task.extensions.findByName('retry')
+                if (retryExtension != null) {
+                    retryExtension.maxRetries.set(0)
+                }
+                task.outputs.upToDateWhen { false }
+                task.logger.lifecycle('Regression evidence: retries disabled; test task forced to execute.')
+            }
+        }
+    }
+}

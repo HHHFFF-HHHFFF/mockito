@@ -1,0 +1,71 @@
+{
+  "recorded_date": "2026-10-20",
+  "test_commit": "e1fc0d5baeb5966c789a2f4f7dd2d8bd6307a05e",
+  "note": "Hashes of original evidence copied unchanged. verification-summary.json records the validation-time state, before review and commit.",
+  "files": [
+    {
+      "path": "Invoke-RegressionChecks.ps1",
+      "sha256": "D29F08528DEBD0DC2BCA38E10ACE2C239C507A0C00127333EF5A52AEFB4F8BE7"
+    },
+    {
+      "path": "no-retry.init.gradle",
+      "sha256": "89952C2DD5AF587EF541B454D2C2ED888BD9198794F5D2F18B93228EAFFABAC5"
+    },
+    {
+      "path": "Original-Windows-Runner.ps1",
+      "sha256": "8B64FF910F6A1C9A1B9DD1A542AAF580F4F680AA61878243DE3D9A8A79E97649"
+    },
+    {
+      "path": "reference-candidate-v1.patch",
+      "sha256": "BFB751E0007D0EAB38B985309E795BAADC4385ED42933CB0845DCA9F0CFD2DFE"
+    },
+    {
+      "path": "tests-only-v2.patch",
+      "sha256": "31D081387B3D09C6EAEE55CE3232A65053C6FA1A81873ACD6C0460010FF38A72"
+    },
+    {
+      "path": "verification-summary.json",
+      "sha256": "57DE7F1EA31C47D83C12138C4046720ADD6F87038AED6F322ECBA649E7836CD5"
+    },
+    {
+      "path": "green-reference-v2/command.txt",
+      "sha256": "40B29B7DFE4C36979C5C38232783B150A52F54679B3118337A4A15B684C4F200"
+    },
+    {
+      "path": "green-reference-v2/gradle.log",
+      "sha256": "D935484E5FEE6EF7F3CCFEA3C90299D9C44AF0FECF3FD99740121AE43DC0BC15"
+    },
+    {
+      "path": "green-reference-v2/run.json",
+      "sha256": "FFD16D3410F543A760D8E4726E69592B805AC2E65844AE913322467DDEA0B627"
+    },
+    {
+      "path": "green-reference-v2/TEST-org.mockitousage.annotation.DoNotMockMessageTest.xml",
+      "sha256": "C3DDC69BCCAE6473664ADB9EF43CA008B57F50CE04CF9EA23180DA0E368FF0DF"
+    },
+    {
+      "path": "green-reference-v2/TEST-org.mockitousage.annotation.DoNotMockTest.xml",
+      "sha256": "CA7940BAEC80C8ACDB3EEDE46C4A531D00A0CCF4FC937E96A051DE0D02CB2902"
+    },
+    {
+      "path": "red-v2/command.txt",
+      "sha256": "5625A397BD414E0535E216174B81D5EF08D5041E14C9CD38522E7870B5734FE3"
+    },
+    {
+      "path": "red-v2/gradle.log",
+      "sha256": "BBB468C9627259EFB902526ED991FB669A10FC305C478366EC1EDE0A12D7D9A8"
+    },
+    {
+      "path": "red-v2/run.json",
+      "sha256": "F42C44D2F8D8F6C03301E291046CC2FDA2A9D7B010EC4314C6EAA6321C4117F6"
+    },
+    {
+      "path": "red-v2/TEST-org.mockitousage.annotation.DoNotMockMessageTest.xml",
+      "sha256": "50DC791EBF67FB2157ACC33E106C7AD7885E687516F2CA160BCB06CBD70E4082"
+    },
+    {
+      "path": "red-v2/TEST-org.mockitousage.annotation.DoNotMockTest.xml",
+      "sha256": "56F8D5E4E3A4B58F502A43EF8458945B328B4F2238C9FE1F063A3F9A1DB1D021"
+    }
+  ]
+}

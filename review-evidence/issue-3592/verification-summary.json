@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-20",
+  "task": "HHHFFF-HHHFFF/mockito#2",
+  "baseline": "b83cf3959e3cabb24ab7f6089eb8455352714290",
+  "test_patch_sha256": "31D081387B3D09C6EAEE55CE3232A65053C6FA1A81873ACD6C0460010FF38A72",
+  "results": [
+    {
+      "stage": "red-v2",
+      "tests": 28.0,
+      "failures": 7.0,
+      "errors": 0.0,
+      "skipped": 0.0,
+      "production_unchanged_during_run": true
+    },
+    {
+      "stage": "green-reference-v2",
+      "tests": 28.0,
+      "failures": 0.0,
+      "errors": 0.0,
+      "skipped": 0.0,
+      "production_unchanged_during_run": true
+    }
+  ],
+  "identical_test_inputs": [
+    {
+      "path": "mockito-core\\src\\test\\java\\org\\mockitousage\\annotation\\DoNotMockMessageTest.java",
+      "main_sha256": "10DB6C59F769D43662EF5EE8BDECE2F3A9C813B4A0A976A9FB860B01C217AF28",
+      "reference_sha256": "10DB6C59F769D43662EF5EE8BDECE2F3A9C813B4A0A976A9FB860B01C217AF28"
+    },
+    {
+      "path": "mockito-core\\src\\test\\java\\org\\mockitousage\\annotation\\custom\\org\\mockito\\DoNotMock.java",
+      "main_sha256": "41C405B44FEDE85D73EC217015CA1A8D84E4953D38D41E112F19FDE44EBACFE5",
+      "reference_sha256": "41C405B44FEDE85D73EC217015CA1A8D84E4953D38D41E112F19FDE44EBACFE5"
+    }
+  ],
+  "main_production_unchanged": true,
+  "reference_candidate_only": true,
+  "human_review_status": "pending",
+  "actual_wancheng_fix_validation": "pending",
+  "committed": false,
+  "pushed": false,
+  "upstream_pr_created": false,
+  "authorship": "Test draft and execution by Codex assisting the user; no independent human contribution or review claimed."
+}

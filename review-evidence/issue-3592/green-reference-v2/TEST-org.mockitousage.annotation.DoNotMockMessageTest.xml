@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.annotation.DoNotMockMessageTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-20T05:04:18.685Z" hostname="H-F" time="1.347">
+  <properties/>
+  <testcase name="official_default_message_is_preserved" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="1.138"/>
+  <testcase name="unrelated_annotation_does_not_prevent_mocking" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.171"/>
+  <testcase name="custom_annotation_attributes_on_inherited_interface_are_included" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.008"/>
+  <testcase name="official_reason_message_is_preserved" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.002"/>
+  <testcase name="custom_annotation_attributes_on_superclass_are_included" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.004"/>
+  <testcase name="custom_annotation_attributes_are_included" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.001"/>
+  <testcase name="custom_annotation_attributes_on_extra_interface_are_included" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.004"/>
+  <testcase name="custom_annotation_attributes_are_included_for_static_mocking" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.001"/>
+  <testcase name="unannotated_type_can_be_mocked" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.008"/>
+  <testcase name="custom_annotation_attributes_on_interface_are_included" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.002"/>
+  <testcase name="custom_annotation_without_attributes_is_included" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.004"/>
+  <testcase name="official_reason_message_is_preserved_for_static_mocking" classname="org.mockitousage.annotation.DoNotMockMessageTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
