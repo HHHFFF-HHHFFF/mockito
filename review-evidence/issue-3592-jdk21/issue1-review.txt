@@ -1,0 +1,82 @@
+Issue #1: Reproduce and fix custom DoNotMock violation messages
+https://github.com/HHHFFF-HHHFFF/mockito/issues/1
+
+Implementation and evidence prepared locally on 21 October 2026.
+Owner: Wancheng Xu (@xuwancheng62-lab), assisted by Codex.
+Regression tests: Yifan Hou, preserved unchanged from commit
+e1fc0d5baeb5966c789a2f4f7dd2d8bd6307a05e (also the implementation baseline).
+Branch: codex/issue-3592-donotmock.
+Production patch SHA-256:
+dc8f99c5e852f2074cf591c7b913e8f5fbca619ad83b3d15ac3d098e063b9ea5
+
+PROBLEM AND REPRODUCTION
+The runtime-retained annotation in
+mockito-core/src/test/java/org/mockitousage/annotation/custom/org/mockito/DoNotMock.java
+has reason and value attributes. DoNotMockMessageTest.CustomType applies it with
+reason="Use ConcreteFake instead" and value="custom-policy-3592".
+Calling Mockito.mock(CustomType.class) on the baseline throws DoNotMockException,
+but its message mentions only @org.mockito.DoNotMock, omitting both attributes.
+The original exception and stack trace are preserved in 3592-message-before.txt
+and the red-run XML. The corrected message is in 3592-message-after.txt.
+The after-message sample directly calls the enforcer on the same test fixture;
+the 28-test green run separately verifies the public Mockito.mock() path.
+
+CALL PATH
+1. Mockito.mock() delegates to MockitoCore.mock().
+2. MockitoCore builds MockCreationSettings and calls checkDoNotMockAnnotation()
+   before creating the mock. The static-mocking path performs the same check.
+3. The configured DoNotMockEnforcer checks the requested class and extra interfaces.
+   Its recursive helper checks the type itself, its superclass and interfaces,
+   stopping at the first violation. Allowed types may be cached; rejected types
+   return a message and are not added to that cache.
+4. DefaultDoNotMockEnforcer.checkTypeForDoNotMockViolation(Class) checks runtime
+   annotations using the existing fully qualified name suffix rule.
+5. MockitoCore throws DoNotMockException with the returned message.
+Only step 4 changes; hierarchy traversal and enforcement remain unchanged.
+
+IMPLEMENTATION
+For the official DoNotMock annotation, return the original message and reason.
+Use the already retrieved annotation instance to read reason(), avoiding another
+annotation lookup. The Class equality check preserves the existing type check.
+For a custom matching annotation, concatenate the annotation instance itself.
+Its toString() supplies the actual annotation name and attributes. Do not prepend
+another @ because toString() already includes it. No reflective lookup of a
+particular attribute is needed: custom annotations need not define reason().
+No API, dependency, matching rule or mockability behaviour changes.
+
+COMPATIBILITY AND EDGE CASES
+The official default and explicit reason retain exactly the old message format.
+Custom annotations without attributes still identify the annotation. Parent
+classes, inherited interfaces and extra interfaces are checked as before.
+Normal types and unrelated annotations remain mockable. Tests check meaningful
+custom fields independently, without depending on reflection attribute order.
+The existing first-matching-annotation behaviour is unchanged.
+
+VALIDATION
+Microsoft OpenJDK 21.0.12; Gradle 8.14.2; macOS arm64.
+Baseline: 12 regression tests, 7 failed and 5 passed; 16 existing tests passed.
+Fixed: the same 28 tests all passed.
+spotlessJavaCheck, checkstyleMain and checkstyleTest passed on the fixed version.
+Tests ran with retries disabled, --no-build-cache, and test up-to-date reuse
+disabled. Some compilation tasks were up-to-date. Full-core tests, multi-module
+build and remote CI have not run. Raw commands, UTC timestamps, exit codes,
+diffs, logs and XML are in 3592-red/ and 3592-green/.
+
+ATTRIBUTION
+https://github.com/mockito/mockito/issues/3592 already proposes this approach.
+https://github.com/mockito/mockito/pull/3748 was examined and was closed/unmerged
+when checked in this session. Its closure reason is not inferred. The local
+change follows the upstream issue's suggestion; the group adds public-API
+regression and compatibility verification, not a novel algorithm.
+Yifan's test-review evidence branch contains a similar reference candidate;
+that reference experiment is distinct from this locally validated production
+patch. No teammate implementation or review is claimed for this local edit.
+
+REVIEW STATUS AND REMAINING WORK
+The existing test assertions were used as the acceptance contract. No new direct
+agreement with Yifan was obtained in this session. Please confirm that contract.
+Yip Ka Chi and Chenze Deng have not yet reviewed this production patch.
+No commit, push, GitHub comment, internal PR or upstream PR was created here.
+Review this exact patch hash before commit, record feedback and any resulting
+revision, then create/link the internal PR. Group/tutor review of the final
+change is still required before an upstream PR. Do not close Issue #1 yet.

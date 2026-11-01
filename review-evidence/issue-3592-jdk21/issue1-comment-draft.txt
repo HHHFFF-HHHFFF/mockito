@@ -1,0 +1,29 @@
+Implementation and local regression evidence are ready for review for #1.
+
+The production patch changes only DefaultDoNotMockEnforcer. Custom DoNotMock
+annotations now include their annotation instance details in the exception;
+the official annotation's existing message and reason are preserved.
+
+Baseline/test commit: e1fc0d5baeb5966c789a2f4f7dd2d8bd6307a05e.
+Production patch SHA-256:
+dc8f99c5e852f2074cf591c7b913e8f5fbca619ad83b3d15ac3d098e063b9ea5
+
+Actual local results with OpenJDK 21.0.12 and Gradle 8.14.2:
+- Baseline: 7 of Yifan's 12 new tests failed; all 16 existing tests passed.
+- Fixed: all 28 tests passed.
+- Spotless Java, Checkstyle Main and Checkstyle Test passed.
+- Test retries, test up-to-date reuse and build cache were disabled.
+- Full-core, multi-module and remote CI checks have not run.
+
+Yifan's test commit is unchanged. The implementation follows the suggestion in
+upstream #3592; closed/unmerged PR mockito/mockito#3748 was also inspected.
+The production work and evidence preparation were assisted by Codex.
+
+@HHHFFF-HHHFFF please confirm the existing message assertions match our intended
+acceptance criteria. @Kaden-Yip @Forgottttt please review the implementation,
+compatibility and evidence before commit. Identify the reviewed patch hash and
+record any blocking comments or required changes.
+
+No commit or upstream PR has been made. The evidence package must be attached
+or linked before posting this draft so reviewers can access the exact patch,
+call-path analysis, before/after messages and original logs/XML.

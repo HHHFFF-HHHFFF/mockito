@@ -1,0 +1,1 @@
+class org.mockitousage.annotation.DoNotMockMessageTest$CustomType is annotated with @org.mockitousage.annotation.custom.org.mockito.DoNotMock(reason="Use ConcreteFake instead", value="custom-policy-3592") and can't be mocked.

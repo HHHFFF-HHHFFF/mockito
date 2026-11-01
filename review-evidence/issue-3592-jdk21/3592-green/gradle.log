@@ -1,0 +1,56 @@
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :buildSrc:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :buildSrc:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :buildSrc:compilePluginsBlocks UP-TO-DATE
+> Task :buildSrc:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :
+Building version '5.24.1-SNAPSHOT'
+  - reason: shipkit-auto-version deduced snapshot based on tag: 'v5.24.0'
+
+> Task :spotlessInternalRegisterDependencies
+> Task :mockito-core:compileJava
+> Task :mockito-core:copyMockMethodDispatcher UP-TO-DATE
+> Task :mockito-core:processResources NO-SOURCE
+> Task :mockito-core:removeInjectionPackageFromModuleInfo
+> Task :mockito-core:classes
+> Task :mockito-core:jar
+> Task :mockito-core:compileTestFixturesJava UP-TO-DATE
+> Task :mockito-core:processTestFixturesResources NO-SOURCE
+> Task :mockito-core:testFixturesClasses UP-TO-DATE
+> Task :mockito-core:testFixturesJar UP-TO-DATE
+> Task :mockito-core:compileTestJava UP-TO-DATE
+> Task :mockito-core:createTestResources UP-TO-DATE
+> Task :mockito-core:processTestResources NO-SOURCE
+> Task :mockito-core:testClasses UP-TO-DATE
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+> Task :mockito-core:test
+
+
+SUCCESS: Executed 28 tests in 883ms
+
+
+> Task :mockito-core:spotlessJava
+> Task :mockito-core:spotlessJavaCheck
+> Task :mockito-core:checkstyleTest
+> Task :mockito-core:checkstyleMain
+
+[Incubating] Problems report is available at: file:///Users/REDACTED/project/comp6120-ass5/mockito-3592/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 6s
+23 actionable tasks: 9 executed, 14 up-to-date

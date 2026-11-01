@@ -1,0 +1,92 @@
+{
+  "issue1-review.txt": {
+    "original_sha256": "f2731a79122d5ea60a5e2e465690fdb3bd32c43b4419f7e4ca97e04e35446a51",
+    "published_sha256": "f2731a79122d5ea60a5e2e465690fdb3bd32c43b4419f7e4ca97e04e35446a51",
+    "redacted": false
+  },
+  "issue1-comment-draft.txt": {
+    "original_sha256": "98fef4b913a9764276ef5834d3c349dc38b01ccaa885cedf6aa4c3924f33fd8b",
+    "published_sha256": "98fef4b913a9764276ef5834d3c349dc38b01ccaa885cedf6aa4c3924f33fd8b",
+    "redacted": false
+  },
+  "3592-production.patch": {
+    "original_sha256": "dc8f99c5e852f2074cf591c7b913e8f5fbca619ad83b3d15ac3d098e063b9ea5",
+    "published_sha256": "dc8f99c5e852f2074cf591c7b913e8f5fbca619ad83b3d15ac3d098e063b9ea5",
+    "redacted": false
+  },
+  "3592-message-before.txt": {
+    "original_sha256": "f7ac5c0b69efb2511e47731581adaa8c3b2e100a9846f90058bbd7c1de342f9e",
+    "published_sha256": "f7ac5c0b69efb2511e47731581adaa8c3b2e100a9846f90058bbd7c1de342f9e",
+    "redacted": false
+  },
+  "3592-message-after.txt": {
+    "original_sha256": "8bc729357ccfa932b5ba9dbe107be9785bc37dc715d68450da61ce6b0617f93d",
+    "published_sha256": "8bc729357ccfa932b5ba9dbe107be9785bc37dc715d68450da61ce6b0617f93d",
+    "redacted": false
+  },
+  "Print3592Message.java": {
+    "original_sha256": "a705d49d4106d25e86e4439642589cccdcbb2a320712949740c32f88d9feadea",
+    "published_sha256": "a705d49d4106d25e86e4439642589cccdcbb2a320712949740c32f88d9feadea",
+    "redacted": false
+  },
+  "run_checks.py": {
+    "original_sha256": "083da9bac8889f6887a0cd4011609f2e565cb4225af48d9aa1b5512611f9e159",
+    "published_sha256": "6a8f5d2dacfe7bac64ba1f3083a81131ca6927096c3ce0835419be0863a30783",
+    "redacted": true
+  },
+  "no-retry.gradle": {
+    "original_sha256": "2a0caa917609fb0311fa974a9a93a07f41a6f0923318d9164817f6876148ad6f",
+    "published_sha256": "2a0caa917609fb0311fa974a9a93a07f41a6f0923318d9164817f6876148ad6f",
+    "redacted": false
+  },
+  "3592-red/TEST-org.mockitousage.annotation.DoNotMockMessageTest.xml": {
+    "original_sha256": "3aaed3cba290acfb69f540d30f5e7fc36f35fb62c632a98da80ae6aacf67b327",
+    "published_sha256": "c18e9dc635c65ab0c3b11612c4a385665dd29709adce9e12e3150a9053b0013b",
+    "redacted": true
+  },
+  "3592-red/TEST-org.mockitousage.annotation.DoNotMockTest.xml": {
+    "original_sha256": "c27a36339ed055fd614cceca888ca18f42be845d6e988edf7e6542e49e324051",
+    "published_sha256": "8f2922f7523d001c310c10cb5b15b2a13e870a090b2e6b92437a1d566f463b0e",
+    "redacted": true
+  },
+  "3592-red/diff.patch": {
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redacted": false
+  },
+  "3592-red/gradle.log": {
+    "original_sha256": "8c2f90fb074af677ff9f3df444095ff80c648ccb89a33ace981854932a2acf0b",
+    "published_sha256": "bd3dbe57ac381a4b5c5643f1f04841e74bfd151a3a87a06384d30d51fbf101ce",
+    "redacted": true
+  },
+  "3592-red/result.json": {
+    "original_sha256": "e598f08748d6cbf68e9eb461dbb65c8ab9083829c737366fdf0fa333192d000a",
+    "published_sha256": "cbfce274c8666ee55735d704e254c053c92e49a95a8c28c15b6b9a6074d9288b",
+    "redacted": true
+  },
+  "3592-green/TEST-org.mockitousage.annotation.DoNotMockMessageTest.xml": {
+    "original_sha256": "4c00918eac96fc15168b4b21f6b24cbaf7b7919c60632b7ca7af6b95e7061a84",
+    "published_sha256": "75572d1d6e1248fb71e3bb40e6169d32d98493826c9ad052b76d0016a9f49776",
+    "redacted": true
+  },
+  "3592-green/TEST-org.mockitousage.annotation.DoNotMockTest.xml": {
+    "original_sha256": "f4ab13bed613cd0f8271746840670a111f6528d333443f935ce7672bfc3cb115",
+    "published_sha256": "0d8dd871fc434554ec9b0304a9c6cc9b31e618320fa4bd9211ad48305c83ad93",
+    "redacted": true
+  },
+  "3592-green/diff.patch": {
+    "original_sha256": "dc8f99c5e852f2074cf591c7b913e8f5fbca619ad83b3d15ac3d098e063b9ea5",
+    "published_sha256": "dc8f99c5e852f2074cf591c7b913e8f5fbca619ad83b3d15ac3d098e063b9ea5",
+    "redacted": false
+  },
+  "3592-green/gradle.log": {
+    "original_sha256": "25aed0bfe6aed2be844179329ccd22bc9d449f96524d7d4c1fca2bf7c90449a6",
+    "published_sha256": "fe00984a5ff5f6fd2a07a18fd09af44749dcb27320455c7df1362c34a2f6288e",
+    "redacted": true
+  },
+  "3592-green/result.json": {
+    "original_sha256": "6c38a6bb966bd2728c69b6077cb7d5910e6bc4adf488957360126778c18734be",
+    "published_sha256": "ed77705e4bba933b79a563980236fd6cab886a5afc45c2478dfa5c5b025ef428",
+    "redacted": true
+  }
+}

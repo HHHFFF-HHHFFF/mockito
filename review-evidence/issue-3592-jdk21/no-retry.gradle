@@ -1,0 +1,8 @@
+gradle.projectsEvaluated {
+    allprojects {
+        tasks.withType(Test).configureEach {
+            outputs.upToDateWhen { false }
+            extensions.findByName('retry')?.maxRetries?.set(0)
+        }
+    }
+}

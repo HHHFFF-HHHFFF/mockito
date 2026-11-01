@@ -1,0 +1,46 @@
+{
+  "command": [
+    "./gradlew",
+    ":mockito-core:test",
+    "--tests",
+    "org.mockitousage.annotation.DoNotMockMessageTest",
+    "--tests",
+    "org.mockitousage.annotation.DoNotMockTest",
+    ":mockito-core:spotlessJavaCheck",
+    ":mockito-core:checkstyleMain",
+    ":mockito-core:checkstyleTest",
+    "--no-build-cache",
+    "--no-scan",
+    "--console=plain",
+    "--init-script",
+    "/Users/REDACTED/project/comp6120-ass5/evidence/no-retry.gradle"
+  ],
+  "cwd": "/Users/REDACTED/project/comp6120-ass5/mockito-3592",
+  "java_home": "/Users/REDACTED/Library/Java/JavaVirtualMachines/ms-21.0.12/Contents/Home",
+  "start": "2026-10-21T06:21:06.034292+00:00",
+  "head": "e1fc0d5baeb5966c789a2f4f7dd2d8bd6307a05e",
+  "exit_code": 0,
+  "end": "2026-10-21T06:21:12.336295+00:00",
+  "suites": [
+    {
+      "name": "org.mockitousage.annotation.DoNotMockMessageTest",
+      "tests": "12",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T06:21:07.821Z",
+      "hostname": "REDACTED-HOST.local",
+      "time": "0.483"
+    },
+    {
+      "name": "org.mockitousage.annotation.DoNotMockTest",
+      "tests": "16",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T06:21:08.307Z",
+      "hostname": "REDACTED-HOST.local",
+      "time": "0.011"
+    }
+  ]
+}
