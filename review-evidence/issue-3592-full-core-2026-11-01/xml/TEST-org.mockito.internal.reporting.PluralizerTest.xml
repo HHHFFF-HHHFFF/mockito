@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.reporting.PluralizerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:57.191Z" hostname="REDACTED-HOST.local" time="0.001">
+  <properties/>
+  <testcase name="pluralizes_number" classname="org.mockito.internal.reporting.PluralizerTest" time="0.0"/>
+  <testcase name="pluralizes_interactions" classname="org.mockito.internal.reporting.PluralizerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

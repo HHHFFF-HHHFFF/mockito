@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:59.030Z" hostname="REDACTED-HOST.local" time="0.01">
+  <properties/>
+  <testcase name="should_know_valid_throwables[0]" classname="org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest" time="0.006"/>
+  <testcase name="should_know_valid_throwables[1]" classname="org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest" time="0.001"/>
+  <testcase name="should_know_valid_throwables[2]" classname="org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest" time="0.001"/>
+  <testcase name="should_know_valid_throwables[3]" classname="org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest" time="0.001"/>
+  <testcase name="should_know_valid_throwables[4]" classname="org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest" time="0.001"/>
+  <testcase name="should_know_valid_throwables[5]" classname="org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

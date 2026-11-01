@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.matchers.text.MatcherToStringTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:57.052Z" hostname="REDACTED-HOST.local" time="0.039">
+  <properties/>
+  <testcase name="better_toString_for_matchers" classname="org.mockito.internal.matchers.text.MatcherToStringTest" time="0.02"/>
+  <testcase name="default_name_for_synthetic_matchers" classname="org.mockito.internal.matchers.text.MatcherToStringTest" time="0.002"/>
+  <testcase name="default_name_for_anonymous_matchers" classname="org.mockito.internal.matchers.text.MatcherToStringTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.invocation.TypeSafeMatchingTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.413Z" hostname="REDACTED-HOST.local" time="0.008">
+  <properties/>
+  <testcase name="dontMatchesWithSubTypeExtendingGenericClass" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.002"/>
+  <testcase name="passEveryArgumentTypeIfNoBridgeMethodWasGenerated" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.001"/>
+  <testcase name="compareToNull" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.0"/>
+  <testcase name="compareToIntVsString" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.0"/>
+  <testcase name="compareToNonCompareable" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.0"/>
+  <testcase name="compareToNull2" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.001"/>
+  <testcase name="compareToStringVsInt" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.0"/>
+  <testcase name="matchesWithSubTypeExtendingGenericClass" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.001"/>
+  <testcase name="matchesOverloadsMustBeIgnored" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.001"/>
+  <testcase name="compareNullArgument" classname="org.mockito.internal.invocation.TypeSafeMatchingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

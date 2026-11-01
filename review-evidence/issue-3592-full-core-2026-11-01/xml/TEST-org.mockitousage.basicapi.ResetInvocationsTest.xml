@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.basicapi.ResetInvocationsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:09.642Z" hostname="REDACTED-HOST.local" time="0.002">
+  <properties/>
+  <testcase name="should_reset_invocations_on_multiple_mocks" classname="org.mockitousage.basicapi.ResetInvocationsTest" time="0.001"/>
+  <testcase name="reset_invocations_should_reset_only_invocations" classname="org.mockitousage.basicapi.ResetInvocationsTest" time="0.0"/>
+  <testcase name="resettingNonMockIsSafe" classname="org.mockitousage.basicapi.ResetInvocationsTest" time="0.001"/>
+  <testcase name="resettingNullIsSafe" classname="org.mockitousage.basicapi.ResetInvocationsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.strictness.StrictnessPerStubbingTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:56.511Z" hostname="REDACTED-HOST.local" time="0.095">
+  <properties/>
+  <testcase name="doAnswer_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.006"/>
+  <testcase name="potential_stubbing_problem" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.005"/>
+  <testcase name="doReturn_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.002"/>
+  <testcase name="doThrow_instance_vararg_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.004"/>
+  <testcase name="verify_no_more_invocations" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.004"/>
+  <testcase name="doReturn_varargs_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.001"/>
+  <testcase name="unnecessary_stubbing" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.003"/>
+  <testcase name="doThrow_vararg_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.006"/>
+  <testcase name="doCallRealMethod_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.053"/>
+  <testcase name="unnecessary_stubbing_with_doReturn" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.001"/>
+  <testcase name="doNothing_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.006"/>
+  <testcase name="doThrow_syntax" classname="org.mockitousage.strictness.StrictnessPerStubbingTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

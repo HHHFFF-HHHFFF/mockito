@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.VerificationUsingMatchersTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:05:01.582Z" hostname="REDACTED-HOST.local" time="0.002">
+  <properties/>
+  <testcase name="shouldVerifyUsingSameMatcher" classname="org.mockitousage.verification.VerificationUsingMatchersTest" time="0.0"/>
+  <testcase name="shouldVerifyExactNumberOfInvocationsUsingMatcher" classname="org.mockitousage.verification.VerificationUsingMatchersTest" time="0.0"/>
+  <testcase name="shouldVerifyUsingMixedMatchers" classname="org.mockitousage.verification.VerificationUsingMatchersTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

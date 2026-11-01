@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.InvocationsPrinterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:20.096Z" hostname="REDACTED-HOST.local" time="0.013">
+  <properties/>
+  <testcase name="prints_invocations_and_unused_stubbings" classname="org.mockitousage.debugging.InvocationsPrinterTest" time="0.004"/>
+  <testcase name="no_invocations" classname="org.mockitousage.debugging.InvocationsPrinterTest" time="0.002"/>
+  <testcase name="prints_invocations" classname="org.mockitousage.debugging.InvocationsPrinterTest" time="0.002"/>
+  <testcase name="prints_invocations_and_stubbings" classname="org.mockitousage.debugging.InvocationsPrinterTest" time="0.002"/>
+  <testcase name="prints_stubbings" classname="org.mockitousage.debugging.InvocationsPrinterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

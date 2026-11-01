@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.matchers.InstanceOfTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.927Z" hostname="REDACTED-HOST.local" time="0.001">
+  <properties/>
+  <testcase name="can_be_vararg_aware" classname="org.mockito.internal.matchers.InstanceOfTest" time="0.0"/>
+  <testcase name="should_check_for_primitive_wrapper_types" classname="org.mockito.internal.matchers.InstanceOfTest" time="0.001"/>
+  <testcase name="should_check_instance_type" classname="org.mockito.internal.matchers.InstanceOfTest" time="0.0"/>
+  <testcase name="should_describe_the_matcher" classname="org.mockito.internal.matchers.InstanceOfTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

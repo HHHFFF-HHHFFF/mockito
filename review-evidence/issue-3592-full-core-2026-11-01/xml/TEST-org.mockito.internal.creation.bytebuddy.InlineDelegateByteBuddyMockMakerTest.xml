@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" tests="47" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.870Z" hostname="REDACTED-HOST.local" time="12.82">
+  <properties/>
+  <testcase name="should_leave_causing_stack_with_two_spies" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.12"/>
+  <testcase name="testMockDispatcherIsRelocated" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.018"/>
+  <testcase name="should_handle_missing_or_inconsistent_stack_trace" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.008"/>
+  <testcase name="should_mock_method_of_package_private_class" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.097"/>
+  <testcase name="should_create_mock_from_final_class_in_the_JDK" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.355"/>
+  <testcase name="should_fail_at_creating_a_mock_of_a_final_class_with_extra_interfaces" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.014"/>
+  <testcase name="is_type_mockable_excludes_Class" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.007"/>
+  <testcase name="should_leave_causing_stack" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.122"/>
+  <testcase name="should_mock_class_to_string" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.108"/>
+  <testcase name="should_detect_non_overridden_generic_method_of_supertype" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.14"/>
+  <testcase name="is_type_mockable_excludes_primitive_classes" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.007"/>
+  <testcase name="test_clear_mock_clears_handler" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.164"/>
+  <testcase name="should_mock_interface" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.232"/>
+  <testcase name="should_throw_exception_redefining_unmodifiable_class" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.009"/>
+  <testcase name="should_create_mock_from_enum" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.185"/>
+  <testcase name="is_type_mockable_allows_anonymous" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.011"/>
+  <testcase name="should_provide_reason_for_wrapper_class" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.007"/>
+  <testcase name="should_create_mock_from_hashmap" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.418"/>
+  <testcase name="should_create_mock_from_final_class_with_interface_methods" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.25"/>
+  <testcase name="should_fail_at_creating_a_mock_of_a_final_class_with_explicit_serialization" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.008"/>
+  <testcase name="is_type_mockable_give_empty_reason_if_type_is_mockable" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.005"/>
+  <testcase name="test_constant_dynamic_compatibility" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.197"/>
+  <testcase name="should_provide_reason_for_vm_unsupported" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.014"/>
+  <testcase name="should_mock_interface_to_string" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.246"/>
+  <testcase name="should_create_mock_from_non_constructable_class" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.365"/>
+  <testcase name="should_remove_recursive_self_call_from_stack_trace" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.045"/>
+  <testcase name="test_clear_all_mock_assigns_disabled_handler" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.496"/>
+  <testcase name="test_parameters_retention" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.364"/>
+  <testcase name="should_create_mock_from_visible_inner_spy" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.442"/>
+  <testcase name="is_type_mockable_excludes_String" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.015"/>
+  <testcase name="should_create_mock_from_final_spy" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.686"/>
+  <testcase name="should_create_mock_from_final_class" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.55"/>
+  <testcase name="is_type_mockable_excludes_WeakReference" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.013"/>
+  <testcase name="should_throw_exception_redefining_array" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.012"/>
+  <testcase name="should_create_mock_from_accessible_inner_spy" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.383"/>
+  <testcase name="is_type_mockable_give_allow_final_mockable_from_JDK" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.017"/>
+  <testcase name="should_create_mock_from_abstract_class_with_final_method" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.453"/>
+  <testcase name="should_use_ancillary_Types" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.614"/>
+  <testcase name="should_allow_serialization" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.64"/>
+  <testcase name="should_create_mock_from_class" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.706"/>
+  <testcase name="should_create_mock_from_class_with_super_call_to_final_method" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.652"/>
+  <testcase name="instantiate_fine_when_objenesis_on_the_classpath" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.394"/>
+  <testcase name="should_create_mock_from_interface" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.089"/>
+  <testcase name="should_create_class_by_constructor" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="1.347"/>
+  <testcase name="should_create_mock_from_class_even_when_constructor_is_dodgy" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.595"/>
+  <testcase name="should_reset_mock_and_set_new_handler" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.548"/>
+  <testcase name="should_mocks_have_different_interceptors" classname="org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest" time="0.645"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[org.mockito.exceptions.base.MockitoException: 
+Mockito cannot mock this class: int.
+Can not mock final classes with the following settings :
+ - explicit serialization (e.g. withSettings().serializable())
+ - extra interfaces (e.g. withSettings().extraInterfaces(...))
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [int]
+	at org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker.prettifyFailure(InlineDelegateByteBuddyMockMaker.java:455)
+	at org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker.createMockType(InlineDelegateByteBuddyMockMaker.java:442)
+	at org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker.doCreateMock(InlineDelegateByteBuddyMockMaker.java:393)
+	at org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker.createMock(InlineDelegateByteBuddyMockMaker.java:372)
+	at org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker.createMock(InlineByteBuddyMockMaker.java:56)
+	at org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest.should_throw_exception_redefining_unmodifiable_class(InlineDelegateByteBuddyMockMakerTest.java:172)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.mockito.exceptions.base.MockitoException: Could not modify all classes [int]
+	at org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.triggerRetransformation(InlineBytecodeGenerator.java:328)
+	at org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.mockClass(InlineBytecodeGenerator.java:243)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.lambda$mockClass$0(TypeCachingBytecodeGenerator.java:78)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:168)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:399)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:190)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:410)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:75)
+	at org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMaker.createMockType(InlineDelegateByteBuddyMockMaker.java:434)
+	... 43 more
+Caused by: java.lang.instrument.UnmodifiableClassException
+	at java.instrument/sun.instrument.InstrumentationImpl.retransformClasses0(Native Method)
+	at java.instrument/sun.instrument.InstrumentationImpl.retransformClasses(InstrumentationImpl.java:225)
+	at org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.triggerRetransformation(InlineBytecodeGenerator.java:311)
+	... 51 more
+]]></system-err>
+</testsuite>

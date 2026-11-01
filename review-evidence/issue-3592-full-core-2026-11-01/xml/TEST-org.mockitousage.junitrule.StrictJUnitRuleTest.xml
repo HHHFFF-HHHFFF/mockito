@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrule.StrictJUnitRuleTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:21.140Z" hostname="REDACTED-HOST.local" time="0.062">
+  <properties/>
+  <testcase name="ok_when_no_stubbings" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.003"/>
+  <testcase name="why_do_return_syntax_is_useful" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.007"/>
+  <testcase name="fails_fast_when_stubbing_invoked_with_different_argument" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.017"/>
+  <testcase name="ok_when_all_stubbings_used" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.003"/>
+  <testcase name="test_failure_trumps_unused_stubbings" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.002"/>
+  <testcase name="unused_stubs_with_multiple_mocks" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.006"/>
+  <testcase name="rule_validates_mockito_usage" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.002"/>
+  <testcase name="verify_no_more_interactions_ignores_stubs" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.002"/>
+  <testcase name="fails_fast_when_stubbing_invoked_with_different_argument_using_matchers" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.006"/>
+  <testcase name="fails_when_unused_stubbings" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.002"/>
+  <testcase name="ok_when_used_and_mismatched_argument" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.001"/>
+  <testcase name="fails_fast_when_stubbing_invoked_with_different_argument_using_argThat_matcher" classname="org.mockitousage.junitrule.StrictJUnitRuleTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

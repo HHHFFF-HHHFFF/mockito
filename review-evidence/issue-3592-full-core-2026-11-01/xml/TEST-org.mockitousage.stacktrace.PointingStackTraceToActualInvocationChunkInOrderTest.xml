@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:55.931Z" hostname="REDACTED-HOST.local" time="0.372">
+  <properties/>
+  <testcase name="shouldPointToThirdInteractionBecauseAtLeastOnceUsed" classname="org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest" time="0.04"/>
+  <testcase name="shouldPointToThirdChunkWhenTooFewActualInvocations" classname="org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest" time="0.312"/>
+  <testcase name="shouldPointStackTraceToPreviousInvocation" classname="org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest" time="0.018"/>
+  <testcase name="shouldPointToFourthChunkBecauseTooManyActualInvocations" classname="org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

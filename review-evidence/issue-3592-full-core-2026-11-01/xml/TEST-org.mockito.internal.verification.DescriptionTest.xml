@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.verification.DescriptionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:04.650Z" hostname="REDACTED-HOST.local" time="0.058">
+  <properties/>
+  <testcase name="verification_failure_should_prepend_expected_message" classname="org.mockito.internal.verification.DescriptionTest" time="0.058"/>
+  <testcase name="verification_failure_throwing_AssertionError_should_prepend_expected_message" classname="org.mockito.internal.verification.DescriptionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

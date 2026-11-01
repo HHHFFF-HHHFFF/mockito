@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.NewMatchersTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:23.020Z" hostname="REDACTED-HOST.local" time="0.019">
+  <properties/>
+  <testcase name="shouldAllowAnyCollection" classname="org.mockitousage.matchers.NewMatchersTest" time="0.012"/>
+  <testcase name="shouldAllowAnyList" classname="org.mockitousage.matchers.NewMatchersTest" time="0.002"/>
+  <testcase name="shouldAllowAnyIterable" classname="org.mockitousage.matchers.NewMatchersTest" time="0.001"/>
+  <testcase name="shouldAllowAnyMap" classname="org.mockitousage.matchers.NewMatchersTest" time="0.001"/>
+  <testcase name="shouldAllowAnySet" classname="org.mockitousage.matchers.NewMatchersTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

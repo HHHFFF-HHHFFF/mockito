@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.strictness.StrictnessPerStubbingWithRunnerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:56.608Z" hostname="REDACTED-HOST.local" time="0.002">
+  <properties/>
+  <testcase name="potential_stubbing_problem" classname="org.mockitousage.strictness.StrictnessPerStubbingWithRunnerTest" time="0.002"/>
+  <testcase name="unnecessary_stubbing" classname="org.mockitousage.strictness.StrictnessPerStubbingWithRunnerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

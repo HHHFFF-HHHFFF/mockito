@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.framework.DefaultMockitoFrameworkTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.047Z" hostname="REDACTED-HOST.local" time="0.087">
+  <properties/>
+  <testcase name="removes_creation_listener" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.032"/>
+  <testcase name="clear_inline_mocks_clears_static_mocks" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.023"/>
+  <testcase name="clearing_all_mocks_is_safe_regardless_of_mock_maker_type" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.0"/>
+  <testcase name="clears_mock" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.001"/>
+  <testcase name="behavior_after_clear_inline_mocks" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.023"/>
+  <testcase name="prevents_adding_null_listener" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.001"/>
+  <testcase name="clears_mocks" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.001"/>
+  <testcase name="ok_to_remove_listener_multiple_times" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.001"/>
+  <testcase name="ok_to_remove_unknown_listener" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.0"/>
+  <testcase name="prevents_removing_null_listener" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.0"/>
+  <testcase name="behavior_after_clear_inline_mocks_is_mock" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.001"/>
+  <testcase name="adds_creation_listener" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.001"/>
+  <testcase name="prevents_duplicate_listeners_of_the_same_type" classname="org.mockito.internal.framework.DefaultMockitoFrameworkTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

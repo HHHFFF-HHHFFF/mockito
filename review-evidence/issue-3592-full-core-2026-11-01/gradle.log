@@ -1,0 +1,229 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :buildSrc:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :buildSrc:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :buildSrc:compilePluginsBlocks UP-TO-DATE
+> Task :buildSrc:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :
+Building version '5.24.1-SNAPSHOT'
+  - reason: shipkit-auto-version deduced snapshot based on tag: 'v5.24.0'
+
+> Task :mockito-core:compileJava UP-TO-DATE
+> Task :mockito-core:copyMockMethodDispatcher UP-TO-DATE
+> Task :mockito-core:processResources NO-SOURCE
+> Task :mockito-core:removeInjectionPackageFromModuleInfo
+> Task :mockito-core:classes
+> Task :mockito-core:jar UP-TO-DATE
+> Task :mockito-core:compileTestFixturesJava UP-TO-DATE
+> Task :mockito-core:processTestFixturesResources NO-SOURCE
+> Task :mockito-core:testFixturesClasses UP-TO-DATE
+> Task :mockito-core:testFixturesJar UP-TO-DATE
+> Task :mockito-core:compileTestJava UP-TO-DATE
+> Task :mockito-core:createTestResources UP-TO-DATE
+> Task :mockito-core:processTestResources NO-SOURCE
+> Task :mockito-core:testClasses UP-TO-DATE
+
+> Task :mockito-core:test
+
+
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+> Task :mockito-core:test
+org.mockito.AnnotationsAreCopiedFromMockedTypeTest
+
+  Test mock_should_have_annotations_copied_from_mocked_type_at_class_level SKIPPED
+
+org.mockito.MockTest
+
+  Test should_have_matching_enum_in_strictness_enum[TEST_LEVEL_DEFAULT] SKIPPED
+
+org.mockito.MockitoEnvTest
+
+  Test uses_mock_maker_from_env SKIPPED
+  Test uses_default_mock_maker_from_env SKIPPED
+  Test uses_default_member_accessor_from_env SKIPPED
+  Test uses_member_accessor_from_env SKIPPED
+
+org.mockito.MockitoTest
+
+  Test shouldGiveExplanationOnConstructionMockingMockMaker SKIPPED
+  Test shouldGiveExplanationOnStaticMockingMockMaker SKIPPED
+
+org.mockito.PrematureGarbageCollectionTest
+
+  Test provoke_premature_garbage_collection SKIPPED
+
+org.mockito.internal.runners.DefaultInternalRunnerTest
+
+  Test does_not_fail_second_test_when_first_test_fail SKIPPED
+
+org.mockito.internal.stubbing.defaultanswers.ReturnsMocksTest
+
+  Test should_return_null_for_final_class_if_unsupported SKIPPED
+
+org.mockitointegration.NoJUnitDependenciesTest
+
+  Test pure_mockito_should_not_depend_JUnit___ByteBuddy SKIPPED
+
+org.mockitousage.annotation.SpyAnnotationTest
+
+  Test should_report_private_inner_not_supported SKIPPED
+
+org.mockitousage.bugs.GenericsMockitoAnnotationsTest
+
+  Test should_not_throw_class_cast_exception SKIPPED
+
+org.mockitousage.bugs.MultithreadedStubbingHalfManualTest
+
+  Test tryToRevealTheProblem SKIPPED
+
+org.mockitousage.bugs.injection.ParentTestMockInjectionTest$ImplicitTest
+
+  Test noNullPointerException SKIPPED
+
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+> Task :mockito-core:test
+
+org.mockitousage.jls.JLS_15_12_2_5Test
+
+  Test with_variable_arg_and_matcher_String_cast SKIPPED
+  Test with_single_arg_and_null_Object_reference SKIPPED
+  Test with_variable_arg_and_null_Object_array SKIPPED
+  Test with_variable_arg_and_matcher_String_array_cast SKIPPED
+  Test with_single_arg_and_matcher_cast SKIPPED
+  Test with_variable_arg_and_null_Object_arg SKIPPED
+  Test with_variable_arg SKIPPED
+  Test with_single_arg SKIPPED
+
+org.mockitousage.junitrunner.ModellingVerboseMockitoTest
+
+  Test shouldLogUnusedStubbingWarningWhenTestFails SKIPPED
+  Test shouldNotLogAnythingWhenNoWarnings SKIPPED
+
+org.mockitousage.matchers.MatchersMixedWithRawArgumentsTest
+
+  Test shouldAllowMixingRawArgumentsWithMatchers SKIPPED
+
+org.mockitousage.matchers.VarargsTest
+
+  Test shouldNotVerifyExactlyOneVarArg_any SKIPPED
+
+org.mockitousage.misuse.DetectingFinalMethodsTest
+
+  Test shouldFailWithUnfinishedVerification SKIPPED
+  Test shouldFailWithUnfinishedStubbing SKIPPED
+
+org.mockitousage.misuse.DetectingMisusedMatchersTest
+
+  Test shouldSayUnfinishedVerificationButNotInvalidUseOfMatchers SKIPPED
+
+org.mockitousage.misuse.InvalidUsageTest
+
+  Test shouldNotAllowMockingFinalClassesIfDisabled SKIPPED
+
+org.mockitousage.performance.LoadsOfMocksTest
+
+  Test testSomething SKIPPED
+
+org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest
+
+  Test without_stub_only_mocks_will_store_invocations_leading_to_an_OutOfMemoryError SKIPPED
+
+org.mockitousage.spies.PartialMockingWithSpiesTest
+
+  Test shouldStackTraceGetFilteredOnUserExceptionsReflectionForJava21AndHigher SKIPPED
+  Test shouldStackTraceGetFilteredOnUserExceptionsReflectionForJavaOfVersionLessThan21 SKIPPED
+
+org.mockitousage.spies.SpyingOnRealObjectsTest
+
+  Test shouldSayNiceMessageWhenSpyingOnPrivateClass SKIPPED
+
+org.mockitousage.stacktrace.ModellingDescriptiveMessagesTest
+
+  Test shouldMentionFinalAndObjectMethodsWhenVerifying SKIPPED
+  Test shouldMentionFinalAndObjectMethodsWhenMissingMockCall SKIPPED
+  Test shouldSayNoMoreInteractions SKIPPED
+  Test shouldScreamWhenNullPassedInsteadOfAnInterface SKIPPED
+  Test makeSureStateIsValidatedInTheVeryFirstTestThanksToTheRunner SKIPPED
+  Test shouldScreamWhenExtraInterfacesEmpty SKIPPED
+  Test shouldSayTooFewInvocationsInAtLeastMode SKIPPED
+  Test shouldSayTooManyInvocations SKIPPED
+  Test shouldSayWantedButNotInvoked SKIPPED
+  Test shouldSayTooFewInvocations SKIPPED
+  Test shouldScreamWhenExtraIsTheSame SKIPPED
+  Test shouldSayNeverWantedButInvokedHere SKIPPED
+  Test shouldShowExampleOfCorrectArgumentCapturing SKIPPED
+  Test shouldScreamWhenExtraInterfacesIsANullArray SKIPPED
+  Test shouldPointOutUnfinishedStubbing SKIPPED
+  Test shouldShowActualAndExpected SKIPPED
+  Test shouldSayTooManyInvocationsInOrder SKIPPED
+  Test shouldSayWantedButNotInvokedInOrder SKIPPED
+  Test shouldSayTooFewInvocationsInOrder SKIPPED
+  Test shouldMentionSpiesWhenVoidMethodIsToldToReturnValue SKIPPED
+  Test shouldSayUnstubbedMethodWasInvokedHere SKIPPED
+  Test shouldMentionFinalAndObjectMethodsWhenMisplacedArgumentMatcher SKIPPED
+  Test shouldPointOutInteractionsOnMockWhenOrdinaryVerificationFails SKIPPED
+  Test shouldSayTooFewInvocationsInAtLeastModeInOrder SKIPPED
+  Test shouldScreamWhenNonInterfacePassed SKIPPED
+
+org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest
+
+  Test should_print_method_name_and_arguments_of_other_interactions_of_same_method SKIPPED
+  Test test1 SKIPPED
+  Test test2 SKIPPED
+
+org.mockitousage.verification.VerificationWithAfterAndCaptorTest
+
+  Test shouldReturnListOfArgumentsWithSameSizeAsGivenInTimesVerification SKIPPED
+  Test shouldReturnListOfArgumentsWithSameSizeAsGivenInAtLeastVerification SKIPPED
+
+org.mockitousage.verification.VerificationWithAfterTest
+
+  Test should_fail_early_when_only_is_used SKIPPED
+  Test should_fail_early_when_time_x_is_used SKIPPED
+
+org.mockitousage.verification.VerificationWithTimeoutTest
+
+  Test should_verify_with_only_and_fail SKIPPED
+  Test should_verify_with_only_and_fail_early SKIPPED
+  Test should_verify_with_timeout_and_fail_early SKIPPED
+
+SUCCESS: Executed 2399 tests in 1m 59s (72 skipped)
+
+
+> Task :mockito-core:animalsnifferMain
+> Task :mockito-core:checkstyleMain UP-TO-DATE
+> Task :mockito-core:checkstyleTest UP-TO-DATE
+> Task :mockito-core:checkstyleTestFixtures
+> Task :mockito-core:licenseMain UP-TO-DATE
+> Task :mockito-core:licenseTest UP-TO-DATE
+> Task :mockito-core:licenseTestFixtures UP-TO-DATE
+> Task :mockito-core:license UP-TO-DATE
+> Task :mockito-core:check
+> Task :spotlessInternalRegisterDependencies UP-TO-DATE
+> Task :mockito-core:spotlessJava
+> Task :mockito-core:spotlessJavaCheck
+> Task :mockito-core:spotlessMisc
+> Task :mockito-core:spotlessMiscCheck
+> Task :mockito-core:spotlessCheck
+
+[Incubating] Problems report is available at: file:///Users/REDACTED/project/comp6120-ass5/mockito-3592/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 47s
+30 actionable tasks: 8 executed, 22 up-to-date

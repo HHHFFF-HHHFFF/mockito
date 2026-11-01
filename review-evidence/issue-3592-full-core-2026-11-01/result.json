@@ -1,0 +1,3149 @@
+{
+  "start": "2026-11-01T08:02:34.605393+00:00",
+  "command": [
+    "./gradlew",
+    ":mockito-core:test",
+    ":mockito-core:check",
+    ":mockito-core:spotlessCheck",
+    "--max-workers=1",
+    "--no-build-cache",
+    "--no-scan",
+    "--console=plain",
+    "--init-script",
+    "/Users/REDACTED/project/comp6120-ass5/evidence/no-retry.gradle"
+  ],
+  "cwd": "/Users/REDACTED/project/comp6120-ass5/mockito-3592",
+  "java_home": "/Users/REDACTED/Library/Java/JavaVirtualMachines/ms-21.0.12/Contents/Home",
+  "head": "566bace5dd8a2ed573de6b66c633176fc8e227ad",
+  "java_version": "openjdk version \"21.0.12\" 2026-07-21 LTS\nOpenJDK Runtime Environment Microsoft-14653898 (build 21.0.12+8-LTS)\nOpenJDK 64-Bit Server VM Microsoft-14653898 (build 21.0.12+8-LTS, mixed mode, sharing)\n",
+  "exit_code": 0,
+  "end": "2026-11-01T08:05:22.884750+00:00",
+  "suites": [
+    {
+      "name": "org.mockitousage.bugs.CovariantOverrideTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.805Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationUsingMatchersTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:05:01.582Z"
+    },
+    {
+      "name": "org.mockito.internal.invocation.SerializableMethodTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.407Z"
+    },
+    {
+      "name": "org.mockito.internal.handler.InvocationNotifierHandlerTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.145Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.634Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.AnnotationsTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.089Z"
+    },
+    {
+      "name": "org.mockito.internal.util.MockUtilTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.500Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.StrictJUnitRuleTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.140Z"
+    },
+    {
+      "name": "org.mockitousage.debugging.VerificationListenerCallBackTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.356Z"
+    },
+    {
+      "name": "org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.931Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ShouldNotDeadlockAnswerExecutionTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.261Z"
+    },
+    {
+      "name": "org.concurrentmockito.ThreadsShareAMockTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:30.189Z"
+    },
+    {
+      "name": "org.mockitousage.configuration.ClassCacheVersusClassReloadingTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.391Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ThreadLocalTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.341Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.MemberAccessorTest",
+      "tests": "24",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.617Z"
+    },
+    {
+      "name": "org.mockito.internal.util.PlatformTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.507Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.InstanceOfTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.927Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.checkers.MissingInvocationCheckerTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.751Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.MockingMultipleInterfacesTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:08.574Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationStartedListenerTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:05:01.545Z"
+    },
+    {
+      "name": "org.mockitousage.serialization.AcrossClassLoaderSerializationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:50.960Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.MockAnnotationProcessorTest$RawTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.848Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.apachecommons.EqualsBuilderTest",
+      "tests": "46",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.969Z"
+    },
+    {
+      "name": "org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java6_Java7_Test",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "8",
+      "timestamp": "2026-11-01T08:04:20.641Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.BridgeMethodsHitAgainTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:10.073Z"
+    },
+    {
+      "name": "org.mockito.internal.reporting.PluralizerTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.191Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.bytebuddy.TypeCachingMockBytecodeGeneratorTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:49.563Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.SmartPrinterTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.722Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.CloningParameterTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.764Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.JUnit45RunnerTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.621Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.SpyAnnotationInitializedInBaseClassTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.855Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.varargs.VarargsAndAnyPicksUpExtraInvocationsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.304Z"
+    },
+    {
+      "name": "org.mockitousage.debugging.InvocationListenerCallbackTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:19.983Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.ReturningDefaultValuesTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.350Z"
+    },
+    {
+      "name": "org.mockito.exceptions.stacktrace.StackTraceCleanerTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.113Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.checkers.NumberOfInvocationsCheckerTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.760Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.CapturingMatcherTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.916Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.plugins.PluginLoaderTest",
+      "tests": "14",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.210Z"
+    },
+    {
+      "name": "org.mockito.internal.util.StringUtilTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.514Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.bytebuddy.InlineBytecodeGeneratorTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.756Z"
+    },
+    {
+      "name": "org.mockito.exceptions.base.MockitoAssertionErrorTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.106Z"
+    },
+    {
+      "name": "org.mockito.internal.runners.util.TestMethodsFinderTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.477Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMakerTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.643Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StrictStubbingEndToEndTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.506Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.EqualsTest",
+      "tests": "14",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.923Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:02.554Z"
+    },
+    {
+      "name": "org.mockitousage.PlaygroundWithDemoOfUnclonedParametersProblemTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.031Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.creation.MockClassWithMissingStaticDepTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.619Z"
+    },
+    {
+      "name": "org.mockitousage.spies.PartialMockingWithSpiesTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "2",
+      "timestamp": "2026-11-01T08:04:55.104Z"
+    },
+    {
+      "name": "org.mockitousage.misuse.InvalidUsageTest",
+      "tests": "14",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:23.963Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessPerStubbingWithRunnerTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.608Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.SilentRunnerTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.643Z"
+    },
+    {
+      "name": "org.mockitousage.serialization.StrictStubsSerializableTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:54.992Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.StubbingWarningsJUnitRunnerTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.789Z"
+    },
+    {
+      "name": "org.mockitousage.examples.use.ExampleTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.464Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.MoreMatchersTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23Z"
+    },
+    {
+      "name": "org.mockitousage.verification.DescriptiveMessagesOnVerificationInOrderErrorsTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.506Z"
+    },
+    {
+      "name": "org.mockito.ArgumentCaptorTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:32.941Z"
+    },
+    {
+      "name": "org.mockitousage.PlaygroundTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.027Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.creation.ShouldAllowInlineMockCreationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.891Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.LenientJUnitRuleTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.759Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.CompareMatcherTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:10.428Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerifyPrintsAllInvocationsOnErrorTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:05:05.683Z"
+    },
+    {
+      "name": "org.mockito.internal.util.ChecksTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.387Z"
+    },
+    {
+      "name": "org.mockitousage.spies.SpyAsDefaultMockUsageTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.240Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.CapturingArgumentsTest",
+      "tests": "35",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.987Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWithExtraAnswersTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.261Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.MockInjectionUsingConstructorIssue421Test",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.525Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.233Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.VerificationAndStubbingUsingMatchersTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23.638Z"
+    },
+    {
+      "name": "org.mockito.MockTest$StrictnessToMockStrictnessTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:33.062Z"
+    },
+    {
+      "name": "org.mockito.internal.junit.ArgMismatchFinderTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.424Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingConsecutiveAnswersTest",
+      "tests": "16",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.527Z"
+    },
+    {
+      "name": "org.mockito.internal.invocation.InvocationsFinderTest",
+      "tests": "15",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.349Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationWithAfterTest",
+      "tests": "19",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "2",
+      "timestamp": "2026-11-01T08:05:01.791Z"
+    },
+    {
+      "name": "org.mockito.internal.invocation.InvocationMatcherTest",
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.342Z"
+    },
+    {
+      "name": "org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:24.321Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.MocksSerializationTest",
+      "tests": "23",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.241Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.InvocationInfoTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.044Z"
+    },
+    {
+      "name": "org.mockito.internal.InOrderImplTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.339Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ArgumentCaptorDontCapturePreviouslyVerifiedTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:10.066Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.ThrowsExceptionForClassTypeTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.082Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.ComparableMatchersTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.918Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.VerificationCollectorImplTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.284Z"
+    },
+    {
+      "name": "org.concurrentmockito.VerificationInOrderFromMultipleThreadsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:32.814Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.EnabledMockingInterfaceCloneMethodTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.877Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.030Z"
+    },
+    {
+      "name": "org.mockito.internal.runners.DefaultInternalRunnerTest$SuccessTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.195Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.483Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationInOrderWithTimeoutTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.694Z"
+    },
+    {
+      "name": "org.mockito.internal.framework.DefaultMockitoFrameworkTest",
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.047Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.SmartNullsStubbingTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.433Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.MockitoJUnitRuleTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.770Z"
+    },
+    {
+      "name": "org.mockito.internal.listeners.StubbingLookupNotifierTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.501Z"
+    },
+    {
+      "name": "org.mockito.MockitoClearTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:33.064Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.injection.ChildWithSameParentFieldInjectionTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.145Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.SpyAnnotationInitializedInBaseClassTest$SubTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.851Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.MocksCreationTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:08.672Z"
+    },
+    {
+      "name": "org.mockitousage.packageprotected.MockingPackageProtectedTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:24.161Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ShouldMocksCompareToBeConsistentWithEqualsTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.256Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.deepstubs.DeepStubsWronglyReportsSerializationProblemsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.089Z"
+    },
+    {
+      "name": "org.mockitointegration.NoJUnitDependenciesTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:07.014Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.IOOBExceptionShouldNotBeThrownWhenNotCodingFluentlyTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.943Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessWithRulesTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.622Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingUsingDoReturnTest",
+      "tests": "21",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.619Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.MockInjectionUsingConstructorTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.563Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.creation.PublicMethodInParentWithNonPublicTypeInSignatureTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.867Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.plugins.PluginFileReaderTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.095Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenericNestedAsRawTypeTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.892Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.NPEWhenMockingThrowablesTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.224Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.SuperTypesLastSorterTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.645Z"
+    },
+    {
+      "name": "org.mockito.internal.runners.util.RunnerProviderTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.419Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.InterfaceOverrideTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.366Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.injection.ConstructorInjectionTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.024Z"
+    },
+    {
+      "name": "org.mockitointegration.NoByteCodeDependenciesTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.011Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.VarargsTest",
+      "tests": "59",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:23.383Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.DiamondInheritanceIsConfusingMockitoTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.854Z"
+    },
+    {
+      "name": "org.mockito.internal.listeners.VerificationStartedNotifierTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.559Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.ReflectivePrintingTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23.257Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.ResetTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.645Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.NoInteractionsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.710Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.InvocationContainerImplTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.619Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest",
+      "tests": "20",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.219Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.apachecommons.ReflectionEqualsTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.011Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.030Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.SameTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.950Z"
+    },
+    {
+      "name": "org.mockito.internal.progress.AtLeastTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.104Z"
+    },
+    {
+      "name": "org.mockitousage.misuse.DescriptiveMessagesOnMisuseTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23.677Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.MocksSerializationForAnnotationTest",
+      "tests": "21",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:08.756Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.GenericArrayReturnTypeTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.253Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.207Z"
+    },
+    {
+      "name": "org.mockito.internal.invocation.InvocationMarkerTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.339Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.injection.ParentTestMockInjectionTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.217Z"
+    },
+    {
+      "name": "org.mockito.internal.handler.MockHandlerFactoryTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.268Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.EqualsWithDeltaTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.900Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.ReturnsArgumentAtTest",
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.059Z"
+    },
+    {
+      "name": "org.mockito.internal.session.DefaultMockitoSessionBuilderTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.576Z"
+    },
+    {
+      "name": "org.mockitousage.stacktrace.StackTraceFilteringTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.422Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.LenientMockAnnotationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.449Z"
+    },
+    {
+      "name": "org.concurrentmockito.ThreadVerifiesContinuouslyInteractingMockTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:07.478Z"
+    },
+    {
+      "name": "org.mockito.verification.TimeoutTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.775Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.MutableStrictJUnitTestRuleTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.944Z"
+    },
+    {
+      "name": "org.mockitousage.spies.SpyingOnInterfacesTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.361Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.GenericMetadataSupportTest",
+      "tests": "19",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.335Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.CaptorAnnotationBasicTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.242Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.BeanPropertySetterTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.192Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.CallingRealMethodTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.709Z"
+    },
+    {
+      "name": "org.mockito.verification.NegativeDurationTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.772Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.SpyInjectionTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:08.502Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.MutableStrictJUnitRuleTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.919Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.NoMoreInteractionsTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.713Z"
+    },
+    {
+      "name": "org.mockito.internal.debugging.WarningsFinderTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:55.999Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.MatchersToStringTest",
+      "tests": "18",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.933Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.injection.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.179Z"
+    },
+    {
+      "name": "org.mockitousage.constructor.CreatingMocksWithConstructorTest",
+      "tests": "28",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:16.429Z"
+    },
+    {
+      "name": "org.mockitousage.misuse.ExplicitFrameworkValidationTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23.958Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.StubbingWarningsMultiThreadingTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.254Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.CaptorAnnotationTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.275Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.ObjectsSerializationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.541Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.FillInStackTraceScenariosTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.902Z"
+    },
+    {
+      "name": "org.concurrentmockito.ThreadsRunAllTestsHalfManualTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:13.216Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.LenientCopyToolTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.381Z"
+    },
+    {
+      "name": "org.mockito.exceptions.base.MockitoSerializationIssueTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.109Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.MultipleInOrdersTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.191Z"
+    },
+    {
+      "name": "org.mockitousage.verification.FindingRedundantInvocationsInOrderTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.559Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.instance.ConstructorInstantiatorTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:55.967Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationOnMultipleMocksUsingMatchersTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:05:01.539Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationWithTimeoutTest",
+      "tests": "14",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "3",
+      "timestamp": "2026-11-01T08:05:05.135Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest",
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.650Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessPerMockTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.495Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.checkers.MissingInvocationInOrderCheckerTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.757Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.VerificationDataImplTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.726Z"
+    },
+    {
+      "name": "org.mockito.MockitoTest",
+      "tests": "33",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "2",
+      "timestamp": "2026-11-01T08:03:33.779Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.GenericTypeExtractorTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.365Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationInOrderWithCallsTest",
+      "tests": "25",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.669Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.CallsRealMethodsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:58.451Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ReturnsMocksTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:03.024Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.plugins.PluginFinderTest",
+      "tests": "11",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.108Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessWhenRuleStrictnessIsUpdatedTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.613Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.checkers.AtLeastXNumberOfInvocationsCheckerTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.748Z"
+    },
+    {
+      "name": "org.mockito.exceptions.base.MockitoExceptionTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.107Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.RuleTestWithParameterConstructorTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.042Z"
+    },
+    {
+      "name": "org.concurrentmockito.ThreadsShareGenerouslyStubbedMockTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:30.244Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.GenericMatchersTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:22.668Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest",
+      "tests": "20",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:48.701Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.DescriptionTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.650Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.UnusedStubsExceptionMessageTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.828Z"
+    },
+    {
+      "name": "org.mockito.internal.util.MockCreationValidatorTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.490Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.DeepStubbingWithJUnitRunnerTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.329Z"
+    },
+    {
+      "name": "org.mockito.internal.util.DefaultMockingDetailsTest",
+      "tests": "17",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.392Z"
+    },
+    {
+      "name": "org.mockitousage.verification.SelectedMocksInOrderVerificationTest",
+      "tests": "15",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.637Z"
+    },
+    {
+      "name": "org.mockito.internal.junit.JUnitRuleTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.482Z"
+    },
+    {
+      "name": "org.mockitousage.verification.AtLeastXVerificationTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.459Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$WithDumbMethod",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.584Z"
+    },
+    {
+      "name": "org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.200Z"
+    },
+    {
+      "name": "org.mockitousage.verification.AtMostXVerificationTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.463Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.CaptorAnnotationAutoboxingTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:10.292Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.bytebuddy.ByteBuddyMockMakerTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.511Z"
+    },
+    {
+      "name": "org.mockito.internal.handler.MockHandlerImplTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.270Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.CaptorAnnotationUnhappyPathTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.343Z"
+    },
+    {
+      "name": "org.mockito.internal.junit.UnusedStubbingsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.495Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.InvocationContainerImplStubbingTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.605Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$UsingMethodPrimitiveResult",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.499Z"
+    },
+    {
+      "name": "org.mockito.internal.util.SimpleMockitoLoggerTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.512Z"
+    },
+    {
+      "name": "org.mockitousage.customization.BDDMockitoTest",
+      "tests": "32",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:17.566Z"
+    },
+    {
+      "name": "org.mockitousage.stacktrace.PointingStackTraceToActualInvocationInOrderTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.322Z"
+    },
+    {
+      "name": "org.mockitousage.plugins.MockitoPluginsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:50.819Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ForwardsInvocationsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.101Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.EqualityTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.920Z"
+    },
+    {
+      "name": "org.mockito.internal.invocation.mockref.MockWeakReferenceTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.422Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.ReturnsTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.073Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.WrongSetOfAnnotationsTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:08.507Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.AndTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.859Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.NPEWithCertainMatchersTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.251Z"
+    },
+    {
+      "name": "org.mockito.internal.progress.MockingProgressImplTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.105Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.GenericsMockitoAnnotationsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:11.942Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationExcludingStubsTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.649Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.CustomMatchersTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:22.492Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.AnswersWithDelayTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.926Z"
+    },
+    {
+      "name": "org.mockito.internal.invocation.TypeSafeMatchingTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.413Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.UsingVarargsTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.658Z"
+    },
+    {
+      "name": "org.mockito.internal.util.collections.WeakIdentityMapTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.664Z"
+    },
+    {
+      "name": "org.mockitousage.misuse.RestrictedObjectMethodsTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:24.156Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ListenersLostOnResetMockTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.115Z"
+    },
+    {
+      "name": "org.mockito.internal.util.TimerTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.518Z"
+    },
+    {
+      "name": "org.mockito.MockTest$MockStrictnessToStrictnessTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:03:33.060Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.GenericMasterTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.328Z"
+    },
+    {
+      "name": "org.mockito.internal.progress.ThreadSafeMockingProgressTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.185Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.ResetInvocationsTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.642Z"
+    },
+    {
+      "name": "org.mockito.internal.debugging.VerboseMockInvocationLoggerTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:55.992Z"
+    },
+    {
+      "name": "org.mockitousage.spies.SpyingOnRealObjectsTest",
+      "tests": "14",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:55.515Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.StrictStubsRunnerTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.767Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.MockAnnotationProcessorTest$NonGenericTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.849Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.MatchersMixedWithRawArgumentsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:22.895Z"
+    },
+    {
+      "name": "org.mockito.internal.exceptions.util.ScenarioPrinterTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.044Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.DefaultRegisteredInvocationsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.648Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.MockSettingsImplTest",
+      "tests": "19",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.425Z"
+    },
+    {
+      "name": "org.mockito.internal.util.io.IOUtilTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.186Z"
+    },
+    {
+      "name": "org.mockito.internal.exceptions.ReporterTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.033Z"
+    },
+    {
+      "name": "org.mockito.StaticMockingExperimentTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.049Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.MockAccessTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:08.570Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValuesTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.174Z"
+    },
+    {
+      "name": "org.mockito.internal.exceptions.stacktrace.StackTraceFilterTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.041Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.BasicStubbingTest",
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.635Z"
+    },
+    {
+      "name": "org.mockitousage.verification.BasicVerificationTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.496Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ImplementationOfGenericAbstractMethodNotInvokedOnSpyTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.945Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.ModellingVerboseMockitoTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "2",
+      "timestamp": "2026-11-01T08:04:21.640Z"
+    },
+    {
+      "name": "org.mockito.internal.InvalidStateDetectionTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.344Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.338Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest",
+      "tests": "16",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.176Z"
+    },
+    {
+      "name": "org.mockitousage.debugging.StubbingLookupListenerCallbackTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.119Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.023Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.VerificationOverTimeImplTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.729Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StrictStubbingTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.520Z"
+    },
+    {
+      "name": "org.mockito.internal.util.MockSettingsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.498Z"
+    },
+    {
+      "name": "org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilterTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.038Z"
+    },
+    {
+      "name": "org.mockitousage.serialization.DeepStubsSerializableTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:50.963Z"
+    },
+    {
+      "name": "org.mockito.internal.util.PrimitivesTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.510Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.MockAnnotationProcessorTest$WrongNumberOfArgsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.783Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest",
+      "tests": "11",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.767Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.MockitoStubbedCallInAnswerTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.118Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.MockInjectionTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.857Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWithCustomAnswerTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.192Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest",
+      "tests": "20",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:02.091Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWarningsTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.627Z"
+    },
+    {
+      "name": "org.mockito.internal.util.MockNameImplTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.494Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.MockitoJUnitTestRuleTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.839Z"
+    },
+    {
+      "name": "org.mockito.internal.util.collections.IdentitySetTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.590Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:10.448Z"
+    },
+    {
+      "name": "org.mockitousage.session.MockitoSessionTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.073Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.NewMatchersTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23.020Z"
+    },
+    {
+      "name": "org.mockito.internal.debugging.LoggingListenerTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:55.985Z"
+    },
+    {
+      "name": "org.mockitousage.verification.RelaxedVerificationInOrderTest",
+      "tests": "27",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.621Z"
+    },
+    {
+      "name": "org.mockito.internal.AllInvocationsFinderTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.114Z"
+    },
+    {
+      "name": "org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.583Z"
+    },
+    {
+      "name": "org.mockito.internal.invocation.MatcherApplicationStrategyTest",
+      "tests": "17",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.361Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationWithAfterAndCaptorTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "2",
+      "timestamp": "2026-11-01T08:05:01.586Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:10.366Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.625Z"
+    },
+    {
+      "name": "org.mockito.internal.util.collections.HashCodeAndEqualsSafeSetTest",
+      "tests": "17",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.528Z"
+    },
+    {
+      "name": "org.mockito.DescriptionTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:32.951Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.MisusingStubbingTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.348Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.OnlyTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.717Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.MatchersTest",
+      "tests": "42",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:22.899Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.proxy.ProxyMockMakerTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:55.977Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessPerStubbingTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.511Z"
+    },
+    {
+      "name": "org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.547Z"
+    },
+    {
+      "name": "org.mockitousage.verification.OnlyVerificationTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.574Z"
+    },
+    {
+      "name": "org.mockito.PrematureGarbageCollectionTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:03:34.040Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.injection.ShouldNotTryToInjectInFinalOrStaticFieldsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.299Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.ReflectionMatchersTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23.054Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ShouldOnlyModeAllowCapturingArgumentsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.332Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWithDelegateTest",
+      "tests": "11",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.198Z"
+    },
+    {
+      "name": "org.mockitousage.serialization.ParallelSerializationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:51.172Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWithThrowablesTest",
+      "tests": "29",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.264Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessWithSettingsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.628Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.MatchersPrinterTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.930Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.JUnitTestRuleIntegratesWithRuleChainTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.734Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.injection.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.174Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.text.DefaultValueRendererTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.028Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.InvalidUseOfMatchersTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:22.871Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.PotentialStubbingSensitivityTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.467Z"
+    },
+    {
+      "name": "org.mockitousage.internal.debugging.LocationFactoryTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.490Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.injection.ParentTestMockInjectionTest$ImplicitTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:13.216Z"
+    },
+    {
+      "name": "org.mockitousage.misuse.CleaningUpPotentialStubbingTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:23.661Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.FieldInitializerTest",
+      "tests": "15",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.204Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.varargs.VarargsErrorWhenCallingRealMethodTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.350Z"
+    },
+    {
+      "name": "org.mockitousage.misuse.DetectingFinalMethodsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "2",
+      "timestamp": "2026-11-01T08:04:23.798Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.AdditionalMatcherTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.841Z"
+    },
+    {
+      "name": "org.mockito.internal.junit.ExceptionFactoryTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.435Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.SpyAnnotationTest",
+      "tests": "20",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:07.861Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWithBadThrowablesTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.188Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.DoNotMockMessageTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.345Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubsConcurrentTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.169Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.SmartNullsGenericBugTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.381Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.OrTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.939Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.652Z"
+    },
+    {
+      "name": "org.mockitousage.performance.LoadsOfMocksTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:24.319Z"
+    },
+    {
+      "name": "org.mockitousage.stacktrace.ModellingDescriptiveMessagesTest",
+      "tests": "25",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "25",
+      "timestamp": "2026-11-01T08:04:55.878Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.DeepStubbingTest",
+      "tests": "23",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.835Z"
+    },
+    {
+      "name": "org.mockito.internal.junit.StubbingArgMismatchesTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.489Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.MockAnnotationProcessorTest$GenericTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.849Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.DeepStubReturnsEnumJava11Test",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:58.715Z"
+    },
+    {
+      "name": "org.mockitousage.verification.OrdinaryVerificationPrintsAllInteractionsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.579Z"
+    },
+    {
+      "name": "org.mockitousage.stacktrace.PointingStackTraceToActualInvocationTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.340Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.743Z"
+    },
+    {
+      "name": "org.mockitousage.puzzlers.OverloadingPuzzleTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:50.913Z"
+    },
+    {
+      "name": "org.mockito.internal.runners.DefaultInternalRunnerTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:03:57.198Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.MultithreadedStubbingHalfManualTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:12.193Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.DoNotMockTest",
+      "tests": "16",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.412Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.DefaultAnswerValidatorTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:58.966Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.text.MatcherToStringTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.052Z"
+    },
+    {
+      "name": "org.mockitointegration.DeferMockMakersClassLoadingTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.893Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.FinalHashCodeAndEqualsRaiseNPEInInitMocksTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.904Z"
+    },
+    {
+      "name": "org.mockito.internal.progress.TimesTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.188Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessMockAnnotationTest$StrictStubsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.488Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.SpyShouldHaveNiceNameTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.335Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.ClassPathLoaderTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.387Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.AbstractThrowsExceptionTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.839Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.text.ValuePrinterTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:57.095Z"
+    },
+    {
+      "name": "org.mockito.InvocationFactoryTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:32.998Z"
+    },
+    {
+      "name": "org.mockitousage.verification.NoMoreInteractionsVerificationTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.566Z"
+    },
+    {
+      "name": "org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest",
+      "tests": "26",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "3",
+      "timestamp": "2026-11-01T08:04:58.518Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest",
+      "tests": "47",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.870Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$UsingMethodObjectReferenceResult",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.551Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.DoesNothingTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:58.972Z"
+    },
+    {
+      "name": "org.mockito.internal.util.ObjectMethodsGuruTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.504Z"
+    },
+    {
+      "name": "org.mockitousage.stacktrace.ClickableStackTracesWhenFrameworkMisusedTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.819Z"
+    },
+    {
+      "name": "org.mockitousage.spies.SpiesWithRealEqualsAndInOrderTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.204Z"
+    },
+    {
+      "name": "org.mockitousage.verification.VerificationInOrderTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.662Z"
+    },
+    {
+      "name": "org.mockitousage.verification.BasicVerificationInOrderTest",
+      "tests": "25",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.472Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.AIOOBExceptionWithAtLeastTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.819Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingWithAdditionalAnswersTest",
+      "tests": "35",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.634Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.HamcrestMatchersTest",
+      "tests": "11",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:22.839Z"
+    },
+    {
+      "name": "org.mockitousage.puzzlers.BridgeMethodPuzzleTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:50.845Z"
+    },
+    {
+      "name": "org.mockitousage.misuse.DetectingMisusedMatchersTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:04:23.875Z"
+    },
+    {
+      "name": "org.mockitousage.stacktrace.ClickableStackTracesTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.798Z"
+    },
+    {
+      "name": "org.mockitousage.verification.ExactNumberOfTimesVerificationTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.545Z"
+    },
+    {
+      "name": "org.mockitousage.strictness.StrictnessMockAnnotationTest$LenientStubsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:56.484Z"
+    },
+    {
+      "name": "org.mockito.AnnotationsAreCopiedFromMockedTypeTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "1",
+      "timestamp": "2026-11-01T08:03:32.833Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.CustomMatcherDoesYieldCCETest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:22.480Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.DelegatingMethodTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.361Z"
+    },
+    {
+      "name": "org.mockitousage.annotation.InjectionOfInlinedMockDeclarationTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.426Z"
+    },
+    {
+      "name": "org.mockito.internal.hamcrest.MatcherGenericTypeExtractorTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.135Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.injection.Issue353InjectionMightNotHappenInCertainConfigurationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:13.208Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.injection.SimpleArgumentResolverTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.027Z"
+    },
+    {
+      "name": "org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:35.610Z"
+    },
+    {
+      "name": "org.mockito.MockitoEnvTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "4",
+      "timestamp": "2026-11-01T08:03:33.771Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest",
+      "tests": "16",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.987Z"
+    },
+    {
+      "name": "org.mockitousage.junitrunner.StrictRunnerTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.690Z"
+    },
+    {
+      "name": "org.mockito.internal.verification.VerificationWithDescriptionTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:06.739Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.935Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.RuleTestWithFactoryMethodTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.965Z"
+    },
+    {
+      "name": "org.mockitousage.CompilationWarningsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:07.016Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.NPEOnAnyClassMatcherAutounboxTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:12.195Z"
+    },
+    {
+      "name": "org.mockito.internal.configuration.GlobalConfigurationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.392Z"
+    },
+    {
+      "name": "org.mockitousage.matchers.AnyXMatchersAcceptNullsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:21.967Z"
+    },
+    {
+      "name": "org.mockitousage.junitrule.InvalidTargetMockitoJUnitRuleTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.657Z"
+    },
+    {
+      "name": "org.mockitousage.basicapi.ReplacingObjectMethodsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:09.545Z"
+    },
+    {
+      "name": "org.mockitousage.bugs.ConfusedSignatureTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:11.766Z"
+    },
+    {
+      "name": "org.mockitousage.verification.DescriptiveMessagesWhenTimesXVerificationFailsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:58.514Z"
+    },
+    {
+      "name": "org.mockitousage.internal.junit.UnusedStubbingsFinderTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.497Z"
+    },
+    {
+      "name": "org.mockito.internal.stubbing.answers.ThrowsExceptionTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:59.087Z"
+    },
+    {
+      "name": "org.mockito.internal.matchers.StringMatchersTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:56.953Z"
+    },
+    {
+      "name": "org.mockito.internal.PremainAttachTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:03:34.376Z"
+    },
+    {
+      "name": "org.mockitousage.stubbing.StubbingReturnsSelfTest",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:57.536Z"
+    },
+    {
+      "name": "org.mockitousage.spies.StubbingSpiesDoesNotYieldNPETest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:55.724Z"
+    },
+    {
+      "name": "org.mockito.internal.util.collections.SetsTest",
+      "tests": "17",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:03.594Z"
+    },
+    {
+      "name": "org.mockito.internal.util.reflection.FieldReaderTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:04.250Z"
+    },
+    {
+      "name": "org.mockitousage.debugging.InvocationsPrinterTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-11-01T08:04:20.096Z"
+    }
+  ],
+  "totals": {
+    "tests": 2399,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 72
+  }
+}

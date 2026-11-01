@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:58.583Z" hostname="REDACTED-HOST.local" time="0.037">
+  <properties/>
+  <testcase name="should_show_the_type_of_only_the_argument_that_doesnt_match" classname="org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest" time="0.033"/>
+  <testcase name="should_not_show_types_when_argument_value_is_different" classname="org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest" time="0.0"/>
+  <testcase name="should_not_report_argument_types_when_to_string_is_the_same" classname="org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest" time="0.001"/>
+  <testcase name="should_not_show_types_when_types_are_the_same_even_if_to_string_gives_the_same_result" classname="org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest" time="0.001"/>
+  <testcase name="should_show_the_type_of_the_mismatching_argument_when_output_descriptions_for_invocations_are_different" classname="org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

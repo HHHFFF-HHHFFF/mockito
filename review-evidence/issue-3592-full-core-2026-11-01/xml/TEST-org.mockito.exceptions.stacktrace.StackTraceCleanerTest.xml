@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.exceptions.stacktrace.StackTraceCleanerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:34.113Z" hostname="REDACTED-HOST.local" time="0.001">
+  <properties/>
+  <testcase name="allow_or_disallow_mockito_mockito_objects_in_stacktrace" classname="org.mockito.exceptions.stacktrace.StackTraceCleanerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

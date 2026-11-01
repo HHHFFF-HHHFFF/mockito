@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrunner.SilentRunnerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:21.643Z" hostname="REDACTED-HOST.local" time="0.043">
+  <properties/>
+  <testcase name="validates_framework_usage" classname="org.mockitousage.junitrunner.SilentRunnerTest" time="0.007"/>
+  <testcase name="ignores_unused_stubs" classname="org.mockitousage.junitrunner.SilentRunnerTest" time="0.018"/>
+  <testcase name="passing_test" classname="org.mockitousage.junitrunner.SilentRunnerTest" time="0.006"/>
+  <testcase name="failing_test" classname="org.mockitousage.junitrunner.SilentRunnerTest" time="0.005"/>
+  <testcase name="failing_test_in_constructor" classname="org.mockitousage.junitrunner.SilentRunnerTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

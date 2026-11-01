@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:07.650Z" hostname="REDACTED-HOST.local" time="0.199">
+  <properties/>
+  <testcase name="should_insert_into_field_with_matching_name_when_multiple_fields_of_same_type_exists_in_injectee" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.112"/>
+  <testcase name="should_inject_spies" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.009"/>
+  <testcase name="should_report_nicely" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.01"/>
+  <testcase name="should_not_inject_if_not_annotated" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.009"/>
+  <testcase name="should_inject_mocks_by_name" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.008"/>
+  <testcase name="should_instantiate_inject_mock_field_if_possible" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.006"/>
+  <testcase name="should_keep_instance_on_inject_mock_field_if_present" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.006"/>
+  <testcase name="should_inject_mocks_if_annotated" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.009"/>
+  <testcase name="should_initialize_annotated_field_if_null" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.006"/>
+  <testcase name="should_inject_mocks_for_class_hierarchy_if_annotated" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.007"/>
+  <testcase name="should_initialize_spy_if_null_and_inject_mocks" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.006"/>
+  <testcase name="should_keep_same_instance_if_field_initialized" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.004"/>
+  <testcase name="should_inject_mocks_in_spy" classname="org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

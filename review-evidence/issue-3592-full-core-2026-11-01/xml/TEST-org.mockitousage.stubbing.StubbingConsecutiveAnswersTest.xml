@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.527Z" hostname="REDACTED-HOST.local" time="0.007">
+  <properties/>
+  <testcase name="should_stub_void_method" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_throw_consecutively" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.001"/>
+  <testcase name="should_return_consecutive_values_var_args_contain_null" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_stub_void_method_and_continue_throwing" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_throw_consecutively_classes_set_by_shorten_then_throw_method" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.001"/>
+  <testcase name="should_return_consecutive_values_var_arg_null" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_return_consecutive_value_and_throw_exceptions_set_by_shorten_return_methods" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_validate_consecutive_exception_for_void_method" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.002"/>
+  <testcase name="should_throw_classes" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_return_consecutive_values" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_mix_consecutive_returns_with_exceptions" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.001"/>
+  <testcase name="should_return_consecutive_values_first_var_arg_null" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_return_consecutive_values_set_by_shorten_then_return_method" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.001"/>
+  <testcase name="should_return_consecutive_values_for_two_nulls" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <testcase name="should_throw_consecutively_set_by_shorten_then_throw_method" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.001"/>
+  <testcase name="should_validate_consecutive_exception" classname="org.mockitousage.stubbing.StubbingConsecutiveAnswersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

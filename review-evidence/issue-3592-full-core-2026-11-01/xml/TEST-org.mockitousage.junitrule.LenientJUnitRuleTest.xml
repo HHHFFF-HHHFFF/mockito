@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrule.LenientJUnitRuleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:20.759Z" hostname="REDACTED-HOST.local" time="0.007">
+  <properties/>
+  <testcase name="no_warning_for_stubbing_arg_mismatch_on_failure" classname="org.mockitousage.junitrule.LenientJUnitRuleTest" time="0.002"/>
+  <testcase name="no_warning_for_unused_stubbing" classname="org.mockitousage.junitrule.LenientJUnitRuleTest" time="0.003"/>
+  <testcase name="no_warning_for_stubbing_arg_mismatch" classname="org.mockitousage.junitrule.LenientJUnitRuleTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

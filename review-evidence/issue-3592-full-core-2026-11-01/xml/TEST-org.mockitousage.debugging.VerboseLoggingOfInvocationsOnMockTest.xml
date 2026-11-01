@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:20.200Z" hostname="REDACTED-HOST.local" time="0.148">
+  <properties/>
+  <testcase name="shouldPrintRealInvocationOnSpyToStdOut" classname="org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest" time="0.126"/>
+  <testcase name="shouldPrintStubbedInvocationOnMockToStdOut" classname="org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest" time="0.004"/>
+  <testcase name="shouldPrintUnstubbedInvocationOnMockToStdOut" classname="org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest" time="0.002"/>
+  <testcase name="usage" classname="org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest" time="0.004"/>
+  <testcase name="shouldNotPrintInvocationOnMockWithoutSetting" classname="org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest" time="0.008"/>
+  <testcase name="shouldPrintThrowingInvocationOnMockToStdOut" classname="org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.InvocationInfoTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:59.044Z" hostname="REDACTED-HOST.local" time="0.009">
+  <properties/>
+  <testcase name="should_know_when_invocation_returns_primitive" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.0"/>
+  <testcase name="isVoid_invocationOnVoidMethod_returnTrue" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.0"/>
+  <testcase name="should_read_the_method_name" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.001"/>
+  <testcase name="should_read_the_method_return_name" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.002"/>
+  <testcase name="should_know_abstract_method" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.002"/>
+  <testcase name="isVoid_invocationNonVoidMethod_returnFalse" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.001"/>
+  <testcase name="should_know_valid_return_types" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.001"/>
+  <testcase name="should_know_method_is_declared_on_interface" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.0"/>
+  <testcase name="isVoid_invocationOnVoidReturningMethod_returnTrue" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.001"/>
+  <testcase name="should_know_when_invocation_returns_void" classname="org.mockito.internal.stubbing.answers.InvocationInfoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

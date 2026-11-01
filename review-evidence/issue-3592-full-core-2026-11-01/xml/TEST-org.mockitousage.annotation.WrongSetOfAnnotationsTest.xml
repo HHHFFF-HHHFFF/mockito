@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.annotation.WrongSetOfAnnotationsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:08.507Z" hostname="REDACTED-HOST.local" time="0.06">
+  <properties/>
+  <testcase name="should_not_allow_Mock_and_InjectMocks" classname="org.mockitousage.annotation.WrongSetOfAnnotationsTest" time="0.003"/>
+  <testcase name="should_not_allow_Captor_and_Mock" classname="org.mockitousage.annotation.WrongSetOfAnnotationsTest" time="0.002"/>
+  <testcase name="should_not_allow_Captor_and_Spy" classname="org.mockitousage.annotation.WrongSetOfAnnotationsTest" time="0.003"/>
+  <testcase name="should_not_allow_Spy_and_InjectMocks_on_interfaces" classname="org.mockitousage.annotation.WrongSetOfAnnotationsTest" time="0.002"/>
+  <testcase name="should_allow_Spy_and_InjectMocks" classname="org.mockitousage.annotation.WrongSetOfAnnotationsTest" time="0.043"/>
+  <testcase name="should_not_allow_Mock_and_Spy" classname="org.mockitousage.annotation.WrongSetOfAnnotationsTest" time="0.003"/>
+  <testcase name="should_not_allow_Captor_and_InjectMocks" classname="org.mockitousage.annotation.WrongSetOfAnnotationsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

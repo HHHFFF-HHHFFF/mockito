@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.configuration.GlobalConfigurationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:34.392Z" hostname="REDACTED-HOST.local" time="0.378">
+  <properties/>
+  <testcase name="returns_mockito_annotation_engine_of_Plugins_if_no_MockitoConfiguration" classname="org.mockito.internal.configuration.GlobalConfigurationTest" time="0.378"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

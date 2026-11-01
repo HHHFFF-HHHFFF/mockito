@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.030Z" hostname="REDACTED-HOST.local" time="0.062">
+  <properties/>
+  <testcase name="test_MockitoPlugins_getMockMaker_default_method_throws_UnsupportedOperationException" classname="org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest" time="0.05"/>
+  <testcase name="test_getMockMaker_throws_IllegalStateException_on_invalid_name" classname="org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest" time="0.001"/>
+  <testcase name="test_getMockMaker" classname="org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest" time="0.001"/>
+  <testcase name="provides_plugins" classname="org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.SmartNullsStubbingTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.433Z" hostname="REDACTED-HOST.local" time="0.07">
+  <properties/>
+  <testcase name="shouldThrowSmartNPEWhenMethodReturnsClass" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.033"/>
+  <testcase name="shouldReturnOrdinaryEmptyValuesForOrdinaryTypes" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.001"/>
+  <testcase name="should_not_throw_NPE_when_verifying_with_returns_smart_nulls" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.0"/>
+  <testcase name="shouldSmartNPEPointToUnstubbedCall" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.001"/>
+  <testcase name="shouldShowParameters" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.033"/>
+  <testcase name="shouldThrowSmartNPEWhenMethodReturnsInterface" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.0"/>
+  <testcase name="shouldShowParametersWhenParamsAreHuge" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.001"/>
+  <testcase name="shouldNotThrowSmartNullPointerOnObjectMethods" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.001"/>
+  <testcase name="shouldNotThrowSmartNullPointerOnToString" classname="org.mockitousage.stubbing.SmartNullsStubbingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

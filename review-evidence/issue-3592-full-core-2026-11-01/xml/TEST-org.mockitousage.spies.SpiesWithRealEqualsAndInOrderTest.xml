@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.spies.SpiesWithRealEqualsAndInOrderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:55.204Z" hostname="REDACTED-HOST.local" time="0.035">
+  <properties/>
+  <testcase name="should_be_able_to_handle_in_order_on_spies_with_equals" classname="org.mockitousage.spies.SpiesWithRealEqualsAndInOrderTest" time="0.035"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

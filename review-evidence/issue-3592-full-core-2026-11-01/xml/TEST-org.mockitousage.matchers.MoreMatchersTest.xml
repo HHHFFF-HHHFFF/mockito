@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.MoreMatchersTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:23Z" hostname="REDACTED-HOST.local" time="0.013">
+  <properties/>
+  <testcase name="should_help_out_with_unnecessary_casting" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.001"/>
+  <testcase name="any_class_should_be_actual_alias_to_isA" classname="org.mockitousage.matchers.MoreMatchersTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

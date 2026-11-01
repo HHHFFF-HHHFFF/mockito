@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.session.DefaultMockitoSessionBuilderTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:57.576Z" hostname="REDACTED-HOST.local" time="0.024">
+  <properties/>
+  <testcase name="auto_cleans_dirty_listeners" classname="org.mockito.internal.session.DefaultMockitoSessionBuilderTest" time="0.006"/>
+  <testcase name="creates_sessions_for_multiple_test_class_instances_for_varargs_call" classname="org.mockito.internal.session.DefaultMockitoSessionBuilderTest" time="0.008"/>
+  <testcase name="requires_finish_mocking" classname="org.mockito.internal.session.DefaultMockitoSessionBuilderTest" time="0.005"/>
+  <testcase name="uses_logger_and_strictness" classname="org.mockito.internal.session.DefaultMockitoSessionBuilderTest" time="0.004"/>
+  <testcase name="creates_sessions" classname="org.mockito.internal.session.DefaultMockitoSessionBuilderTest" time="0.0"/>
+  <testcase name="creates_sessions_for_multiple_test_class_instances_for_repeated_calls" classname="org.mockito.internal.session.DefaultMockitoSessionBuilderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

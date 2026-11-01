@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.debugging.LoggingListenerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:55.985Z" hostname="REDACTED-HOST.local" time="0.005">
+  <properties/>
+  <testcase name="may_not_have_any_information" classname="org.mockito.internal.debugging.LoggingListenerTest" time="0.0"/>
+  <testcase name="calculates_indexes_for_clean_output" classname="org.mockito.internal.debugging.LoggingListenerTest" time="0.0"/>
+  <testcase name="hides_unstubbed" classname="org.mockito.internal.debugging.LoggingListenerTest" time="0.001"/>
+  <testcase name="informs_about_unused_stubs" classname="org.mockito.internal.debugging.LoggingListenerTest" time="0.001"/>
+  <testcase name="informs_about_unused_stubs_due_arg_mismatch" classname="org.mockito.internal.debugging.LoggingListenerTest" time="0.001"/>
+  <testcase name="informs_about_various_kinds_of_stubs" classname="org.mockito.internal.debugging.LoggingListenerTest" time="0.001"/>
+  <testcase name="informs_about_unstubbed" classname="org.mockito.internal.debugging.LoggingListenerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

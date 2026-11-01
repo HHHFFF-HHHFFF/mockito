@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.customization.BDDMockitoTest" tests="32" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:17.566Z" hostname="REDACTED-HOST.local" time="2.403">
+  <properties/>
+  <testcase name="should_stub_with_throwable" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_return_consecutively" classname="org.mockitousage.customization.BDDMockitoTest" time="0.005"/>
+  <testcase name="should_pass_fluent_bdd_scenario" classname="org.mockitousage.customization.BDDMockitoTest" time="0.168"/>
+  <testcase name="should_stub_with_will_answer_alias" classname="org.mockitousage.customization.BDDMockitoTest" time="0.005"/>
+  <testcase name="should_stub_void_consecutively" classname="org.mockitousage.customization.BDDMockitoTest" time="0.006"/>
+  <testcase name="should_stub_consecutively" classname="org.mockitousage.customization.BDDMockitoTest" time="0.006"/>
+  <testcase name="should_stub_with_throwable_class" classname="org.mockitousage.customization.BDDMockitoTest" time="0.005"/>
+  <testcase name="should_stub_by_delegating_to_real_method" classname="org.mockitousage.customization.BDDMockitoTest" time="0.086"/>
+  <testcase name="should_all_stubbed_mock_reference_access" classname="org.mockitousage.customization.BDDMockitoTest" time="0.004"/>
+  <testcase name="should_stub_using_do_return_style" classname="org.mockitousage.customization.BDDMockitoTest" time="0.004"/>
+  <testcase name="should_fail_when_checking_order_of_interactions_that_did_not_happen" classname="org.mockitousage.customization.BDDMockitoTest" time="0.005"/>
+  <testcase name="should_stub_void_with_exception_classes" classname="org.mockitousage.customization.BDDMockitoTest" time="0.008"/>
+  <testcase name="should_stub_by_delegating_to_real_method_using_typical_stubbing_syntax" classname="org.mockitousage.customization.BDDMockitoTest" time="0.005"/>
+  <testcase name="should_stub" classname="org.mockitousage.customization.BDDMockitoTest" time="0.004"/>
+  <testcase name="should_stub_void_consecutively_with_exception_class" classname="org.mockitousage.customization.BDDMockitoTest" time="0.005"/>
+  <testcase name="should_pass_fluent_bdd_scenario_with_ordered_verification" classname="org.mockitousage.customization.BDDMockitoTest" time="0.009"/>
+  <testcase name="should_pass_for_interactions_that_happened_in_correct_order" classname="org.mockitousage.customization.BDDMockitoTest" time="0.004"/>
+  <testcase name="should_fail_when_mock_had_more_interactions_than_expected" classname="org.mockitousage.customization.BDDMockitoTest" time="0.005"/>
+  <testcase name="should_fail_for_expected_behavior_that_did_not_happen" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_fail_for_interactions_that_were_in_wrong_order" classname="org.mockitousage.customization.BDDMockitoTest" time="0.006"/>
+  <testcase name="should_pass_fluent_bdd_scenario_with_ordered_verification_for_two_mocks" classname="org.mockitousage.customization.BDDMockitoTest" time="0.023"/>
+  <testcase name="should_pass_for_expected_behavior_that_happened" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_validate_mock_when_verifying_with_expected_number_of_invocations" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_validate_that_mock_had_no_interactions" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_validate_mock_when_verifying" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_stub_consecutively_with_call_real_method" classname="org.mockitousage.customization.BDDMockitoTest" time="2.003"/>
+  <testcase name="should_stub_using_do_answer_style" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_stub_with_answer" classname="org.mockitousage.customization.BDDMockitoTest" time="0.002"/>
+  <testcase name="should_validate_mock_when_verifying_no_more_interactions" classname="org.mockitousage.customization.BDDMockitoTest" time="0.002"/>
+  <testcase name="should_stub_with_throwable_classes" classname="org.mockitousage.customization.BDDMockitoTest" time="0.003"/>
+  <testcase name="should_stub_void" classname="org.mockitousage.customization.BDDMockitoTest" time="0.002"/>
+  <testcase name="should_stub_void_with_exception_class" classname="org.mockitousage.customization.BDDMockitoTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

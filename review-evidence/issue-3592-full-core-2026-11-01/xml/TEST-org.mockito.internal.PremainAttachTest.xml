@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.PremainAttachTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:34.376Z" hostname="REDACTED-HOST.local" time="0.008">
+  <properties/>
+  <testcase name="parse_suppress_clinit_property_with_one_empty_class" classname="org.mockito.internal.PremainAttachTest" time="0.005"/>
+  <testcase name="parse_suppress_clinit_property_returns_null_when_null" classname="org.mockito.internal.PremainAttachTest" time="0.001"/>
+  <testcase name="parse_suppress_clinit_property_with_package_wildcard_matches_recursively" classname="org.mockito.internal.PremainAttachTest" time="0.0"/>
+  <testcase name="parse_suppress_clinit_property_with_whitespace_trimming" classname="org.mockito.internal.PremainAttachTest" time="0.001"/>
+  <testcase name="parse_suppress_clinit_property_mixes_classes_and_packages" classname="org.mockito.internal.PremainAttachTest" time="0.0"/>
+  <testcase name="parse_suppress_clinit_property_returns_null_when_blank" classname="org.mockito.internal.PremainAttachTest" time="0.0"/>
+  <testcase name="parse_suppress_clinit_property_with_package_wildcard_rejects_sibling_packages" classname="org.mockito.internal.PremainAttachTest" time="0.0"/>
+  <testcase name="parse_suppress_clinit_property_returns_null_when_only_empty_entries" classname="org.mockito.internal.PremainAttachTest" time="0.0"/>
+  <testcase name="parse_suppress_clinit_property_with_multiple_classes" classname="org.mockito.internal.PremainAttachTest" time="0.001"/>
+  <testcase name="parse_suppress_clinit_property_with_middle_wildcard_is_not_supported" classname="org.mockito.internal.PremainAttachTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

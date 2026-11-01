@@ -1,0 +1,1987 @@
+{
+  "ci-status.json": {
+    "original_sha256": "cf1bb868fbc0c00c5532e666048a9da6a824ac37f0fae46e6cbd9d7d3b24e4a5",
+    "published_sha256": "cf1bb868fbc0c00c5532e666048a9da6a824ac37f0fae46e6cbd9d7d3b24e4a5",
+    "redacted": false
+  },
+  "gradle.log": {
+    "original_sha256": "78d3cffa0d2dc568ea7c6f495c45d9fb13b5ff5c2d16bf59cbc4932772f5f2dc",
+    "published_sha256": "d58eb0d799e97afd9ebf66b71066fb904033b167850553cde157201854142937",
+    "redacted": true
+  },
+  "result.json": {
+    "original_sha256": "0027d86ed2e1b4cd2485cac66afac0b2bb88683c6c3dd8c1c587db854d7fea09",
+    "published_sha256": "41fd46d6fc402ec2dea66bf44d8e6c7f264d16c17805de61149a0efbb0dd50df",
+    "redacted": true
+  },
+  "run.py": {
+    "original_sha256": "a879a5245d2f2aaefee36aa87f9928e377a7b47a9bad923fd8040549493637a0",
+    "published_sha256": "b601338c03c7dbe46c47a103bb7dafeeab45e15891502602987da2a082b42478",
+    "redacted": true
+  },
+  "sha256.json": {
+    "original_sha256": "9f6257ca042b79f6c5d27027bc22f80aec18dacae078eab76a15be1f5f318054",
+    "published_sha256": "9f6257ca042b79f6c5d27027bc22f80aec18dacae078eab76a15be1f5f318054",
+    "redacted": false
+  },
+  "summary.md": {
+    "original_sha256": "5c4b3a326485a5df61bd9ce3401e04439af43c890bccd5765a364a3de54e23af",
+    "published_sha256": "5c4b3a326485a5df61bd9ce3401e04439af43c890bccd5765a364a3de54e23af",
+    "redacted": false
+  },
+  "xml/TEST-org.concurrentmockito.ThreadVerifiesContinuouslyInteractingMockTest.xml": {
+    "original_sha256": "1fe36bb7754ec93a46ed99cef35b85f4eec8ee2847396210acb250a6c86a5d63",
+    "published_sha256": "333871bf1e03cede670361dccdb6138e21d5ab2b001b4383d5108cc263f8832d",
+    "redacted": true
+  },
+  "xml/TEST-org.concurrentmockito.ThreadsRunAllTestsHalfManualTest.xml": {
+    "original_sha256": "c67e0590821278a43893ac891b47d472a1fdf9ce6e4866a9113ea483d6b5d5a6",
+    "published_sha256": "9231f9bb09861817493c41e60b8d4bd7e5d6ead111d1e4e0f0c4c5c59b7e0940",
+    "redacted": true
+  },
+  "xml/TEST-org.concurrentmockito.ThreadsShareAMockTest.xml": {
+    "original_sha256": "d63f7079a099fed0fa0e2fb258a182f4c008f688a1060346031e1a21ec336bb1",
+    "published_sha256": "b89f2fcf6c3e05c2a6e1b509b4aee1f9cda6d04ede7954a8c2d27a59e5e6b718",
+    "redacted": true
+  },
+  "xml/TEST-org.concurrentmockito.ThreadsShareGenerouslyStubbedMockTest.xml": {
+    "original_sha256": "afc06bae262dd03c9fba7e9321c4faf9e28940094c3ba06b5e6455b7682d5a73",
+    "published_sha256": "709a25df208c513e69554bccd9b98bc76565b3860e725ba2335d8b38abf4ca1c",
+    "redacted": true
+  },
+  "xml/TEST-org.concurrentmockito.VerificationInOrderFromMultipleThreadsTest.xml": {
+    "original_sha256": "d543fb738ed7dc30ea6c75f992cacfb3d9e2584c32f8604587b546dc2e2c10c6",
+    "published_sha256": "bd612241fb580c4ccf1d28f5382f2c30ed12c6c8c427bc06ac076a6f41437fb7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.AnnotationsAreCopiedFromMockedTypeTest.xml": {
+    "original_sha256": "686410f1688959563eb44cb895757eee8801914c6811abd2d921fda4bc9b6269",
+    "published_sha256": "a291e86878139365b876326ec95fade4c126b6146fb8ed481ea6f1b36ffdd066",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.ArgumentCaptorTest.xml": {
+    "original_sha256": "379b455500ec025d9d8c9635d589621f3fa9f544ffef5bd0a8bdf7fd4c9f01f0",
+    "published_sha256": "2916a319377e1c501e7de263e262654cab85e821c21f4361f6519d5e0671ae52",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.DescriptionTest.xml": {
+    "original_sha256": "30a4081245575bbe76b8698d02ab3184128926f392eb6f2b3da00a56e2f1a9ad",
+    "published_sha256": "c3b0cdbd598c2020241cc52e20673e30c9aa01c9311a78c8f4f8f9d4c2999152",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.InvocationFactoryTest.xml": {
+    "original_sha256": "18661ea6aace95ff14e098a900ab6681b59c0a61133d414fdba4b1503287618d",
+    "published_sha256": "1534fdc70bd63be66d8e45cca69191eddab07a881b4efa82cdbb1304d049de3f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.MockTest$MockStrictnessToStrictnessTest.xml": {
+    "original_sha256": "c6d104168c978d321a6acc8114e586736bdecac8773a66f39598f80734e208dd",
+    "published_sha256": "77572df11b8561b89692e299d7a91902486b23a4f685e9d7d7cdbd6a1a0a2efe",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.MockTest$StrictnessToMockStrictnessTest.xml": {
+    "original_sha256": "df395d0570bfae9c3c46a076eabc4de9a1c293928854f1c0161eba971a1e2bde",
+    "published_sha256": "f74f5c2f4cc96b55eecd09af70b3b7db71174274ebb0917c5a0c49d332cdbee9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.MockitoClearTest.xml": {
+    "original_sha256": "02109ce0cfc3e798192441222287a1b8c430348cd608ed611149a1b8c99bac6a",
+    "published_sha256": "c19ed3e5b971a3cf26c14688769ba4b1487dd09718589a6e4a795f0f720ee875",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.MockitoEnvTest.xml": {
+    "original_sha256": "40a236784d705827b5509e01dca94e767df9e20c0c0721fc31519a39c3c10ef5",
+    "published_sha256": "de4c5f8bd19c7b765fdd2a3155f642bc66ab842b20f9b72ab3a8432897976947",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.MockitoTest.xml": {
+    "original_sha256": "38aa233b687409dc4ee22bb1b2b841db10a59642ff1993b6afebf4bd822da178",
+    "published_sha256": "4854dd537756e4c7cf3664daa4349203e0b2b1c4245830d7b51ecd20f9b5b042",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.PrematureGarbageCollectionTest.xml": {
+    "original_sha256": "50c47b9a9c3fb1dfd6db2973f36c153a59bd0189b010f9df20c340096c768a22",
+    "published_sha256": "5de6ec9a4922b9e7070cf6d81451ac098d9adfcce1bcea4a2f72f6e2a398a3bf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.StaticMockingExperimentTest.xml": {
+    "original_sha256": "dc2b2a4ac3307ef9d51e6d5f28d9d81c0f31f60c80f99aed2de807f0820daaf7",
+    "published_sha256": "c2b9098e3944b565585cd0578f4cd3d04d154706ce8393598b6b909cc8a935d3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.exceptions.base.MockitoAssertionErrorTest.xml": {
+    "original_sha256": "a6c1cd2fbfdc778159560143d74fed57a73897edf371c152745c824a7d0c8478",
+    "published_sha256": "6ca5307c5493899876cdc134c4655bebef884eb6be2858373cebd4f266356fc9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.exceptions.base.MockitoExceptionTest.xml": {
+    "original_sha256": "7771cdbdc1c364f7ca42250a93a572c3637b8fab8c7da7d29a757d4aaff7bfa9",
+    "published_sha256": "741e8075fee0545952acb8cb6227987fe85510810db0c4e84be7ab9195064fd6",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.exceptions.base.MockitoSerializationIssueTest.xml": {
+    "original_sha256": "8b579c0fe360ea26e6373e3047127de3e9ea6cf9ae6b1732b8ac042214a7e950",
+    "published_sha256": "57e8b397e11cd67fe3ed2ab7eb5f06b0e2854776b6995f3fbb68c55379c2645d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.exceptions.stacktrace.StackTraceCleanerTest.xml": {
+    "original_sha256": "6c868cc21f216abe0dd8ccadd0029df31ce948d5d66ea69cf70e056691968499",
+    "published_sha256": "0beade21d3c27e04334de8f17bfda964f8d10611f0292a78e8a281f5136e17a6",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.AllInvocationsFinderTest.xml": {
+    "original_sha256": "29ed04e3a791398c761bce2dfdff6bfa1f40580f265e2f890c055e5092c82bb3",
+    "published_sha256": "e8e7895b319f1e54f6c3288ff8a9fe5660532324e27ce262043e1ae1b50b8bba",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.InOrderImplTest.xml": {
+    "original_sha256": "ba295a0c7f1558a7a4dba34f9497c6526ae45a2b58aa8b14173f7f8b2eb678f0",
+    "published_sha256": "95f6f30c96b05d0efe36bf476f8815944a40d66d4490d90de826c41518629338",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.InvalidStateDetectionTest.xml": {
+    "original_sha256": "da9c801cca83b438544519dba4e87241e3ce688176eebcd88142fb24293c463f",
+    "published_sha256": "9d1ac641e7c2e0f6efbbe7befdf46da8a97fdfbe60f037ca1f1c9ec638637312",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.PremainAttachTest.xml": {
+    "original_sha256": "9b97755833e4de81554c9df1a02c4065ae3def59ecbb65c813fb38a054b50964",
+    "published_sha256": "184679f236310342f5f31664e7a7bcbdf49c9003726b7c72374944d18cbd5f37",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.ClassPathLoaderTest.xml": {
+    "original_sha256": "072b4bb591774db93b503c26bda83b33029deb682659c83f77afb50ccf6ad6fd",
+    "published_sha256": "03d352f2946c9c46577188d012f776c981bd3da973d487eaea005405276db411",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.GlobalConfigurationTest.xml": {
+    "original_sha256": "ec8fe19ab6147392f225095ab34b2f2ea545c6eb3ab2b1b81561404b6392e186",
+    "published_sha256": "bf44336a362e381706b21882457a9faa3e70be12b716ab01b27d5d71c628f4c0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.MockAnnotationProcessorTest$GenericTest.xml": {
+    "original_sha256": "7b660894febae524b319f08a7ea0586490569b003d0f38c8e8ddbffe0153f319",
+    "published_sha256": "7b84b69b59f7d010deb57ea703a38dfdc4113df97ec69413ff4dab61cfc41371",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.MockAnnotationProcessorTest$NonGenericTest.xml": {
+    "original_sha256": "a433e27e1ec8ac8d807339e3ba108c516df45945414a0d6676e47fbe838601f2",
+    "published_sha256": "52fe3c25bab0d524aaa6748d21519e48f23643dd65279812f588537df31974bf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.MockAnnotationProcessorTest$RawTest.xml": {
+    "original_sha256": "7d5111cdd7aba25cff6dec180841a54976d067e8f984798362737fe12f080130",
+    "published_sha256": "e1fdef70a26088c1cd833f5148e6de4df3c2b9baa5b26e2a4aeff0968f4574e9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.MockAnnotationProcessorTest$WrongNumberOfArgsTest.xml": {
+    "original_sha256": "0ac37076e353a13f80beebbee3824009683056aaaeb6b2911cb4e96bd842443a",
+    "published_sha256": "f42a82c0c42d7260f9cd85798c81e9ac65464179d5d9782c095d879c57c3f643",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.MockInjectionTest.xml": {
+    "original_sha256": "44c5f84016287d52c9aa837a6f9164bff0555a20fa76b508e0e33f62249b4af4",
+    "published_sha256": "d4fa44eed7ffc130930ef76867cc03d685e3a17201e30c7e1e00c92f3a4c2c0b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.injection.ConstructorInjectionTest.xml": {
+    "original_sha256": "d35a83ac1681b3e8308a607db190b4c167cef84031a7d7a1206ca89f626fd35f",
+    "published_sha256": "b649522e2ce85720e770ef56586fdb885a9bcd1fbb47b29071866bc5b32c621a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.injection.SimpleArgumentResolverTest.xml": {
+    "original_sha256": "02a48eb1eefa63e1869587825247f33444e05a742b001f1dee8de78a9dcf8883",
+    "published_sha256": "5e0e9498e2d09b5e8a3e6c3e19e766d530a96e94efebed56c3dcf32d8499b8ea",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.plugins.DefaultMockitoPluginsTest.xml": {
+    "original_sha256": "80da798546ab089e5b52ab846c66fe8744926bea94f03bc79a6e8792846b34d8",
+    "published_sha256": "188d6c193ec0c9f0e06e29303da04fff1cc396b5e00780fc813922bc481853a3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.plugins.PluginFileReaderTest.xml": {
+    "original_sha256": "32f4e8831f52a0d44b73bd8c3b5ad22584caf21af44afeae1ef1de5ff714b0f4",
+    "published_sha256": "60ed089ea6b045e3753ec856ee014041b49dfe667740bda1e5e19d188af2501e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.plugins.PluginFinderTest.xml": {
+    "original_sha256": "348685a24ef169199bfab5549f37433f55ec6ee0f55509411ce171475b4d683c",
+    "published_sha256": "f12f9411836b46dd88b2852e92bf18fdc3222f2e01a740c4d260185549ff6c2f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.configuration.plugins.PluginLoaderTest.xml": {
+    "original_sha256": "ec001632623532b7ea5464e102e5f90003e24b5f92749944fba7103fe4a86f71",
+    "published_sha256": "571ca7653add3feac53b97f99dd21c74176881024c15b9f4bcebdbc2be7fed6f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.DelegatingMethodTest.xml": {
+    "original_sha256": "cdd1ad83ea1bc9966c450650080a0e1f6207f7bf75e6e3988a543f393d6aec31",
+    "published_sha256": "8cbd866a2b26d8f94980089f7ab405ab347351e40787727ef9897ed3adf0b1e0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.InterfaceOverrideTest.xml": {
+    "original_sha256": "8cd2eb322c3ccc32e46b32c4f84b927d528329be5366ac24a6d33dd9ace988c8",
+    "published_sha256": "da68cd2ec18ac1a4eebce1affe1823e209c0f889449bec3c9dc4c487bdbfe831",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.MockSettingsImplTest.xml": {
+    "original_sha256": "a3bd95b62376bbf48c1cd011d965c0765c7e1d41d89f9099bfe6ad5ed8946f20",
+    "published_sha256": "78127be05a27a474e9e26f802a4f10147f145ed73ed7ea8b5de532878417c1b0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.bytebuddy.ByteBuddyMockMakerTest.xml": {
+    "original_sha256": "7a7365d6ae825ac54fd67d6bf1edeacfd32044ab7f27e6ff8e4b65083fd15336",
+    "published_sha256": "7ee95729214c839a98815564631189ecb050fdbd0e6f0b096269d59298b247e8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest.xml": {
+    "original_sha256": "a948148cf561a38d4f3b165fa5557138b96c5fb7b3cfc23134e4b24d8b685aff",
+    "published_sha256": "41a2fe89010443a67bff77d7832869da1e96e7bcc90241dd31f90e4944c22ee8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMakerTest.xml": {
+    "original_sha256": "bb174943b2f17b8ba6bd323e12499b664f5b1aa93c00ddc4cdeec0381c027d0f",
+    "published_sha256": "2aa13287ad603f86d22310e0bebb20fdb5de3905c3f03e24579e62190876f8ec",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.bytebuddy.InlineBytecodeGeneratorTest.xml": {
+    "original_sha256": "67def5645b3341973d497b68bbf551ecec5bbbd8908fafb5b67cec74f6df6363",
+    "published_sha256": "5c68bbc3087cb409847ac9041bf3f27985b324bea6717177691090c4e09679cf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.bytebuddy.InlineDelegateByteBuddyMockMakerTest.xml": {
+    "original_sha256": "00396cf7b3b2644c52e19af9e5d644a9107d60cb8729ec09a212c00f78075252",
+    "published_sha256": "6ff51a7b586bb510d791cefbc8d53e6633e1b3c3ffd33cf63b136acb9bdd9546",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest.xml": {
+    "original_sha256": "f4bc1b641496d7a4da4e0584d3d0d5f5c2af4960d650236da901142cc3a99a97",
+    "published_sha256": "bb30b7c56cbabe815c4f977e21ef0acf17a838d9892b1736a34fbee3df48bbb7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.bytebuddy.TypeCachingMockBytecodeGeneratorTest.xml": {
+    "original_sha256": "d0a03229201a7aae4d2fbd73f24296c9a42c2a4339ced9a263b5843004bdcde9",
+    "published_sha256": "ee34f8af5b99fb01b418aff2216e7b63ad23b68f218845e808c5a61ef823f5dd",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.instance.ConstructorInstantiatorTest.xml": {
+    "original_sha256": "b4015c6b0ab11727b22d701e0302069b6ae61aecd42604566665e88036ebcf78",
+    "published_sha256": "08dc11207763c812e1edc780703e9de87941b87487594ed6a80e547b334539b2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.creation.proxy.ProxyMockMakerTest.xml": {
+    "original_sha256": "4d0343f2dd672ef8b15808083c27822eb4671f749e5cd0e608388b6382b9e777",
+    "published_sha256": "1076dba56394c3ea4c767418c758a9da6b7df216182cc619f92405ba81510b43",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.debugging.LoggingListenerTest.xml": {
+    "original_sha256": "8d76653ef92cb3841983f4fa84683b6d609e01953cd6bec12a136830dfb5e778",
+    "published_sha256": "3142b6e4173744fa651e8d41f492220f0645d3d26091823f5fdc98761dba4e33",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.debugging.VerboseMockInvocationLoggerTest.xml": {
+    "original_sha256": "89ff4ec558194169408a6c46cb08f3af3517f6c17acf352f4e3d995939b22fb1",
+    "published_sha256": "1c79429d235c95e48e1853f3b48c8018274a39c759161f583c8cc1cc79a6a043",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.debugging.WarningsFinderTest.xml": {
+    "original_sha256": "43002788f0cf71cbe3b9e4396cd2cacbf05c921b424caf2a074999ce92d519b9",
+    "published_sha256": "c45e4bfe491fbee4aaadd272caadd7f5fb7f3bc363d8680fe2a96499b5f995b4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.exceptions.ReporterTest.xml": {
+    "original_sha256": "23df33184d393bcfbd2c53546e51cfdf32fdc8ab98ac0d43ca8c5af2d7740128",
+    "published_sha256": "5672bc07f1faf161d4a72aa6111efaea5e823d9303fddb0163d8548b4ee9a626",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilterTest.xml": {
+    "original_sha256": "3a0bcf27c2a656aad6efb5585d985692169c5f241f2100cf141c008ee5dd7d36",
+    "published_sha256": "93197060651f64692e2ccbd00a10ef2a39b43093e61c1e55302a21f815f6e273",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.exceptions.stacktrace.StackTraceFilterTest.xml": {
+    "original_sha256": "2600b263ac7a062cfbbf547e43667b6cb98afc52f5f4d1c74dc08ddc53bb4087",
+    "published_sha256": "05f3f4db19ae86df8c4255db9c8075a6bcb487337deb418b1c60bcbd008558b0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.exceptions.util.ScenarioPrinterTest.xml": {
+    "original_sha256": "7028844d7c85864f382d753e27ec6deced36202afdca90995a041dfd376d8c3c",
+    "published_sha256": "abcb60a4fa93d5b1428906340d71cb141e8582d85776cdb4f7357a57671bff87",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.framework.DefaultMockitoFrameworkTest.xml": {
+    "original_sha256": "9cee9d9911f5039ce7b5d747ff81eefd0886170d6b33050f13d03f4ea5a4e0ca",
+    "published_sha256": "90352f8d99e83b0aee4a3c354383d9315f5ff0432cf9883836a3d78b31471c89",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.hamcrest.MatcherGenericTypeExtractorTest.xml": {
+    "original_sha256": "ce5bfe0fa83a0e829f739129d35b6b9b3d9dfbe54bf2da2ed348b6a6b5cdc58d",
+    "published_sha256": "0ed247f46fdcedcb61a0672e17a1fb08834122636644d1a85f97390e984def76",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.handler.InvocationNotifierHandlerTest.xml": {
+    "original_sha256": "bfe0d46d81f7ba687b3639c8b629f68c24d02a999c00aac7a015b995ecb7d226",
+    "published_sha256": "ddc4c5374f7118c7119c6ac34516164a5434bddbfa82b9100b20ef873f608f00",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.handler.MockHandlerFactoryTest.xml": {
+    "original_sha256": "6c9db0472d1f74dc64067a8e07c7ea5ceab2a9aa6918c63c31a479493897df14",
+    "published_sha256": "fef6e8484b52df1b3199dadc873b6dad59cc57c811d0590d96956b76a9944102",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.handler.MockHandlerImplTest.xml": {
+    "original_sha256": "05ebd62760b3c059e1ae0945f3d9ebe8ed498e3a3d08b43350326f66d64fee6e",
+    "published_sha256": "590ed3e3ead49930e528da1ed71b6657445e6b4b9a7b0a5c9bde1ac4aa8aec99",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.invocation.InvocationMarkerTest.xml": {
+    "original_sha256": "104bf515706133ce158e0ddccd098a54731575c3d405a255fb63e9727353cbba",
+    "published_sha256": "4fe6f4a2cb9095624f83539b73f6ead3887aed3b2d12be194d53fb87d5deb051",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.invocation.InvocationMatcherTest.xml": {
+    "original_sha256": "fc7f4b91f132cd975df394a6f8a2a031fa0dedd3a80516de100a560e503bbc43",
+    "published_sha256": "80d29826e5e3aa3cb398a6b7ed5a9f58ba6b941baaa82fde20699c740e75acd9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.invocation.InvocationsFinderTest.xml": {
+    "original_sha256": "a8c25931ee69a89c40dac6141db2d8ef21db495c4addbc1dce11f0c1bd26aa70",
+    "published_sha256": "a418b1ef092de8dccd58051b739095360b1736baff528e182357e6c8c1bf7f99",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.invocation.MatcherApplicationStrategyTest.xml": {
+    "original_sha256": "b6033cacb0713b23ff4534efe873e1b6d87741913425361063a1006f1aa26066",
+    "published_sha256": "681111a552e0dfa2a2bd77d1c0cf86013db3e40752f3be402d0f28df39f46c4e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.invocation.SerializableMethodTest.xml": {
+    "original_sha256": "e8759d25f573fc2719530ae2a867750741c7a216f28e13d2d1f0c57b5ec8ed15",
+    "published_sha256": "d57da3cff33ec7ffdc90ecdb8e490fbf48381b7c514b199eacec9be939a4ef17",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.invocation.TypeSafeMatchingTest.xml": {
+    "original_sha256": "f518d2ee6bcda1106e441da315fe799484b8a9ccb1d85f96896853e549286e2a",
+    "published_sha256": "bc699cf1565f4f4ca0919e329bf3035d848d3cd7cccbe4ba424e62ff263752e2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.invocation.mockref.MockWeakReferenceTest.xml": {
+    "original_sha256": "02cbd4e6e19aab47f4eb2b21e6ac9d9851adca5f0f59269b9a2d0ea984125412",
+    "published_sha256": "4020c61ac06cf856c746b7e280a94dad47b04743424a010f68693d24421a467c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.junit.ArgMismatchFinderTest.xml": {
+    "original_sha256": "ba75fe94a71d0f30583929de1dbced7655320ea5efc3c75b9aa5612f8a3188c6",
+    "published_sha256": "cf7daa255c4fe1f83b0d5616726f1509bddaa3a8589809abfc572e74f8fa238b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.junit.ExceptionFactoryTest.xml": {
+    "original_sha256": "8cd4807de7a9c67189c95b5c7aed8d446aaa2b27937ffeb11682e008fada17b0",
+    "published_sha256": "9cdc52d3df6aab6efd530be7173df601129e7131aa4e31ea8d16fc6c04ebf7c3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.junit.JUnitRuleTest.xml": {
+    "original_sha256": "bcf25522a59794ff00bd1fdaeec42164eae620db7b1c07edf34cbdd991327906",
+    "published_sha256": "f8e4e40a9cc01f03be9f49e8d21b9ac33390e3117ee2fe6c09b044d71790c929",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.junit.StubbingArgMismatchesTest.xml": {
+    "original_sha256": "893655fc16da62b6676e9122b285361dfd9fdac12a5658acbd33620afb780454",
+    "published_sha256": "8d03cf8a7d455c81e4514341760288a6763611fcd7f21bef560547f58c8b9601",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.junit.UnusedStubbingsTest.xml": {
+    "original_sha256": "90d43d9790b79f3f4792cecc58ca165bbbff6997400a33e9b773aa38f671e54c",
+    "published_sha256": "b5d9576b61f9cd00800ee15aeae2f3c0af58ca6dc14ad4c0b3acb0939cca6067",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.listeners.StubbingLookupNotifierTest.xml": {
+    "original_sha256": "3a7b8a0eefbedc28734cb699c833f2ad8c6d9d5160ded7cc41252a73fa5dde43",
+    "published_sha256": "18a9f2c3314ed546c055a9e92d29604b9f71f3515775213b9c2f858aaaf54347",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.listeners.VerificationStartedNotifierTest.xml": {
+    "original_sha256": "0e0b04f7d20c32425fe7a470f1662ea58ddb6ebbb7675aa6df824a39f9c588e4",
+    "published_sha256": "cc2a47d8983c7a993aa140d80abb25e8102714647f8e7137963d20373baee447",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.AndTest.xml": {
+    "original_sha256": "94020bef96d37d1884e544fb3f33c1a3489610f9e9248ba8d7a810a6a9d454ab",
+    "published_sha256": "b34bbdfb10367b61662e9d450e449fd8e0ca379d08dd7052234c4a6ef673332f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.CapturingMatcherTest.xml": {
+    "original_sha256": "ae8f373d102ae8f5e46dc61237be5898cecab21d5cb2fc3c2b83df27cf8bf679",
+    "published_sha256": "497043023353f8ffd3d6ccb38a543ea7fdca92250f8821b4339d8bcef504d957",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.ComparableMatchersTest.xml": {
+    "original_sha256": "cd5f48aa2f3812e4c499c3d633b2d88754cc787a9878f4af3c8cd29c326349b9",
+    "published_sha256": "90fb3d96b55cec6e6dd23396130975c3429bf7e609178ac5129916c077ca6569",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.EqualityTest.xml": {
+    "original_sha256": "58f56f52b39c5b057386484daea226b21663963bbbfbd807109edd6bb4140fed",
+    "published_sha256": "5308c0f9c7caffdeb833804282f33887cbaf63851bbd3b6816f72f938db0fd49",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.EqualsTest.xml": {
+    "original_sha256": "0851cd0b5dbfbe0712249d7eebda21ec821e8554ccd673d3a893c3f90079c990",
+    "published_sha256": "53070a4a2cbfce3e7bb5c6bd76b2de3bfd6ddd2ae9c1cc10ab9527391e7d7ea9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.InstanceOfTest.xml": {
+    "original_sha256": "6d9acb56bf780eb2b8ae8d95a8f1eca2cc3ff70606c15d0069eb351904c91221",
+    "published_sha256": "9ba1ff36f151be542dead555082800ce1875d8318c240d52b10cfe03babfb6e8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.MatchersPrinterTest.xml": {
+    "original_sha256": "2c72715a364066756d2d8891b8abdc6d2b1079c08dee718ee9cfcc44d39c5e9e",
+    "published_sha256": "f7e6ac2ce1951e0f74a7546e4ef307742f7965a1a6bdb46ad006556e04302740",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.MatchersToStringTest.xml": {
+    "original_sha256": "22a9651271fc3e56be1634f0add58a3db88ce0e65e53d5ad7fd3ac8fa8c6aa31",
+    "published_sha256": "b5e90b70f22d769ba44fa7e451642ef3c7f3017d253dc7a03cd2b348fd6c83b5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.OrTest.xml": {
+    "original_sha256": "061e92583a94f5d55b0028b1c5a9c53d008fa248ac0a134e704a6da6e90cf031",
+    "published_sha256": "77fa30bc4faacd59ad34cebc9ca8f5c74e5b93bdf6146390b73eb5c250bdcc08",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.SameTest.xml": {
+    "original_sha256": "6afae175cd9becda3cdd7b44cd8cdf24012aac97dc69488594bc6ff4a1dc53b8",
+    "published_sha256": "5fc43dd06d8263fad8e4b29c7a272de067c037837bf40711448bdce8566fff3b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.StringMatchersTest.xml": {
+    "original_sha256": "b4eff9c4f01d3b3b3f5e2d96ac3e64259cce3df392e7c2ab4037a2b249a8f14d",
+    "published_sha256": "cb97d1838ec0e0fd94bfcc61ac49a5df975c5b09109dec84a89da47985622bd9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.apachecommons.EqualsBuilderTest.xml": {
+    "original_sha256": "c722e52e052e3ec47a1ae9a14edc231188558aebcb98071bdc6daa0d5a4d7f43",
+    "published_sha256": "1a64b343e6663f62fb6dda66cc59e51ab79c7f11dc3e3da386b2f9e045a58bb7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.apachecommons.ReflectionEqualsTest.xml": {
+    "original_sha256": "5f58c74025aa487977fcd48af9fcd870df6082c88c6fc259d0279d52e5902142",
+    "published_sha256": "a8f627f8b62fb4efe3f1c08af47df1928ddf2aae7069c878244177f69b338db9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.text.DefaultValueRendererTest.xml": {
+    "original_sha256": "f2aeb2151c0e9761992650f83eecc072bf1d7600c6393893835a37e22d62b92a",
+    "published_sha256": "f958536bf82edb742abef0adc588d19f8d94a5d2c61479deddb9ffab8209f4a8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.text.MatcherToStringTest.xml": {
+    "original_sha256": "993d304037da5bfd49d5ccd8fb014093e827752ab62c1a5bb6e8f3ab42fcc99d",
+    "published_sha256": "8f9572a9b1cac5f6db689f7000d982c8ce60acd11048350dd9c66ef54ee02b27",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.matchers.text.ValuePrinterTest.xml": {
+    "original_sha256": "233a230aa9706ada944b44b3753d458b3f1279c1b64c74df7311db0ded70e3d0",
+    "published_sha256": "6a1efdb0f969e5399a022915a7651bed23ec6f4e8aa33db7ffe8900e52e9fb81",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.progress.AtLeastTest.xml": {
+    "original_sha256": "6e9043f6c00fa8f1df0a16f273b86cf7a5015d5b50bd1730e5d1a6e0fbc5828e",
+    "published_sha256": "5e2ba9561dc9aea7f261d8431d67d314308233eb3bced34dedcc108d106f393f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.progress.MockingProgressImplTest.xml": {
+    "original_sha256": "7e1433962373456d4c135f142f337e377ce108083d85b811d21a80fc4bc553b4",
+    "published_sha256": "fb1b4ff280d4957a4fb516121f99c87d79edbcf73fd88af908a9f3ed50ba61ec",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.progress.ThreadSafeMockingProgressTest.xml": {
+    "original_sha256": "54c50b33a8c594a0e833ebc71e8fad0a64132af8229cc5fe6d1efa8929de7799",
+    "published_sha256": "9cfaa7eff1b9d112e765ba9bfa1170d7da6ef9f66ab172f82dde9c0ecf5e2c31",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.progress.TimesTest.xml": {
+    "original_sha256": "4346e2596ec6d7a1ec38318b50310992ad86d272e561a89261805805f1ebba25",
+    "published_sha256": "c677fb46c0c9561ffc928506c338a8d9aed395ade4535d35fb3b75fcccf29614",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.reporting.PluralizerTest.xml": {
+    "original_sha256": "90b823c8c9aa48b7725958a6b3837b2809a36b82909bc70f89b90477cf878a59",
+    "published_sha256": "6efcba62684e3720f19ac75a0ef3d5c2c2ffaa3389bd2c267185c5fac625b4cd",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.runners.DefaultInternalRunnerTest$SuccessTest.xml": {
+    "original_sha256": "659dfd80cd13b4050197be969fc9cc28ab076a18339517dd707a2d6795dcd465",
+    "published_sha256": "b86a4f77f52725ebddb9565254554aeac08c489475fe0ba27172b9d30d655095",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.runners.DefaultInternalRunnerTest.xml": {
+    "original_sha256": "b5ac3fd49446e2180b339af1d38d535517ea37b7b8d642958eb95ea04fdc6d46",
+    "published_sha256": "9d82faef1639e74e5d4b9da2ae38cc6548e660c11be2bbb920d313ca71629690",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.runners.util.RunnerProviderTest.xml": {
+    "original_sha256": "2eb66c7fa2ee78060073a7c97736c4edea9876496ec4e15dd8520cb26715f3f0",
+    "published_sha256": "254a027e693ebff5634af612f1be0d5fe79f2736bc36ddd905fc39454df34b42",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.runners.util.TestMethodsFinderTest.xml": {
+    "original_sha256": "0a8ff55d691bc84f22b26361b5b0d497b5ee58d9e9d64bfc870a1f0e3f850fe7",
+    "published_sha256": "dde352efc938c24e5affcc0718cc2445358bd0aa4107c7b8d7712d90ced3a6ce",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.session.DefaultMockitoSessionBuilderTest.xml": {
+    "original_sha256": "9696ac24946008f6e40f01eac7a2d95ddae6606021c5d9aa6ec26593600c0230",
+    "published_sha256": "221e7d812f01f7214c19601ed2c7ff98ad3221a9c57703bc41a9a34111c36e64",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.InvocationContainerImplStubbingTest.xml": {
+    "original_sha256": "787450cc19c71b8d0b74f13469b9a2ebce76a18e0532a11d3b840cbceea50f5a",
+    "published_sha256": "2f77c6daad09cc16b8b0fbddaab57f24328fb4d5d1a767913a396ae65071ec87",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.InvocationContainerImplTest.xml": {
+    "original_sha256": "c6fceccc517a258203a60a1dc1e0143ebfe7d7a553bf57c72ee2af20837e2da7",
+    "published_sha256": "b69accca06a723927e439bbba3bcee2bedfadfdecff3dbcc704e22f7813a5faf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.AbstractThrowsExceptionTest.xml": {
+    "original_sha256": "d41a5e9d810509414addbada329cb833a06d3f396b2b4fe596b1e55d4f74a43e",
+    "published_sha256": "8a5ca5eb68bb830b4e1a47f381a18016949839ae2522886324fb01a009fe8668",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.AnswersWithDelayTest.xml": {
+    "original_sha256": "131668b494bdc99ac70204f4b6f7fdb13ba956d1e57e6a8b95015d58cd5931f3",
+    "published_sha256": "9720831fe41366c59ccf8bbc362f0054d47cefa232b9369086e0d9927de26e1d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.CallsRealMethodsTest.xml": {
+    "original_sha256": "fecc8eb2b0c83f8df85dfe4512465c8aca6091fe172ce48b45b0ef734eed7006",
+    "published_sha256": "a7416ce0c57c11c1b952bda921eac0702ffc04d9e17a096047869804d05fc9e3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.DeepStubReturnsEnumJava11Test.xml": {
+    "original_sha256": "ace7390a3a4b45abece2021adc37ad51adeb854c7a194e016c5b4d395333191d",
+    "published_sha256": "461869642d522f207c4cc24cb0d54c3a58f916faf3b951295aed4a7873346208",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.DefaultAnswerValidatorTest.xml": {
+    "original_sha256": "b64e8f9a001f553f19edd924c4fe252224329c9692aa3fdfb0722329d63e617e",
+    "published_sha256": "bda81dc1c2f8197b7971fdfe9f03d0176b9e2fb4d3e7df1374a0951ab73f9d9c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.DoesNothingTest.xml": {
+    "original_sha256": "49411f7c0a3eaafb4346a2e0a3e9cab881e9656e0e6a58ec7df677bede17d9d0",
+    "published_sha256": "5081ba3c097c8f3213331f7466e1058538f7f11892832a76d34fdc2a48ccca3b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.InvocationInfoExceptionTest.xml": {
+    "original_sha256": "7c3a7ae19400d69d250d6518856cb766f3653b33e209a926f44deda75921c325",
+    "published_sha256": "c5908223dd19371e1e1898a7400d82c6d3eb0d33c6f296bd710bd0c7d7a2c987",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.InvocationInfoTest.xml": {
+    "original_sha256": "b8f0d2d3cccb0726f121aa53d5fb1185502fc41e7bdb5dba0a3bccb4434834bc",
+    "published_sha256": "41cd7e03c47ef993f4234603e24c17678ca91b0b76e4d7a6a863c5036f169d5f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.ReturnsArgumentAtTest.xml": {
+    "original_sha256": "2ac1f37a75d581e8353e32712c684a03afba67a4275a20c5569c24619d2eb02a",
+    "published_sha256": "55a937ad093b49bfae9bd169e790779268002fbedece8d7cd58b59f613c275a7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.ReturnsTest.xml": {
+    "original_sha256": "8c9c725d8c7df175d0f5756ed83ac584d5f49b3d4252abac61141578f69ab2ee",
+    "published_sha256": "d44bfc442366ecbc9083044157df71a45871e79902cc9fbbd64b03ab6b0df0f1",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.ThrowsExceptionForClassTypeTest.xml": {
+    "original_sha256": "50170ab0fdf7f1bd6d19e171a5973e51a0e2ecaf42a97ac405d0fcf4866e34e3",
+    "published_sha256": "85222a3c5fca29d80013ec428c6c64341de69a9863f01cc6a7f0a9c1efe139dd",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.answers.ThrowsExceptionTest.xml": {
+    "original_sha256": "39a4be9d07a341d3a01acd4100334453e22f42d100d3ac579177ed2951846514",
+    "published_sha256": "a7085f5c55606ae796c1b8523b9a95e8645f168a6de017af4389fd36529abb45",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ForwardsInvocationsTest.xml": {
+    "original_sha256": "eeca5a36f7828cb3594f3a72620fba5f82f9f3d3f5b2fc8aa6c5265800e76bd6",
+    "published_sha256": "15cedc3b995f84d2b743a95863ad0fa059842c3f00664fb1362345c28dbddead",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubsConcurrentTest.xml": {
+    "original_sha256": "3b8e34dd76e789606f29160ef04476ac95d96c0ba20cc03eff688048b14fe039",
+    "published_sha256": "4aab36fda795f62c15055187a264924e1672f5c8be2377680bdafbb29aa4fa71",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest.xml": {
+    "original_sha256": "cfadf287beac5dc58dc6fcd8be0816744538c79753aec8e70e01ee05147af535",
+    "published_sha256": "33f4e515fc5106e9d9e7108665ee2b9a7edd51b82add03331f60d973757e1e93",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest.xml": {
+    "original_sha256": "2925c61d03779d2aa6d572bce5b7e91f1675423bd40c3f48925ef3e75fa93e1f",
+    "published_sha256": "f0d7af238506478259653f43d250eb27d74f2286f3e2bad6a587adbe5238048c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ReturnsMocksTest.xml": {
+    "original_sha256": "ec5a635d8f438842c4db6341bd482c205c8f431caf2663449bb8ca5fe8073abb",
+    "published_sha256": "84cf6af4b95d07054ac99de530c92b139fe6cc5d1f03d75b36286181c447ee3c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValuesTest.xml": {
+    "original_sha256": "6906e6e7a33662353a601d54c80c4324c3905ccbc589ef7e1bc40b4a3eb8e3f1",
+    "published_sha256": "6f16ff98c8cf89ec8c5e1ff8e4de050cd945174ad7c059f47e2f9410dd085682",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest.xml": {
+    "original_sha256": "80d4545e96db417efda695ef38962ca4af538c910783bc8a6285d67aecb79658",
+    "published_sha256": "6f75479c866425900a595d47cdb0d96b3606cda30567d88d69fd527b844724d7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest.xml": {
+    "original_sha256": "bc188e2a013dc562d4b6514c22aef7483fb869285170729a9c63e9a1b7cd0af1",
+    "published_sha256": "e238393a9f30023cd5c0b91cf3bfd24702782091a74b122e07124c09ec5e2491",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.ChecksTest.xml": {
+    "original_sha256": "820e45d31fee17daa6a139f954a07cccbcf89b3cba2a4a6516129277b5b66e8f",
+    "published_sha256": "020daa0617fd4af2cec915924189454b65fcac1c980f0909ac12b6af1d2d124a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.DefaultMockingDetailsTest.xml": {
+    "original_sha256": "73c09e77be2f955a47e01f0d4daef71568b8a63952ccaf6401b69193808d7a0b",
+    "published_sha256": "e6041579570c0a510161959150ec62f740ec16f753052d7bdb7a5b9583332361",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.MockCreationValidatorTest.xml": {
+    "original_sha256": "f86168f41cdf73bcb72497d5b81d8717ec6b2ce0dbbafb9df3b8eff0fd365022",
+    "published_sha256": "0e731ce7278c5230adf4af25738cf3593b97540e3cfccda6c7ce2cdc4c762a48",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.MockNameImplTest.xml": {
+    "original_sha256": "e151710c59f30d318d687f86a7dbe56dbae306224247e4500fd55f8c8c806d3f",
+    "published_sha256": "be1a08cea40d2bfc53dbc5d2b326791cf1146e92d30cf5f9603886bb230ae75a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.MockSettingsTest.xml": {
+    "original_sha256": "d3776a432c6923dafa1894b054aee4af4f74f7a99e924b54579d975e9d6a27fc",
+    "published_sha256": "aa1304c7964df3bac8233314e44a93cf34556854228e042f1f676937fbef81fa",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.MockUtilTest.xml": {
+    "original_sha256": "f96e0c5114c396a1bff14252b7aa05c7455012e622bc3ca55d7dd6671d9b2e0f",
+    "published_sha256": "974c64b09f278bbf1218b9efc3ff785120c0f27cb488b1a341c95bc470edddce",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.ObjectMethodsGuruTest.xml": {
+    "original_sha256": "50619cbd29263d437cbddca993d33f2ad4d47d475034d5a559d6d0399469c276",
+    "published_sha256": "5527b6e77b278ba68662e3843c71bbdc172a5073201544ca2554eac5d0849c73",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.PlatformTest.xml": {
+    "original_sha256": "31aae66389dcadeb29d220c13d5da000e343005c08a53b3d5781f3b0422517c6",
+    "published_sha256": "60f33efe2e66ab86c8eecbe41e32d8ba3f35b0dd2b9a62f42b107ad5b297e245",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.PrimitivesTest.xml": {
+    "original_sha256": "18b2b403732e069909b32ee6a701124b36f01a31a040dbc65ac459448be1faeb",
+    "published_sha256": "1269dc55bb7cd69010e3bdae42f86adf759ff2fbedf154e7b67b5c1087ae7d2d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.SimpleMockitoLoggerTest.xml": {
+    "original_sha256": "7981fd3c58ca249d905222a60a4df0a94532e3593d5ce60858db3cac45186ebe",
+    "published_sha256": "ed9cb759d4a1d51efb4f6ae13e7d27170cfcd108c5edae5acf2d1266d691b17f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.StringUtilTest.xml": {
+    "original_sha256": "2fd1f8f32f6234fca6ee7221e8717a932d31310b91161d1f796906a2db78cd81",
+    "published_sha256": "e6f0b9945596ce76d2832482022767e8a5405688369638cb73aac22d1e5954a2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.TimerTest.xml": {
+    "original_sha256": "654f69f49131365d077bc0c7631bb6ce3f14f83b4c100351908566e4afa5efad",
+    "published_sha256": "3c18a93756168c466dda2441951a6afed29b05fc2a7934a5c3b358b7d9946ec5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSetTest.xml": {
+    "original_sha256": "7cdf2a2b5f515ca4638fae91a74d3e4b684cbf00ecd7906a6be8d0da396ca409",
+    "published_sha256": "f383a7ca08bbb9c93cbfee8c538f0d0231d0e89508c5922fab8118bb447cbde9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.collections.IdentitySetTest.xml": {
+    "original_sha256": "0c25064c12970730f9b5fe688ed5b107d7fa6a8944556d37a4953fec17c8b854",
+    "published_sha256": "4a85c943c6ade81949bc0ead5eec8d3b31520727aabb1971b72970d40e6eedbf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.collections.SetsTest.xml": {
+    "original_sha256": "d1201f2a6c2cb842747f926f73209ca1c4b37c9c278e7ccdf8134bf07d4d35bd",
+    "published_sha256": "f1059e050231cd8002afbd0795fc939c39a9704046e2c63b178ea4ab0bb84318",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.collections.WeakIdentityMapTest.xml": {
+    "original_sha256": "01816752994cf2c0a04b18a39e3cfb36002a6a29b77fd9e5982041221f22ed8c",
+    "published_sha256": "c8c1fbd9230099d9e24018453e845129fc432bd84c0dc3b732e8d3f2a1a822e4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.io.IOUtilTest.xml": {
+    "original_sha256": "8d05edc40eb6e86f89c7609f4c594446158b2cea1969e5a8441b74da5a021da0",
+    "published_sha256": "d20cd44cfa07b64019ddd862315f138909aa8833ace412c9be832c8667b668c8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.BeanPropertySetterTest.xml": {
+    "original_sha256": "615959f212b0c0b164d39f5f4e5683a5c46b9a63d239c08266282932f74032e4",
+    "published_sha256": "b04d73887f6a81279b713f292a6f80bf902be754ed387c67333997a04389f260",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.FieldInitializerTest.xml": {
+    "original_sha256": "e1ffe8998785be61c6649bf4ce4e6bb8587239f9166d18f507f22bcfa01a6e1b",
+    "published_sha256": "c5149e2f1e7dcda9aec897149c3dca5fe4aa96049984550e1745951557d34d62",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.FieldReaderTest.xml": {
+    "original_sha256": "616b5d204627524d57584dda5060a79fcdfa1dcc17a9d524928c41512441411e",
+    "published_sha256": "149a6e04446abed2b9009e34361d1c77b7ddb1a762b6afc8eadc9e34e2413b7e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.GenericArrayReturnTypeTest.xml": {
+    "original_sha256": "fff142899e950da9cb80cc035f1680b0b6375d53ef25d60e06c03491bc91805f",
+    "published_sha256": "d54af301cae034f4f9ecc7153968f8d5bd0b1ac4961198a9cd17143738cc3f23",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.GenericMasterTest.xml": {
+    "original_sha256": "d3ca691f2b29f5414e168e7fdb7120ee1938e36cbe7dade8d51642c3f847fed1",
+    "published_sha256": "b86c3021ddeebf983e017ff0f4e495e6358860beb214c982be5b17ba9f7b2f48",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.GenericMetadataSupportTest.xml": {
+    "original_sha256": "c496e60d59fa4065b994d626d1be1b423583b7b6c4de101d90b4ae1d6572dc4d",
+    "published_sha256": "e4b9e1d41e914ba11fdd69a3427e5054aad78735a4ab810e7208bddf7585cc85",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.GenericTypeExtractorTest.xml": {
+    "original_sha256": "1e9f71d4df13ef0b99c5e3f302d56b68269112d87a36cf952af408b849d0d160",
+    "published_sha256": "1885b4104b7877d145d82a8d8636d3bb84d22321710083f0ef7d173451faf109",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.LenientCopyToolTest.xml": {
+    "original_sha256": "673009fb45484ccdf43f824b8d8033b6613698dd8e333d82a35c7f3db8c4e9b3",
+    "published_sha256": "a2304b5258625ca51bd039106aef5e4888838d2358c7e5387c232da45659db60",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.MemberAccessorTest.xml": {
+    "original_sha256": "7f4ef68a7323e564738040d830381e7ca3e86f8a57ce912ba7c80b45996dfdd7",
+    "published_sha256": "33df28271215644b6168ce407fbd28b3cf7ada23fd7fbff76f0ffb7debcf8711",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest.xml": {
+    "original_sha256": "36383f4a5e20c4f44dac8b918a8cb491aceca628942c6b8655317edf054a09d5",
+    "published_sha256": "92c779aa7879ef900ee1c04986b8aad37433533df57b42cac603ecec25288957",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.util.reflection.SuperTypesLastSorterTest.xml": {
+    "original_sha256": "a72425b86d04990b009623f39775a08903bfb8104a5b3d29699ece77a1cbfd56",
+    "published_sha256": "2683e08cfc21d4bdd82c78e715e3ab3d99c2a1edbcbdf7b56c2a96f0d29c51b4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.DefaultRegisteredInvocationsTest.xml": {
+    "original_sha256": "d86f67a1734c8ab4aebc48fea6bf9ddf72477b045a950559d331ba781dd3c756",
+    "published_sha256": "6e432a44128fa17b37bab82d58141ba4df49036994de95c66059ca4027037041",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.DescriptionTest.xml": {
+    "original_sha256": "8fba292647249e61023977b7f22910432ac1ab43ef826881eef2f5e87378b23f",
+    "published_sha256": "0f21071d7df2d053a88e427601abb80380495be1ce3a173793c1cdd12c313cee",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.NoInteractionsTest.xml": {
+    "original_sha256": "290a63702213ecfbc9a0c565a5bc53d3ef2d00f9034b505f44abb7c269236065",
+    "published_sha256": "77cf0c08756faa9afaed2eaef2c2097993e9a27a84938f549ad44c19700c0806",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.NoMoreInteractionsTest.xml": {
+    "original_sha256": "9a5977ec517801e63b0a03e8dc6bbfdcae8784915e4ad990e05136c727cd497f",
+    "published_sha256": "8c950da0cd5b82ef38b3de0a8c03986e0782ab4a38fe13610670b15dbd5820cf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.OnlyTest.xml": {
+    "original_sha256": "7253ec5e17be9970fa6076c7dcbde0f1107503b08a801cf7770f2abf473c656c",
+    "published_sha256": "b48ed6c90dbce128438434cc784941c50e1156143977b326cedca750a4801419",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.SmartPrinterTest.xml": {
+    "original_sha256": "022313c5f0fe6ea24ca637d68afc869d786ab2f9f9e105e04d151440c31b82a4",
+    "published_sha256": "4cd41837ada456b2bff50a17aadeb9518c9cfda1155e904da5a36d8fecd76921",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.VerificationDataImplTest.xml": {
+    "original_sha256": "09daec0f95470e0889de9dc3765059f644d5de3a42c7e0f8e9e4f13bf5f6c237",
+    "published_sha256": "bc0627de4e5cd67c76fe3e1273569b1954b7e5e824bea2eb6f52d75cf49822cb",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.VerificationOverTimeImplTest.xml": {
+    "original_sha256": "0bcb669155783e2a8ff80f54c825143ee47dd75a675a5cb10083f4585a14369d",
+    "published_sha256": "a0fb343911745e1f041a396fe6c38f8721a627902ce0d3f4a184c5257f2be5d3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.VerificationWithDescriptionTest.xml": {
+    "original_sha256": "f4fda79ed87591b6afbcef5452c5b7ecb47e87a5f0cfd062bbc5431833ea906a",
+    "published_sha256": "522c3f9d07e8fc5831841104152d4f20594940e04fd4cc462f643866c95bd3cf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest.xml": {
+    "original_sha256": "8d749a111c7f7f54e93c4360b24eb2c2a4aded4f10217bc7689754ea83681fc7",
+    "published_sha256": "5676c04c788c222c1894fe89f9dd4f5670a261f4c81f614f1fddf5641d8381f2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.checkers.AtLeastXNumberOfInvocationsCheckerTest.xml": {
+    "original_sha256": "14c711323662aae96fd67752d029f33ec743d669216e193f7f0a735c78a2ee7c",
+    "published_sha256": "70a08fbaaefef2c7208f7a88c46ac95ae8c7e9c88d0a1df3b2ac24431ac87c70",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.checkers.MissingInvocationCheckerTest.xml": {
+    "original_sha256": "8bdc1bbaf372083e3f5db77b4241dff38fc631c8ce4e942b16fafbafbe6e0285",
+    "published_sha256": "f29d8a78c00f381557b1cdbf5f560bdb8ee0e8c49cdedde9d1dfe53756ed961e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.checkers.MissingInvocationInOrderCheckerTest.xml": {
+    "original_sha256": "cf33c80c45563ae22f2eae60b92ff33def920da4eace580e4a772f93384b1e1c",
+    "published_sha256": "a309981a213019043a404943b735603d4bf0dea828dfdcc1e55792a8e06c3f71",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.checkers.NumberOfInvocationsCheckerTest.xml": {
+    "original_sha256": "9c26e82ffc3832b73cae11868751f5358484f9bd5447fd28a3579d397701c733",
+    "published_sha256": "e2dbd94b8225f46dd166c6eedd7418b819af6315752de8fd976a42be2c74e91a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest.xml": {
+    "original_sha256": "f012837c03f7665e9d151a9d9900cef78f9be3d3d86b00a7c58d47162c9e18ad",
+    "published_sha256": "d25fca4cc813b9cab2665e2e4b1cba1db7cae1a5268d9fb956ba465ca58597a3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.verification.NegativeDurationTest.xml": {
+    "original_sha256": "cde49ef4548bcfbab670142e896b0e107ab957039552d557e89ae4e673bc29b6",
+    "published_sha256": "8b46310228eabca2ae88048944a5e14f7d6b6fa92fbc17d45b7bdf10d0c13691",
+    "redacted": true
+  },
+  "xml/TEST-org.mockito.verification.TimeoutTest.xml": {
+    "original_sha256": "411651d73f150c008b1a39c7ef877c8e9daf6279cc09ea7c0a20bc1fc77117a3",
+    "published_sha256": "d69707047ee9f7c629e4e0ffd47e3c51385af5bec89d42cc36551fb558d959b5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitointegration.DeferMockMakersClassLoadingTest.xml": {
+    "original_sha256": "eb315fdd397f4fb57fd3754ce22b6f46e4617fb94cbd81d416cfd8598665545b",
+    "published_sha256": "0ba9b08d453292b4edda057c55cba5f80ca653e8cc230211d10a24e012f174b6",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitointegration.NoByteCodeDependenciesTest.xml": {
+    "original_sha256": "df59a365ed74d1a11f6707bad97357b156e88cb6a604e5cb0821bfe6612b4ee4",
+    "published_sha256": "4c700d6c1650ed414c8867d78a948acb6ece84bab1d554e8bf19bcaf45ed81fd",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitointegration.NoJUnitDependenciesTest.xml": {
+    "original_sha256": "3dde429bd178b74e882e7ec176e487927c889a1cb4a07b7f326b163317368528",
+    "published_sha256": "ccbc5bfb4bfe468405636c3bff4dd996ecb638b618dea2f6632fa4e001711a77",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.CompilationWarningsTest.xml": {
+    "original_sha256": "bd816d1517cfcec1771188e32e28f7856cd65b01c91d67220dec19ee3165de90",
+    "published_sha256": "b9f50a51c3457ee43673d6b6ec8a8bf908438f703a9186889ab81bc2be5eb48b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.PlaygroundTest.xml": {
+    "original_sha256": "25cc87b9f16b26e274cc3c7dcf4f6a6e74a071c6e1559ed3583339780b6d6e33",
+    "published_sha256": "4c2e23b758a3ddc57d1a218c0ff35adc4db851470e612fd3395bdaa5990dc530",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.PlaygroundWithDemoOfUnclonedParametersProblemTest.xml": {
+    "original_sha256": "29d19eaf76ecd030895c5f6d93c783cff8ade10cc2f87e51e5838b26774d4ea1",
+    "published_sha256": "12f808c53e3bc8ac87f12e437f7e0b260d6aeeb87c512e3eadba80fe22163132",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.AnnotationsTest.xml": {
+    "original_sha256": "c7fbaf9aab7752f959c063bebb1e1d65eaaa667de1173794fefa0ec5d1590353",
+    "published_sha256": "098a105373ac5c4df3f40673a58ac9e17d104c13f62ebfd39da0e1e7396a1ca9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.CaptorAnnotationBasicTest.xml": {
+    "original_sha256": "90c3832ecff987f1aadd83afea8f059339414264704932abf23840619e0d95a9",
+    "published_sha256": "a0457d7ad97f8dcb972a56fe120a194074604210998e61717cb7de6980314f52",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.CaptorAnnotationTest.xml": {
+    "original_sha256": "7e5c924a2eb0774eee93914a3a0ef53f9a19a88f1be127fd3e33c1840af4b51c",
+    "published_sha256": "f775565fb0faa591d3e786854cb37dbccf3ca81691230f41974f1eca3e1d04ae",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.CaptorAnnotationUnhappyPathTest.xml": {
+    "original_sha256": "4d87de69f9a32d507d2b1cdf732292fb0b8a281302a4d4ed476e5fa5c8f0380b",
+    "published_sha256": "2667ef5c845f9e9d8ddc295d82330049b51b1c2d92ae63ad62281379d3f29dd3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.DoNotMockMessageTest.xml": {
+    "original_sha256": "31d265aee2026d6ed2b78a7009b1e1435297f3063a714bbe3b9437e83783e946",
+    "published_sha256": "9ee536d328688d64a495edd283d068d4343628cd6d35ccedf9696cecb1beb543",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.DoNotMockTest.xml": {
+    "original_sha256": "fce140cb2cbb8e49189a303a4521ea84f635e19434665b0d97dec96472c4762c",
+    "published_sha256": "5cfb04fe98720954a9877fc8ac9aadd17100505323939b3bd8da694c2483d14e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.InjectionOfInlinedMockDeclarationTest.xml": {
+    "original_sha256": "3e08487ae1e2c49b602470b57872e48e522dd84e698b2c9823a249f913745016",
+    "published_sha256": "d603cfe5fdd7d5630a62488c8019cb5079c5c1e115f24bd0568480d34cc5ff8c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.MockInjectionUsingConstructorIssue421Test.xml": {
+    "original_sha256": "39f720c205294656700f6af4847fc367acf9659142971e52776e2000f48e4006",
+    "published_sha256": "445030aa4f7aa9bf963bd43eeda05b5d591c0eb70d51dce6e6aa6497e4ef5146",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.MockInjectionUsingConstructorTest.xml": {
+    "original_sha256": "8982272366bbdd9b9ed72d0f18c5ce01097b8b65ccd6092e238849e2a690da99",
+    "published_sha256": "3ced084ac3078ae5865074ff3c92d9386c0ae20268b8815e348386dd47586e10",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest.xml": {
+    "original_sha256": "b2e0be0a23f44d6a814d4580fa397c1e1171e11422627b0d7ace0d758b0d9c50",
+    "published_sha256": "943aa4c5557c73faf531dc03cab8694accd60d5894942458d5db1a0d640a38c9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.SpyAnnotationInitializedInBaseClassTest$SubTest.xml": {
+    "original_sha256": "faf7cde80b7fc0d1765105362acc36bc6e3f0ac4e357043ffc14518c768af6c7",
+    "published_sha256": "21d8cd21c8501011695a165aa8319adffe65f0dacae4579b7708a546bb29eaab",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.SpyAnnotationInitializedInBaseClassTest.xml": {
+    "original_sha256": "58ac52b8212f8607d4f82658ebd493e75c6de305f58c4227f59e369f02b61a45",
+    "published_sha256": "e0a2a9e39cbcdf39c5e58da6efa0270f8bbcd1c1e4aed52d9fe5dbc0bd04cb4a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.SpyAnnotationTest.xml": {
+    "original_sha256": "024219bc854c54aebd4c529e4eb91d3f87fe1e7db8b787fcfcba6aae7155b451",
+    "published_sha256": "453c5f6b039b13fea5a05fd026cb825ce52ee435a05163f4246b9325ca7bd4b5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.SpyInjectionTest.xml": {
+    "original_sha256": "f20c009fa63d8823e5cf0146b2ae3cdda4c8d27630dc63f6480fd7af3f3d78a3",
+    "published_sha256": "3ae7637b563ec5fc6484c7ed37c5ce2d8005f40017cc03693a63604ba85cd046",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.annotation.WrongSetOfAnnotationsTest.xml": {
+    "original_sha256": "dafa2464135f7ea8d4095c830a0c82c8fe27f577c4699077159cea0caf417f36",
+    "published_sha256": "626062b516644bb6ffdfb4b4b88c82c6ce56a82f39c9ebd6912ad40e6be30c9d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.MockAccessTest.xml": {
+    "original_sha256": "b11d03cbe575381a388e40351604dce5164a8df01c0db4c62ae4cbfa415285a9",
+    "published_sha256": "e9691f2694d12a812ed3688d0ee749ac7202e373209689cac3e3767f550df80e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.MockingMultipleInterfacesTest.xml": {
+    "original_sha256": "6037615b2c86748643aae7ce0d9deec8e10e111e8c670a825955402a86c9dd26",
+    "published_sha256": "f5b63663c78c0eadc78821aa58fb7b949a03e3a4ed06a633fbe543bd5a45b4d8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.MocksCreationTest.xml": {
+    "original_sha256": "070198700cab12d07afba00988b987eee6711c2efc9088d906c0e94cbb9d564d",
+    "published_sha256": "b482880f8c07fa2cb70a5b8a04eb08c27c11c6480ef28db511585114342baab0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.MocksSerializationForAnnotationTest.xml": {
+    "original_sha256": "86e222dbce553336f1f243ec5acc3995ca7e7668aeeb5f769807fa66de5168d6",
+    "published_sha256": "59fcada0ecdd9e8b5c98556e28ee83815b87cba4a4e5cc9faecb152a13a0c8d4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.MocksSerializationTest.xml": {
+    "original_sha256": "575ed029148ffb6cc8b3f11c15e73a01e16a1f0fe3e0ef869989f78303e81f81",
+    "published_sha256": "f00001970903532178ac7f81d2a665f3083bbc0b27c61e464732a27f754d2dc4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.ObjectsSerializationTest.xml": {
+    "original_sha256": "ee69824ad4559b8a11d3252d38213fee61ffc15cdecb2cf576ec78ae2d1dc7a3",
+    "published_sha256": "0097f6ffd7510e90ca4fc5e0d803c9b4e1c4b77e8e7b2f1586a562accd525ddb",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.ReplacingObjectMethodsTest.xml": {
+    "original_sha256": "8d7a3a2df51d67d15f6cbdd071ad3df326215610108a949887fdfd476089144b",
+    "published_sha256": "4b2d7a244906ef6b08068502bc81ddbc85076f13c3257e63b3d8956b13f09c1a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.ResetInvocationsTest.xml": {
+    "original_sha256": "479342aad58bf140466856d6ddece69f65a23b3c8b3187378a7db7086424803e",
+    "published_sha256": "9738a81aa2406213e399d6f7349bdb6db23f3f82c084cb5705d53c7f75db9645",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.ResetTest.xml": {
+    "original_sha256": "eae95645f979a4835b357c99b99c8238cb4f638994fcfd9814bee96cb47f8fe0",
+    "published_sha256": "b094c81beaf04fe0dc0b0efd1b5c6008ca201898f07af7498c02a303c27bf1f7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.basicapi.UsingVarargsTest.xml": {
+    "original_sha256": "4a4efd54b2c234b5dd0587df30cf087897204b71b802c92c193ae29a2d9d31bb",
+    "published_sha256": "af592a0c0eb013c1c7be7eba0f1e584cec5aa572f2ca7ddfb4c6056314dcbd47",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.AIOOBExceptionWithAtLeastTest.xml": {
+    "original_sha256": "03e2b97d020c1d23bf3421d55ae86d6352dd08af110ee630718b179028573322",
+    "published_sha256": "6e0cacc5d9579555dca5df878ef99466ec0b9222b7c2e77fc45a97a1179458d2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest.xml": {
+    "original_sha256": "37a96048f392481121da883bba613ad69d35736a957773a54a2a98374faed113",
+    "published_sha256": "37a7c62c0e5cc7a9737674692143833073b00d180ae5046143c8801f0b719fff",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ArgumentCaptorDontCapturePreviouslyVerifiedTest.xml": {
+    "original_sha256": "f5f57bbfd033a803b246514effe262287ea1ae7f5f2deed5708b7206613447a4",
+    "published_sha256": "14beae0de34a53360bdc44d0d0f8acb2508b89262c911fe150df7002822c4e3d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.BridgeMethodsHitAgainTest.xml": {
+    "original_sha256": "aee9049d26caf502e352f9002e106c1a871e18d1db4d9197b27e8ff494bb09a1",
+    "published_sha256": "510d8d2dea5d8b044003e1facfea130dc3bc14925fc542757b82b396f7288ec1",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.CaptorAnnotationAutoboxingTest.xml": {
+    "original_sha256": "74b6af25b0f44464f1d45b867e6da90ca34d1625c8cd9ad785de208dd1372e68",
+    "published_sha256": "f7c8d9be353a5406a7a3c8d6ee57e7d496d7ba1f7aa6b699543e8051c5712a9c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ClassCastExOnVerifyZeroInteractionsTest.xml": {
+    "original_sha256": "943c50c152ce6b2b30a3ff171d172c0a7e51ebc21db3f3b2277b8f3ec08b8e6e",
+    "published_sha256": "f4bbba7f59f882d017b1ce8a6e9560b79adc04f662a37f9320ba5c690d8597fa",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.CompareMatcherTest.xml": {
+    "original_sha256": "f550f2ae0cb1c415e1076f25d9493c85c2a44ea6c1c5941db9db48e3f9f9d97a",
+    "published_sha256": "5729f749ec48ff87d7c4906bbd8aaf1eac646d0d048e846c4c2dd014412e5136",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest.xml": {
+    "original_sha256": "19d0fa911ddb0637c426b4abe2debeb6719d5537cd5c8db714446b59c0ef2786",
+    "published_sha256": "0503ae1093804567bc94d0b72c8be84efd87c722774c0efb756b295566198482",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ConfusedSignatureTest.xml": {
+    "original_sha256": "d180722f92a19ad65344630a9d5337fc2233dcd6c1a07aa62002741f77dd1b2a",
+    "published_sha256": "67741242e7392c65aed7e8d3310fc326025b69078365fc4ce33244c1d91632a1",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.CovariantOverrideTest.xml": {
+    "original_sha256": "e3c810e7edd7755a9c59f7c0760ae55ea8e28fd7944cd7ca8d51d7515dffd6cb",
+    "published_sha256": "50dc19dee3f457968a8eb0617d92a4cdb7a8f3b98280717d766b6d1fb2c98578",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.DiamondInheritanceIsConfusingMockitoTest.xml": {
+    "original_sha256": "2772c22883c23ad23446604f9f14222f5263fb74e2f2abf566ecee0c3f285a04",
+    "published_sha256": "ecf2f02d27bc3987f7e8d8a87bfa227e6519528a345ffaf9a5b42c6811eb33f7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.EnabledMockingInterfaceCloneMethodTest.xml": {
+    "original_sha256": "cf6c90c4782a84a0bb41055bc526011266b49e9d11ae6473c199eb76d43f9bea",
+    "published_sha256": "92978c4010388db7c7d6a7be2ea47ac851b8fb9d567e574787bd53e499649bd0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.EqualsWithDeltaTest.xml": {
+    "original_sha256": "353b8ac0957278c15dc0961f41c98a05e67ebe1c2caeddda187aaad5a806de32",
+    "published_sha256": "0fee7c94764d5ce965726628b115871173303631bcf8839751a8478ce023771a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.FillInStackTraceScenariosTest.xml": {
+    "original_sha256": "89b2ce4162bf166bb85be0d131aab081182573745ee507d0a7b65509cf5edb92",
+    "published_sha256": "6d3672e2176cde766c4bbf9d139acef826bf9dd7a7a1f68863010d131fd64b12",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.FinalHashCodeAndEqualsRaiseNPEInInitMocksTest.xml": {
+    "original_sha256": "d0603ac232a49e35a78d069aaa1ca9af23590ad44075f59d3d2411be114ce222",
+    "published_sha256": "302ce0eaa90c8a78400bfd10963a6496134683039129a5e007085d8d729fa3eb",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.GenericsMockitoAnnotationsTest.xml": {
+    "original_sha256": "e00ecfdd3ee764bc10d3a88747edb9408afa8a75b6f1bc5cb46c7d136c576ac6",
+    "published_sha256": "43b225889b168b67441a78000338f5adc0b4388018ee6f575e3c6d501053c614",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.IOOBExceptionShouldNotBeThrownWhenNotCodingFluentlyTest.xml": {
+    "original_sha256": "45bda8497bbd06e21b547946ed50b697fb37b73911f19c6b87c4a29be29e26ca",
+    "published_sha256": "3ddadf14b26f79979698ca25aa4085a6d652bf2cfdd4013f789036849174d7c8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ImplementationOfGenericAbstractMethodNotInvokedOnSpyTest.xml": {
+    "original_sha256": "a4e4a4c7e8be0080f6b4780c4e591d91b99ffe37084cf0dc44c5e8beedbba175",
+    "published_sha256": "4f98bfa13b34381076f6ebfa4a92cdebb3de1605218e1849362d7e0a12c1cb26",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest.xml": {
+    "original_sha256": "c746616ec1854989c6f7773661cba1e2613508c304c817abc72b9cce8f8beafb",
+    "published_sha256": "9447cfcc756496d7ffe76ffc7ab9b44678c75833e7647083ac790bb3975c178e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ListenersLostOnResetMockTest.xml": {
+    "original_sha256": "2e7554de5f684d74799c47ca11d00cc8a9f4d8d6b749a719db49553cafa15b2e",
+    "published_sha256": "3fc3494ec358e46737f028da1da7d1e4078db9aab38a0d5849b09173eb92c885",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.MockitoStubbedCallInAnswerTest.xml": {
+    "original_sha256": "4cba03bb3db82f4e7619a54a971a3b192362cdc7a6d8ad53ccca075040810a11",
+    "published_sha256": "3b9143ffe4adb642bbadec7b093eeb1b853bcefdb879137cb9d12d7811d296fc",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.MultipleInOrdersTest.xml": {
+    "original_sha256": "79c5ba75f3c72e5222ed26d6c68be5ff837aa8bb8afc16d6ff36f464cdd93fba",
+    "published_sha256": "8d0a129c999c43863335589710779d13d1cad24021f5990dae6b39191dc21d4b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.MultithreadedStubbingHalfManualTest.xml": {
+    "original_sha256": "3dfe40459c085a8e12c5dd4c16ef2cdafe10798c882de40893b69098ba76c590",
+    "published_sha256": "fcbe74b5d5b9d0877a3fed28607a5be22d84684100a94e7365eb6558053b2aa6",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.NPEOnAnyClassMatcherAutounboxTest.xml": {
+    "original_sha256": "c7c08116cee3c389866abaed048d5115e037771b7c677a51b11ac6a1096bd9b7",
+    "published_sha256": "c33b0cfc57fe6aa4ffbe017cfbcad6986ec1847c1429c0ff09841160e4184383",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.NPEWhenMockingThrowablesTest.xml": {
+    "original_sha256": "367652723490d54fab02b535ebfcd48b320d0aab811f34b6155992edf9903c3d",
+    "published_sha256": "043d0c641b390c46f5ea2a2f101668c8998c31af2cbd425df4b86a0b3f1474cf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.NPEWithCertainMatchersTest.xml": {
+    "original_sha256": "d36e16a6206041f9e135f719f1001341e0e1f3755831ec78d92ff96130a12600",
+    "published_sha256": "96e94f99a4a3bda910f136fe11dfb596cb9f363c2ed5974df71d47b0c53fb529",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ShouldMocksCompareToBeConsistentWithEqualsTest.xml": {
+    "original_sha256": "bea4164b6c74bb607ec19af1bec196eb2b464abf203ada70dd8c92c1ac56468c",
+    "published_sha256": "3c286eea285059d6c202c917f8a02f892bce9dab3689ccb693847627f15ade69",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ShouldNotDeadlockAnswerExecutionTest.xml": {
+    "original_sha256": "832fc758dfd231a7e62655f54249b0c29e5986b8d3dff5ce30cdc8b3f986879e",
+    "published_sha256": "23f1bb61a2183a4c7b89a17ba16f0e9939c9b63acf322e5d173d5212ee293d00",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ShouldOnlyModeAllowCapturingArgumentsTest.xml": {
+    "original_sha256": "1e1c7f2a3d8ee35ae6629579f68c639204cfff3a2aaddf32a27b4b772ae61abd",
+    "published_sha256": "8a16edf297ff9e68aa975b61678ea816868e2c902a261ba07f0c564706025161",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.SpyShouldHaveNiceNameTest.xml": {
+    "original_sha256": "d1516ba10faa3de33a415dd3ca929925e16fe4f72dd4575216f9f89581823013",
+    "published_sha256": "99b25bf8faf050167048cc5cb17222047b52d337f84d284443766f4b24379362",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest.xml": {
+    "original_sha256": "54526e17cf4074b4c23a1de08ca8c6a44ede859f3642d8aef1b36f89f985054e",
+    "published_sha256": "80c04fcb3833569f59680127b1efd6439e810cb2d8ee4ce962fc028da8ecca4d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.ThreadLocalTest.xml": {
+    "original_sha256": "07f00fe0316532be6f394d8a4c0c5378330f526749565d0eaf0d4ca8a32e5605",
+    "published_sha256": "f23eb78d18723d3659fc1c7a5691b1a704d85ac92515a1bd112e238eb30310b7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest.xml": {
+    "original_sha256": "c01d94ba61815a0bdd4489114e8ea2a56e130be2f854bd9c7abd4e591ba723be",
+    "published_sha256": "c11af03b82c89856584fccb1bde0632d31d755ab0858b8e759090f7cc8d27803",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$UsingMethodObjectReferenceResult.xml": {
+    "original_sha256": "aeb22cbaa1e5fd47d2687a86ada2b2996bc81d24da24b6cd7a4e8729cbae3e1f",
+    "published_sha256": "0041013829c6b9d72e60ff15c05fdc5d5e84fc34fd51f57f0ad311ece0a53542",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$UsingMethodPrimitiveResult.xml": {
+    "original_sha256": "23a7d34051f24c866a6dcab44786fd3814781638b53a19b9ffc8a4339972c29a",
+    "published_sha256": "b8a3093ae098699c7907236544c5e4eaeb55b1c05afe14b0e69f64066b13a533",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$WithDumbMethod.xml": {
+    "original_sha256": "a9ab13f2bb9d29e30f8c6d9014e5f333016518b56eb3d8948edb6382aaa2dad5",
+    "published_sha256": "e0efadb62154a3966f201f3f2eebddacc21c7382e068c2c92523e90d8c4d8696",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.creation.MockClassWithMissingStaticDepTest.xml": {
+    "original_sha256": "a4479fe2bd83596bab836d3e3841b93be3d534a9aaa3868799a87e1fdadb0cc7",
+    "published_sha256": "a095f776132c8df87f4cf6601b3d68df17eeb4a67c262c6200a0b89c216d7e87",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest.xml": {
+    "original_sha256": "d96bb13d450eb0630812db80b7adf2b45fa8fa5c7776bef81305d9c4813b4b9d",
+    "published_sha256": "fd318fc4098fb0daa0ef790e1774c2e07f0095248156a462769d02c94ce50012",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.creation.PublicMethodInParentWithNonPublicTypeInSignatureTest.xml": {
+    "original_sha256": "81374dce071ac814000ee41a42bbfb00c38d878d5a59ef7dfd911cb87bd23458",
+    "published_sha256": "51ceeff1061d96f5d7ba97c3091ed968aafd41ca33f9f8a6ecfba5fb265b3e05",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.creation.ShouldAllowInlineMockCreationTest.xml": {
+    "original_sha256": "59edbbf31f923ff074b10386e2c95c27f006aa405ebe88fa487faab5037bd58d",
+    "published_sha256": "403f9491bc5e1fcdab04ba6bbc671e146372ff5d2ebdc07751ffe60b3dca9a2e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenericNestedAsRawTypeTest.xml": {
+    "original_sha256": "fd18ac77a06c1423184820c5bf4cf918fab1b183ecbaf30a45059c58d0de13bb",
+    "published_sha256": "f71dbf08d40e6b6875c170bdb607f9abc4f61c74d98f842736d1e60df20c845c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest.xml": {
+    "original_sha256": "6abdabed7ef7db5a71269cf27e1d40b68065c87579016666bbde5884dd00665d",
+    "published_sha256": "4e57945c4c3825073f883f8ce3186fb168f3bc1771f00b4242546e80e1f06745",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.deepstubs.DeepStubsWronglyReportsSerializationProblemsTest.xml": {
+    "original_sha256": "aae8d28be1e0996c9bb8540874a03caa9b94a0de43786ef7ff47fbfb8f73acd8",
+    "published_sha256": "fe12401963d79589d51b8241e1c2084d723948075989f9691e5f6c847ddcefff",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.injection.ChildWithSameParentFieldInjectionTest.xml": {
+    "original_sha256": "bd1431ab0c2b488e69115798c724a0a04d79fc45ddd12a46834d2834c5ed8295",
+    "published_sha256": "e82d43111a2c90a1891e976c2a8bce736a0c487b3ddd87702a5f889cbd2595c0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.injection.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.xml": {
+    "original_sha256": "083accf2a52f891a1f08a79c40125ed7e1cbcff570372e0f31f1f44d59c26925",
+    "published_sha256": "c38ca09954b8daf6d36e3a03a833a46a6d4ddf0910bf8d85eb54ce5b0139fcc8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.injection.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest.xml": {
+    "original_sha256": "a91efd9d19f02da9cb319fae76f167fa021e77ce4281bc4ccb43894442e114b2",
+    "published_sha256": "03cc9f07cbffcf3d491322bc5a11ad736b38430b41ae97eefdb867cdbd569ffd",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.injection.Issue353InjectionMightNotHappenInCertainConfigurationTest.xml": {
+    "original_sha256": "dc97e02780796edf97e40e584924ad972401e49a4b3fe688dfe370094e4b6c3d",
+    "published_sha256": "465f0d8f63f67b571e88ae32a5e751953f87a5f4fa09ab6151993d81ff6160fd",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.injection.ParentTestMockInjectionTest$ImplicitTest.xml": {
+    "original_sha256": "bd8d110c25cdf6a361120c05418e82edeb60e0e0ff5b7c248e155f9a69171f46",
+    "published_sha256": "7cd2b7a8549db0da3497ce02cadf4694be94fab3e6ea400f8c369fcaf236df7f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.injection.ParentTestMockInjectionTest.xml": {
+    "original_sha256": "9dca9f0b56ced1c267368e642071a2f95f88340665e366bc52cc061a4e74e5e2",
+    "published_sha256": "319c501ee35bbaebe84a8d2d3b56db0e18919f87fb29a112f307cbda235651ef",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.injection.ShouldNotTryToInjectInFinalOrStaticFieldsTest.xml": {
+    "original_sha256": "6ffff42813c4e196e11f3dcf650b8c9efb1f18a92b3a420eee8d596e88515429",
+    "published_sha256": "ac19a361f148fca78a262c28dec3b4c159212e0bc922b94b25e1c6552039eef9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.varargs.VarargsAndAnyPicksUpExtraInvocationsTest.xml": {
+    "original_sha256": "f495888c856933da85d1de5beeab574f20286de14decc1af1569d4992beee01d",
+    "published_sha256": "8e0bd4c2df11cd1c709f682863689ad8489329ea60ae9c8caf8cba8052d381fb",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.bugs.varargs.VarargsErrorWhenCallingRealMethodTest.xml": {
+    "original_sha256": "90d7b9f17ac90245dcd6f3e95fd8d235d05ce8db20c3b40f701b267856f5928f",
+    "published_sha256": "9594c1d07b25e156b92421ae9117c439a896557370f75e62d9c2fb02268c51a8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.configuration.ClassCacheVersusClassReloadingTest.xml": {
+    "original_sha256": "85cec0115fea48882b00af1fb22fcc060743fb1036cbff820adfd82a6155f7fc",
+    "published_sha256": "95e08892e3b97311a13e3764162b393241a43ca0b6fbe6d61256b29798fd6a36",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.constructor.CreatingMocksWithConstructorTest.xml": {
+    "original_sha256": "58325d5e0bc3c7b94b9533be06351fd13bb2bfeb566241f1fd171d8a99865548",
+    "published_sha256": "1253f610bb2a2512d5eb7750338f50310cdf840c06431d9e747f393ff719515e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.customization.BDDMockitoTest.xml": {
+    "original_sha256": "2a119b079ff3c23459257d2105019fbf09b8bb744db2637e7692a31df30174f8",
+    "published_sha256": "3688d2abf797f075f029e978e1d2e9b7ac74916ed192d76fb69e2c8c54fd56b0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.debugging.InvocationListenerCallbackTest.xml": {
+    "original_sha256": "7ac2f7ae0906a4628667286de023a886cc0d1bcffbcd15bf1622a1a1d6778239",
+    "published_sha256": "fd6a61b5bbb350e4a3c424ecd85829698d6953d036393c4e4af37ce3e81f5700",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.debugging.InvocationsPrinterTest.xml": {
+    "original_sha256": "967ed26b9f1956c5945c215ebc03203ae9d7f127e5f738190ee8ad999f4b3225",
+    "published_sha256": "d8475a71bdc791f667160a856a64365f73e8063d5e7c45e14f9a60f89cd0c0a7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.debugging.StubbingLookupListenerCallbackTest.xml": {
+    "original_sha256": "87631f4399b605551a3c8c9e10b34c1dd92088480d3cbc282cd2ce081a3ddf35",
+    "published_sha256": "3c8c0fd324af2b44ef9308bfb03ca038ab754672c2fb73119fcb183b0ff156f5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.debugging.VerboseLoggingOfInvocationsOnMockTest.xml": {
+    "original_sha256": "e7601343bf70f92f833e23e64539b92a4304a8906ca989067eb5f7b0915ca070",
+    "published_sha256": "e12782a27dab667672c1ff653c6ab9c48f52b025bf80dde35574bed9c4e592fb",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.debugging.VerificationListenerCallBackTest.xml": {
+    "original_sha256": "542c735c512deb4494818e8f5b1fd7b7472b7e74e78e0ee952ed60e51166f4f2",
+    "published_sha256": "2a7574bd8304f9175c0b2bc089714283bffa569b83efba69ee453aac19dd5805",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.examples.use.ExampleTest.xml": {
+    "original_sha256": "dc3fd80fa59ef00911361bf1c761a16e5de208fc3b7dcd781f9a5cf8c3bf8cc2",
+    "published_sha256": "1e68ab8e2df8ebcf39234b62f9ec226699092799b83e0d0d8691635fb301c8d7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.internal.debugging.LocationFactoryTest.xml": {
+    "original_sha256": "eb142a62be799f5c343e9194d076f4ea0aa85491b7e72c4449b9838c28eb6c8c",
+    "published_sha256": "fb8eef0361e37f565a335602c3df557d3bc05ee2a600217d3a435453f16be52c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.internal.junit.UnusedStubbingsFinderTest.xml": {
+    "original_sha256": "a2243b743fcf82d2cad2b6a297f988dd1bcf1267ecf4ba1061378b870773ac15",
+    "published_sha256": "2b2dc63fa35fdb788785ca299b9039bc371a2e7093a2f00fc2558c310f1140a4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java6_Java7_Test.xml": {
+    "original_sha256": "d678ccd820b08a018108a88feb7be825f254afdaa22e921b96278b02b8f457b6",
+    "published_sha256": "7c37cdfb579e9ae2b5c59b6078236416eafbbc44b5757a729b45f8c0042c217e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test.xml": {
+    "original_sha256": "8fb05d9e4398da1b5f57ef6edf9a9d1e73b41456a464b8ce3779ced248466389",
+    "published_sha256": "22357a980d4148a5e5ca30d4b83e2434e8cf2a044cadf36c8568f1a6443d90e2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.InvalidTargetMockitoJUnitRuleTest.xml": {
+    "original_sha256": "261b3093c399e4118c47ec3d67561b8d3c9952874305166c8fc3bdc52847b559",
+    "published_sha256": "5468f199085ff354364ea0165c4ad95599871f283fc066911aeccdc01057b9bb",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.JUnitTestRuleIntegratesWithRuleChainTest.xml": {
+    "original_sha256": "857e637c87af56f51b90bb67886d721d2e0f4a8de3f0356232a3d806d9afc076",
+    "published_sha256": "6cf8560adb72b0e71d2d5e67a179a261c8a2cad4d403c0e99be87a5477615191",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.LenientJUnitRuleTest.xml": {
+    "original_sha256": "1fa2a9109f9b895eeb8a70cd14c5e031f782f61d28781f3b4e7e3ed842cf96f7",
+    "published_sha256": "e42d6bc7aa96d71bf9300f22de1822e828f1665b608d3ee2d58abbf42ebae8a1",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.MockitoJUnitRuleTest.xml": {
+    "original_sha256": "bce575f335aca3fab629818342995ee9267145891fa8bf50469f3abe6489dd79",
+    "published_sha256": "0c1ea07ff8104bc90d4a518e844ff2fe012f89c3f46cb84682fc2f9a7d1eb9c1",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.MockitoJUnitTestRuleTest.xml": {
+    "original_sha256": "4e63364ac688433ad8cfa4983fd6327001de54d4847245cc0654300f842443e7",
+    "published_sha256": "ada37c2487b21bffcbfd3345e978b0ccbac09558dbc929e4d5c10d7653e40c30",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.MutableStrictJUnitRuleTest.xml": {
+    "original_sha256": "b8d21a0ce0ee32096f3d25fce5152c124f3a71b7bb327b796f3a2b6056e3f345",
+    "published_sha256": "9eb509528669a45b721199e8346a5a9cc2151b5d5f80c668e8b9c03522a8b2d0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.MutableStrictJUnitTestRuleTest.xml": {
+    "original_sha256": "bf9ebccbb6d5ae01a49295b229f146756013637d11073c898274a5eeb317f2af",
+    "published_sha256": "2aaa16021e6f75232d85076f0c583d085f0ef33366bdd23850ef2a9afd934c79",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.RuleTestWithFactoryMethodTest.xml": {
+    "original_sha256": "a2e473bd3af8cebb88d2842107c8bf3066fc0a8a3eebf8c0d4ebb587e2fd7af9",
+    "published_sha256": "19d1abdeb4d95e187ecce0155f94830e8ef541fdaa1448cbb191cb60c6924ae8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.RuleTestWithParameterConstructorTest.xml": {
+    "original_sha256": "31ebb35d4f85563549702728c6b3fb103257b4bbe69b76e1e7ac060a979b9f3a",
+    "published_sha256": "8a31d490b6b85fba159f97e9f39ee88b68fd60192cb50cb76bf71fa2c64fd953",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.StrictJUnitRuleTest.xml": {
+    "original_sha256": "afaa5d69c4218646bacb03341c18e5fe92b95aa4f4c7481c704e4766158db2fb",
+    "published_sha256": "64dc585a9408396cf985a3e8c8025de6987c2f78bfcace2e1d99d6b4cea1798b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest.xml": {
+    "original_sha256": "de8c1792456adbfba55d6961385f8c39063432b7093ff5fd3ca85e341c1da3bc",
+    "published_sha256": "c16d9ce3322aa3d493318d8ff8a8c015b3b7bce267cdeba5635227ce0a881902",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.StubbingWarningsMultiThreadingTest.xml": {
+    "original_sha256": "ce91165e6237a1f8bce39fb2cb085c90eaba3db0407a01fd34f87c267fe6285a",
+    "published_sha256": "6f7ffdb8b98b88b82fa8ecfe617f5c16f3f5da074c63557b47b9de157575e128",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrule.VerificationCollectorImplTest.xml": {
+    "original_sha256": "aaf538d9192b8375f9f18004fce9d921c0710e4eaf3559143582cfdc513189f4",
+    "published_sha256": "8d887b0f7e906543caf7cb9240819c184a145c1289cb7023e0cd4c6c03fe5372",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.DeepStubbingWithJUnitRunnerTest.xml": {
+    "original_sha256": "e55aa3b53a5a0f5c78377d61b4afa90d8296e24e42ba55884b8b70b03d346c37",
+    "published_sha256": "2bdbeb795adbf123942b01b686a27be66070e1131394887ad9783daf353abe59",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.JUnit45RunnerTest.xml": {
+    "original_sha256": "5f61b18adfdbe38cb590a5c68e1b30367c428f64d72db9cc83bb30f9880020c5",
+    "published_sha256": "d18b59dba2a37eb2161fb328cdedc02364a6929bd911e85d14849503bd2ea608",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.ModellingVerboseMockitoTest.xml": {
+    "original_sha256": "dc004e86777d1d4de24bbb330d0cdac28b1063f2a6e7f65ec82f9e5501ba0655",
+    "published_sha256": "8bc1e12d70ff5ce409bfa3600db5d3e206ac1d88db4d8470982c9433a0913218",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.SilentRunnerTest.xml": {
+    "original_sha256": "db5b3fc2f775adbe1a286744349e8950b72ab171dd94252ed08c7956925d084f",
+    "published_sha256": "0de75f470b8ca7fdb666802f4f5e74865e406fcc36810f1dfa8cf3e8ce065cff",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.StrictRunnerTest.xml": {
+    "original_sha256": "f36e6add5cc9c9a76ac6874abd47ad926e4b589a0cea46b0b41fb4625661585a",
+    "published_sha256": "cc037add2ea29e6961aeeebec39ea74f3a36c4f1b9064ab57a33f6d0e37e2b6c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.StrictStubsRunnerTest.xml": {
+    "original_sha256": "fd715f0245ec0e7424bd71e08d147c3819dee6c7ef79d6801366578da20c37cd",
+    "published_sha256": "e11e4c5e039256e42735485385675b2d5d04c27d6e433bc8f86967a2203175f9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.StubbingWarningsJUnitRunnerTest.xml": {
+    "original_sha256": "fc5f79ead7ce0fd035f5d5b63d0e05787f8408ed94879ac344c88a59d464ef31",
+    "published_sha256": "511786d1378531a370b8304a62301a8f2fa9ab2c2d89e358080fc893bc54de42",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.junitrunner.UnusedStubsExceptionMessageTest.xml": {
+    "original_sha256": "d6d369aae919875734ff2a408f27d6e77919f1c98335e8ba968837966cb1d62a",
+    "published_sha256": "baad3ada523b10b11cb330469e592e131c9bb550cbf37b2d59475bdf324ec057",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.AdditionalMatcherTest.xml": {
+    "original_sha256": "8d202dcdb451f5b825bf5ec9953515949a13b54ea582076b74bdc01201405a43",
+    "published_sha256": "28dcdb0e27c4e9187a736ae3b3dde0c6d628c90356a6cb063531188d2a9063f5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.AnyXMatchersAcceptNullsTest.xml": {
+    "original_sha256": "da8f1e065739ecfadc11ed102f0ff109779818f9b7d53e6382a2a426e63df94d",
+    "published_sha256": "88f8a5f74b0b602cf0a8aed25c2af612518a6d06de3c404081a58ca8f5c6d649",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.CapturingArgumentsTest.xml": {
+    "original_sha256": "41042f9c0c0839b6a4cbf392accf08fd37048df906ce78056a564958bb0308a3",
+    "published_sha256": "a688509200231d1b66b02c2f2dc6c27d3a6814ab389b4f3d2f243a884acdc5f7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.CustomMatcherDoesYieldCCETest.xml": {
+    "original_sha256": "1f99e12b144a1219a6cc218e8562d6bd713669ee246cafbc00a3217f86eb201d",
+    "published_sha256": "d9051dfb3547fe9efdaa91ac4a1ff420ec09232ce063baeca9c7c47b7e6bea39",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.CustomMatchersTest.xml": {
+    "original_sha256": "b789c2163227ac223e9eb21750a088443e4059c729124e453480f99c4f93b02b",
+    "published_sha256": "d4c11ce308baa40d0003e940cd0ef0513de57cdb02c9ac2d0955793af5dffc39",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.GenericMatchersTest.xml": {
+    "original_sha256": "88ca12bc8aecdeac6409e27ed019cf79e942d65f098c17bd584b509a79321912",
+    "published_sha256": "4e3adc0e0731bfa552323dc2f761e7e3498f70771b5122fcc12c52ddb4904431",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.HamcrestMatchersTest.xml": {
+    "original_sha256": "5addaacded45dc1be9107e4e2ad5ff8d47adeef0b8275c2029cd232445ee9e00",
+    "published_sha256": "995b654ef52f530937301ad5bddead4bc562cbf1a4726e476fa8e44da748b115",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.InvalidUseOfMatchersTest.xml": {
+    "original_sha256": "0a00d1c345b0f0ca141d8bee8de9a72a25b56eae4f74b601caec01316b7cc390",
+    "published_sha256": "9705b28ca28b7cd408457f68c45c6088e048f3e1bae2104ac77123c70bbf31c7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.MatchersMixedWithRawArgumentsTest.xml": {
+    "original_sha256": "2031a9e3c452af58eb51fe2d37c92951b775b9f419fb6208eb0d76d638be810e",
+    "published_sha256": "e1e3506743eb3012bc0ae8a73640cc0fa306a69cf16fe714e93f16965a62d068",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.MatchersTest.xml": {
+    "original_sha256": "3807ff83e2dc992b7807de70d21f5ee9379abf691b96ae3b6579c041d2ed3760",
+    "published_sha256": "62ef0cf5429ed3baa8aae73678886a20df3377554d04f4455b8447578bc479b4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.MoreMatchersTest.xml": {
+    "original_sha256": "81a7cf102268da84388e8c2e02ead322eee25185acccd01e8463ea6049d9a106",
+    "published_sha256": "381e67d078c84a2b0255ed94bbe7a768932cda2e4c6a1472e87947389a2d7a40",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.NewMatchersTest.xml": {
+    "original_sha256": "1e2ec6d9e799d39db46885cf7f3cde5228a7eea43dbf7fd3d594a1506b50c669",
+    "published_sha256": "d5a6badd63d9c38facab74a1beba7e2d3dd96289a69d79eb7f90c3378071f2f8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.ReflectionMatchersTest.xml": {
+    "original_sha256": "846c40617f0ef128b04c9df08bf7d92db15fc7411c3cde4541d86a5864484f57",
+    "published_sha256": "f3c3a5386df2673c45b14d0005b5b34746fb7515e747a2c49609973c18ab1016",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.ReflectivePrintingTest.xml": {
+    "original_sha256": "056933bcdb747be1e1cb69be7f729211b47108a0cb679109fe8a784b3ce0e13f",
+    "published_sha256": "a3a2a64ed991b648a6cc11be1f939c803a35efaabbdd2c2988f6679a5b7baba3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.VarargsTest.xml": {
+    "original_sha256": "dfd0cbf94f738a359fa064ebbbd46bb32286bb492f9076b3f7c1a47be4963fe7",
+    "published_sha256": "33610a6c33cc77673a111cfcdd52895a48282db5b5004dfeb6bb879d808700b4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.matchers.VerificationAndStubbingUsingMatchersTest.xml": {
+    "original_sha256": "9a3c75d776c86e3c69bed6ec39193f6ecf06bd4e72eea7979f482873c104b278",
+    "published_sha256": "6b85e58b39ea19cf58436d9e441730e74b67cac105302513aedf65f8b8efafe0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.misuse.CleaningUpPotentialStubbingTest.xml": {
+    "original_sha256": "496aab8f86a9c1386b4bf4e49fae45e0bfaa57135306b0b271a6106e0318fb6e",
+    "published_sha256": "f1d2ba20ba15725bb6487738f6b8a9c14015ca05aa441c2ee278c827db98e2a3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.misuse.DescriptiveMessagesOnMisuseTest.xml": {
+    "original_sha256": "4851b9575ed43084c31872af0935458122704dee0b71dd46f41c25daa0c85a31",
+    "published_sha256": "85e038266b0680106399b068d33488b3d7034e3fce6813bdc1cc32b94ed6eb0b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.misuse.DetectingFinalMethodsTest.xml": {
+    "original_sha256": "5fb00c6bf680556e57bda6918e2c0e2cbcfeb51a0ff54da4868348b9a8283289",
+    "published_sha256": "ad04f79303468081a6de9356a721a8d54841ae7e96c2118e71ea25b452299085",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.misuse.DetectingMisusedMatchersTest.xml": {
+    "original_sha256": "6506c385c2c111191b66d34ea5f65e921ae703a6b1527297773a3239b946a094",
+    "published_sha256": "39f1318f9465d090bf0f780fa79766e15141770eba3a643f25587296c987d36b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.misuse.ExplicitFrameworkValidationTest.xml": {
+    "original_sha256": "86e903dc3079db100346dabbb59422cf6c2c89d5c2b7f0440a82e8e4f6933100",
+    "published_sha256": "16d1be3a312e734d01bdb5a2e62b2c4bea389e5e9f954baebe810f990e3cdb3f",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.misuse.InvalidUsageTest.xml": {
+    "original_sha256": "c1d11eba6124c194af9223403b3a7f4da9909dc0cd61bd7195be6cb87230fbae",
+    "published_sha256": "0f600e55406cdcf5fb1c8a90d876faf65ff6ebe765f60e3fa75ec54958bd8318",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.misuse.RestrictedObjectMethodsTest.xml": {
+    "original_sha256": "225e831acc3e7843c9e00fc94e1885adb9c2a73fd2553380171887ee4134e020",
+    "published_sha256": "00f958318ba88db736b1cf7c4927fa2e92ee5a20c7a8f3f8566acf79d731929c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.packageprotected.MockingPackageProtectedTest.xml": {
+    "original_sha256": "c6341d67fa486d46a147a20c8382a99623a60f7307f553c15ddcd092009089ea",
+    "published_sha256": "fcf465b2ad95ce6ca9b9f46e33d7fcd3b84fdfa2ec4d079b3c01c202d0e41b3b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.performance.LoadsOfMocksTest.xml": {
+    "original_sha256": "9f80dc8650d2107c7e260653624f92b5be6fd4ee2450f4254942e54ba47b4385",
+    "published_sha256": "392a3a3e1944b889ffe766ac56ba1243a854163ba1fb456781e22cc509f5c049",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest.xml": {
+    "original_sha256": "b3e62e496cf1f91823244ba0e7d8942d95a77c34311c2a9c9791229fcd36033a",
+    "published_sha256": "ad1502e0827e298f2d1053f71ee47488c320f2bf5f184a6400120d9d9b6cc9cf",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.plugins.MockitoPluginsTest.xml": {
+    "original_sha256": "8acd3ab838a29d801c9c532f294b36ef88ff1652ae92c158e9702b3c2611a8a2",
+    "published_sha256": "c925b0df4b6864aa9de4f77d82e7b6358b1ad96a157426941c55942b5da9de97",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.puzzlers.BridgeMethodPuzzleTest.xml": {
+    "original_sha256": "f19c50850baaf301655291c1433df4c6986d52bde3532b1e4182ef2c757275a3",
+    "published_sha256": "ed7ffbb3874e395e2f7c075bf2d6631edb46f2bdf4c22aca481885ad548de615",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.puzzlers.OverloadingPuzzleTest.xml": {
+    "original_sha256": "90b3a1e6b0523749f94b9a3363c7fd0b3fdf3e0bd3a1818191f3d678b9bfab06",
+    "published_sha256": "05548ef3a177cf2e9ab1253827515816b05afaf7683291c89ce29ad260ab4e2d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.serialization.AcrossClassLoaderSerializationTest.xml": {
+    "original_sha256": "56e479e28dec05a5c8384aa1dc348c40482727b44c25b975062e056b2fcf10c5",
+    "published_sha256": "ec529864dbe6a3888d72b4d321179b5fb8433c34da5d2630c5ec42161d5df891",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.serialization.DeepStubsSerializableTest.xml": {
+    "original_sha256": "24eadbffc4940378be49feb294123b80397a47cfe5e82831a77b5a5d1a85f38c",
+    "published_sha256": "b477597d8506a6e5de58157e00bf3c10756dc76767c428d73146b7420ec209fb",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.serialization.ParallelSerializationTest.xml": {
+    "original_sha256": "b87447914394ec0e0f7afa1196cce2d82718b08869939a51aee9e5e91ce9e14f",
+    "published_sha256": "79ebeb4af2b1fa380c81d38c97aaac4846b7fe54b66f1478c3bdf1fb835c6ee2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.serialization.StrictStubsSerializableTest.xml": {
+    "original_sha256": "1b0926cec27ca6b7413501d0082f1a2c4edabe9c1d8eaa5b4ede2bf2c8a3cd7e",
+    "published_sha256": "7cbd0e56064c214b39130a8bc8384923b2f428501759f6e3c51ef521345a6510",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.session.MockitoSessionTest.xml": {
+    "original_sha256": "4a9e06ae46971d6f976f56b1f7f91ce9662646908c26ee51ac6a118627b200f2",
+    "published_sha256": "899eb552ee746ba8ff8b1775540503b3073402550f8d4e35ed5cf1d93d2ad715",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.spies.PartialMockingWithSpiesTest.xml": {
+    "original_sha256": "6fcff27ad9d45c66c8a732ce171e5194ad192bf242cd9075ab95a8de6b906fd8",
+    "published_sha256": "12d3eadc0bc737dc2dea098e8c17a2b7a6d7fa7cb6cb9ae994fa923d3d8cd419",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.spies.SpiesWithRealEqualsAndInOrderTest.xml": {
+    "original_sha256": "8aa0f6588af2f4545005bc2f4ee9d5f16f483ec48a76f8ddbd1dd1a1c6d0abb1",
+    "published_sha256": "9fb46e691d5af9b15b9ab2eec333bb95f01ae5ba55bf104be741520e11221494",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.spies.SpyAsDefaultMockUsageTest.xml": {
+    "original_sha256": "05bd06186a18873b4425067257e8ef2d1ebece80f087dc0637a817c8b82d24e3",
+    "published_sha256": "f556e1eed076a4a404365c6cc4aea86df509255f503566424934c71e872742fa",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.spies.SpyingOnInterfacesTest.xml": {
+    "original_sha256": "0932cd101774f18ed60460cb3a436cc08b03eba86e8e3c7faad006310322ef84",
+    "published_sha256": "28f0d2a383b5a20a56595ddad837c4d74357370fccff019854cb563d86ad8e44",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.spies.SpyingOnRealObjectsTest.xml": {
+    "original_sha256": "1c21329d2bfbba02b3a3f44d5002ba7d6c08a566d7e45c99ea538c0329ef7bda",
+    "published_sha256": "82c3667fa755922cf82cb5077c046dd602ce481b403d2d2a5800f1b162c4bfcc",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.spies.StubbingSpiesDoesNotYieldNPETest.xml": {
+    "original_sha256": "adfaec9c7d81e8990707f6b4d3fa2a2dc00e5bef1deefc81d0f897e6ffc5db6f",
+    "published_sha256": "d4ef3be6bd635a2736c0e29068cb8374f5bd3be37ae83fee214b483a698743dc",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stacktrace.ClickableStackTracesTest.xml": {
+    "original_sha256": "cdf82ed5911172171f4df1660c7e11a7cf5b0fe91912633513c77c3c5c42595a",
+    "published_sha256": "35f0b75eb1571197899033439b72221f1f2df62fe8a6ceffe646dc18f4dc4a06",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stacktrace.ClickableStackTracesWhenFrameworkMisusedTest.xml": {
+    "original_sha256": "a950187ee27b5251a28fc1af480a9f812f84cd213ed82fc57e79c383839d32bb",
+    "published_sha256": "6c4e2b1354eb979d774837ad5937523dbc5c4a4d3c8d09370fe9f8da629f4cc4",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stacktrace.ModellingDescriptiveMessagesTest.xml": {
+    "original_sha256": "ce81d802267c5e9903e78db250bfbcf5f30183f29536cbcfb57d8ed369245528",
+    "published_sha256": "dc22333ffecaeb5725973d41f208afe16e3315ef6b44665089b7f9cafd6cc996",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stacktrace.PointingStackTraceToActualInvocationChunkInOrderTest.xml": {
+    "original_sha256": "1ded560844370c2764f4d683fa21511d1fc4f56aaf7a93be9037d4b8eb47b01f",
+    "published_sha256": "775006dabd16981370c928fb7610c16c752428c1373ff143fee3eb632199372c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stacktrace.PointingStackTraceToActualInvocationInOrderTest.xml": {
+    "original_sha256": "ac8702efd34bdf1ffed2c0c019c20fe2724931eedb18894a4d4432f6f60014ed",
+    "published_sha256": "1b54a08db47af4c187ff11b5c6d659805a845a762140ca6029881aa941eb6a6a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stacktrace.PointingStackTraceToActualInvocationTest.xml": {
+    "original_sha256": "ed6a271e5a77549c33f0c55a032eed62211e51fd11d9977d7d95bcebbe86559d",
+    "published_sha256": "ce2220517cfa7441acfc620db62a2f5fb35ddc350424f8e92acafe910865099d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stacktrace.StackTraceFilteringTest.xml": {
+    "original_sha256": "e2770f88161b9208ab459cfa697b1f1e028b69781c8ccfc4881ed7d0c879e37d",
+    "published_sha256": "e933d752e02f0c42d746d41827396aa70a1c5a777ed2e1b47fe8f601140f6f67",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.LenientMockAnnotationTest.xml": {
+    "original_sha256": "b8671db4877adfc04369f26c4ea542cd83d85a37e51b7bc083c1e9cefc6f2cab",
+    "published_sha256": "0c03bac563c71f12932230b158991c7f84e6102c53a736ea98bc9af08863e3da",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.PotentialStubbingSensitivityTest.xml": {
+    "original_sha256": "02813ef69a0bb43fb0c91602561e6b769912edadfc3fe20d8fe5c91a292a8b70",
+    "published_sha256": "f135e0b99882d9e50ca048ec24e4abe21d9a8c0ab2550cce7401dfd266e0febc",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessMockAnnotationTest$LenientStubsTest.xml": {
+    "original_sha256": "10546102244838603f53eee3f4913a9a505c73f6f035e82a8a2cf21870b2c172",
+    "published_sha256": "72cc7dc997343269ec8c48a7638f7454985b47f97d4946dd2642acb0131d7747",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessMockAnnotationTest$StrictStubsTest.xml": {
+    "original_sha256": "9dc10802b3b1a00a7f50cd23f5d4112520d4cc3071d134d86c5a30566f541575",
+    "published_sha256": "a401fcf91015ac5114e32506913ce30aad85f8be535d699b1a1564e400f9c36b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessPerMockTest.xml": {
+    "original_sha256": "56facadde1fe9ab51d61a670cdff17f9dad7086a936c88b1432f4d2b80c2c02c",
+    "published_sha256": "91a880e5430c9ba8f65a1cf4d5828ec9e0a8a1f0056592360b3672dd0613ef75",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessPerStubbingTest.xml": {
+    "original_sha256": "fb686573ed62e87d88e30ce76e7502c96087762fd4690d3e770b2eb0d4bf52bb",
+    "published_sha256": "78f0e8a5e5babc398bddbd0d9fd2d6a33d6eecd310db81cfb1e2f7d4a0a75c31",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessPerStubbingWithRunnerTest.xml": {
+    "original_sha256": "2533f7654d61ce6673da44030c1f76ead6586d967719454604c4df4019afeea4",
+    "published_sha256": "d0777b8e960f1c59bce7a555f111483cb40d7988bcf6b3fa5f2c1117128a8d1a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessWhenRuleStrictnessIsUpdatedTest.xml": {
+    "original_sha256": "83d712208e76354fb79782cb2dcd784f2269b718e478b6b7fab829b618e85160",
+    "published_sha256": "7499897b12eef22d0984eefb5254772ea699efd8fc6e21200af384dd9b4240ed",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessWithRulesTest.xml": {
+    "original_sha256": "53f0f1c5ea5124f75217c3966c2b7ced09440a8e5ac5a28da5d6d024328eeaff",
+    "published_sha256": "02e4b37efb9f2150fe84782108fdc6bef1f1be492efc05581a0136f04bafa5f9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.strictness.StrictnessWithSettingsTest.xml": {
+    "original_sha256": "cea3dda87c68100b4e3dc0c6268df6f4a88921be3b27223b700993db0bea5c31",
+    "published_sha256": "e7458c4a386b31885f7e3d8704627214f0f1b72a6b00b49410df0eea06e11fd9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.BasicStubbingTest.xml": {
+    "original_sha256": "033daad154dea171ec70d683f6fd3fa7ed796b5c85268ffb6d7b43b715e5a5f5",
+    "published_sha256": "264e6e860b0d9471fb07542c17dbaf136a2522114facfe30ff0c9288ccddca17",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.CallingRealMethodTest.xml": {
+    "original_sha256": "46b0426ae4ec8836c9efdbd8b1c979ff2c532d036af4a9b92955621628f8429f",
+    "published_sha256": "b48274c93326f02d72f26d0a6c01fdcb393811ee1a27076dcb14075ad72cb55d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.CloningParameterTest.xml": {
+    "original_sha256": "289e9b408e4f67709ba7af277797da233f8d7ea7db0b3d326f7153e0e0a110b7",
+    "published_sha256": "3b0b5bd5d37d9c53c32a550e0e28cdcb1b134371875c729eca313de500c69f42",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.DeepStubbingTest.xml": {
+    "original_sha256": "75fd8322009488a0e7e3b029dff1fa29584abaac8d2de7217f2d68ea08bdbf58",
+    "published_sha256": "ce6be18d7380810836522e07142501bd06e321b56b22ec6512f744ea8654cc16",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.MisusingStubbingTest.xml": {
+    "original_sha256": "d994373a63cd3ff556c99ca0da542a49b8f06e2c50c4b88534dbf7fbfb05583b",
+    "published_sha256": "357b71ffe4915e3e90337d17ba06e7642c6274f4c7dbf15183b41238ffb8deb3",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.ReturningDefaultValuesTest.xml": {
+    "original_sha256": "d52b180145029237177032bed93dbdfa0842144593bfaca441747fd7f5f9b890",
+    "published_sha256": "521870a23e7a104645940112865a5e54464c6ed66d842a492413845431d8ffb7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.SmartNullsGenericBugTest.xml": {
+    "original_sha256": "3428853ae58a1403420355e878bd096b0759d9d8b7ae62a93c5f908fd97455ff",
+    "published_sha256": "96251efffce212b972a912bbf723b732b4034f9b95a4401bc2634511680c932c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.SmartNullsStubbingTest.xml": {
+    "original_sha256": "82edde05e415963ee8ed5358642821ea3783e3c465bcd7a7906075071941de33",
+    "published_sha256": "289581ad9bb31a4b96c502cff951389b22423aef85baf03cbcc5122c89601f51",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StrictStubbingEndToEndTest.xml": {
+    "original_sha256": "199d723efd84228cefd07758ad2c2f827c9c3d87014bdcb8c9a5e44002a2d11a",
+    "published_sha256": "13b10a6c12b2a9587030b47b4b3cd0d86608900f9608f64457926012697743f7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StrictStubbingTest.xml": {
+    "original_sha256": "f17894faaa4f18fed12d3553171bcf99e354b169b765952a7911ed9c441a8b52",
+    "published_sha256": "e560f53023761645997e5f978f3f701acf564d3b47d31731e2823132461f2543",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingConsecutiveAnswersTest.xml": {
+    "original_sha256": "a31eb731c16f0411678979fae74711f476b445755c965a066ce84aa6bf57af49",
+    "published_sha256": "3da637adef08884722f0d9cfcf0ac463e74165bb524f8f39656e3ac45668df1c",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingReturnsSelfTest.xml": {
+    "original_sha256": "2c1d7293536e00a3bfff6ec10ac53822bdf967b0b639fb497af0db7ccf5f2889",
+    "published_sha256": "71308b30637061b01fc896fbce4e225c932f5c8e38df87ec7f7e35b4d5b7b5f9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingUsingDoReturnTest.xml": {
+    "original_sha256": "35bcc27022e8ca92b6f9a6c87fc0f9205ab940dc0b7c961970bbf94649dfd70c",
+    "published_sha256": "9b7fbeca899ebe50a0d285594f26b60a8c112220b522b61dd8e1c712ccc05b09",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWarningsTest.xml": {
+    "original_sha256": "2cef5678386533a8cbad3b8a575f1f82cb084431071d56f5b5d32763c8761ebc",
+    "published_sha256": "0aa0dac5256f976435dc0d0bcec5ce52ce2b6e6eedbd8b20d7bf1fd26cf6f0a2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWithAdditionalAnswersTest.xml": {
+    "original_sha256": "08402e097432d29fc996aee73c934a6987be4e8dd6582efbb29a448865d4ee43",
+    "published_sha256": "ab3e2fa91091dca0a31b7c3846c6c3ae5ccf6c11130c5266c492ece47c3b8e82",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWithBadThrowablesTest.xml": {
+    "original_sha256": "a9c19eb560e4af99e51d435b9c049ba1d5f3fdf51366071c4c14fb163cd10e91",
+    "published_sha256": "728aecdd774633edd41cbf5b6c0c772f388f655bde6dcdc53186c0f3c70ff4c0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWithCustomAnswerTest.xml": {
+    "original_sha256": "df34cfa3da916b0c84f414f2e46107492cb36711b32cb803cdf686a3b1396ce7",
+    "published_sha256": "4777cb14e89770c28bc4de31b174c0ed15e3809b92874586bdef778f5caff8c6",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWithDelegateTest.xml": {
+    "original_sha256": "9c8d5a28c77a839cdf082d4343bf6a84800ae783d7662a6fe1869714803e9f8e",
+    "published_sha256": "357053b2ee0f475ce71c347d32845c201b06e8aa7fb9bdbdc1bc77e8d732b45a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest.xml": {
+    "original_sha256": "e561d16a1f130f83e17bbebf1a38d21c3db1eec117e0196c013500a921e8c26f",
+    "published_sha256": "48595bfed09c889525bc59f5e056c267c7ffc151d5a56e329e0deeda60312440",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWithExtraAnswersTest.xml": {
+    "original_sha256": "df95dbc7ddf0d26dea19fec4f1d553616919938a71c32eda96e4e319398918ff",
+    "published_sha256": "404a0fbaae7f3340935c6219ef1965c3911606c16bc7100debbcb9bef74e5056",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.stubbing.StubbingWithThrowablesTest.xml": {
+    "original_sha256": "9f8b84c27183457d2b2e60c0fba47fc17cae1d56cb179463b5ee22d90b9d61e2",
+    "published_sha256": "d7d64db7f1a68bf88912436cac70dbcc3bf888596949acd4a3064fc19e934124",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.AtLeastXVerificationTest.xml": {
+    "original_sha256": "7e7fa6850486e3ff875dd673e897f2cd4d5dd59e7150e51e07e996e4d7cc9f06",
+    "published_sha256": "3449b1c10ece22094cf3aeb56d70d0c452531b52024e6c1ee8f78cae55ce854e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.AtMostXVerificationTest.xml": {
+    "original_sha256": "985986a0a9503670b2a59fd2ab2f51d8e03769da8ecad381812fc04f2b264c92",
+    "published_sha256": "30f8d47684452808f5f1fd8e63df0b0c61ba8a3e9da552805f1194cbeecbb2b7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.BasicVerificationInOrderTest.xml": {
+    "original_sha256": "444448818c0c4638d6cd1e45677abf62435cba5e468039d10e586ac186dbd012",
+    "published_sha256": "6bd0d7d2f05ba1ae0a1e7605e3e4c9ef6f5c1cef54fcae8a98d815b794cff7ec",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.BasicVerificationTest.xml": {
+    "original_sha256": "a5df08cdcd9465ec7c9bac9f5718ca1b49e56517f3b0ae9fedeb47882519dbdd",
+    "published_sha256": "deca980666678cd5704192e94c1f5f79037f794c2e43171aa5badb7f3b2ef3c2",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.DescriptiveMessagesOnVerificationInOrderErrorsTest.xml": {
+    "original_sha256": "b0fa4520175e23218dd89752aeb350da5fec4113babb60df20d6873d8b8cb226",
+    "published_sha256": "5e5d29667fc32c880fc69273a1103d77dbb949ee3dede74643168bf14caac8dd",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.DescriptiveMessagesWhenTimesXVerificationFailsTest.xml": {
+    "original_sha256": "14f83eed7f98821f63bb5d943b39f0bac51c0a5d7e818f75089b6b84a214c225",
+    "published_sha256": "b1b3fa6d2ccb6b604e528a7de6abef60b5204dfb823b5e4611cd1c7581535109",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.xml": {
+    "original_sha256": "4c329cb63b99f165d1c3cb771352e771dbc0d45747b4f4998b7c383213fea13b",
+    "published_sha256": "fc3afb9a5f8f9bc9e6da6e027f44b47fdf5ab06981a6546285763f74da9e52f8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.ExactNumberOfTimesVerificationTest.xml": {
+    "original_sha256": "bdcd540f00ccb6f77cd10a129211d4fef856b36247b2edf838bc904a6c6b571a",
+    "published_sha256": "96979d54e364f012037476a5b9c5fdf13144f3104e51c6453d59b23c0d44fa30",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.FindingRedundantInvocationsInOrderTest.xml": {
+    "original_sha256": "8a8dfdfa679045d8bad4c9e441197a610fd4391355a1ce5c16bf6cf83da93c64",
+    "published_sha256": "458db5d5819571da53bba2358d8edb13400f326def7881b58b0346ed15bba5e9",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.NoMoreInteractionsVerificationTest.xml": {
+    "original_sha256": "da32283f5031aff188779c5a596747e2db22d367c59d27c880618503f12aa5da",
+    "published_sha256": "c2fafe7a67039ccf0a591b6b8a0277a3529643a90de46894d898a8a44c2bf4b6",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.OnlyVerificationTest.xml": {
+    "original_sha256": "4ea9920886ace71d9e85f21f06ec585ef9d4d91a147bafbcbb09d043ff241e90",
+    "published_sha256": "4d1779c096b7d351ec70b850c22a6eebf1db1403d8eca60d6dd4b0e9eb7d641b",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.OrdinaryVerificationPrintsAllInteractionsTest.xml": {
+    "original_sha256": "ff866d32c4efeb6241e607114bde2fc9f34b894dc57152befc358acc7247dfa7",
+    "published_sha256": "3e6f0a324ff1aac05653e3f9df7318232d8bc9f8a19d3e451950ced8f770e844",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.PrintingVerboseTypesWithArgumentsTest.xml": {
+    "original_sha256": "71f77de503140718ad78f3dc8561e9f492a7ce5cd4c92e0eacbacc4e93b68b20",
+    "published_sha256": "bddf39a462c3b0858b222d8ddf7a839e042697cf57cfdf4045aef37f3d7bab5d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.RelaxedVerificationInOrderTest.xml": {
+    "original_sha256": "75f329b070b397b8eb852c91ca50debd13dd40d3604b5115ec4c79ffda0ea5d2",
+    "published_sha256": "760c7a5db402f91e41ec6a8ae163719ba47bf26d4cf3a7c9b35b26bf896c5724",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.SelectedMocksInOrderVerificationTest.xml": {
+    "original_sha256": "d710a397e70fc9fee6c9d44c758a3779df83d76723cfa13bc96902c7cc768dee",
+    "published_sha256": "5088f1c1c6191c9083586912c7e82d22259fc2945e451c0881aa776d0bd4972a",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationExcludingStubsTest.xml": {
+    "original_sha256": "8679c45194db512fbe7c22cd59127ebd203249f337e160989edf43b1f22f0129",
+    "published_sha256": "c57695bb06c2b94df5f77a1471384cd97e5c987d0cc86266798e49801bc08d80",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest.xml": {
+    "original_sha256": "6e6300d8ec2bb1a66376ed41e4e0a11e5b0e679a13c981fd154656f4d7cc5685",
+    "published_sha256": "211530d528af1b2db91cc388137704591f0048009226623b3ee7f8b467510ce7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationInOrderTest.xml": {
+    "original_sha256": "b07f1fbc51ae354c3f44fd4d717e8fbbe4b0b41cbd0851ba230f8b9c0284b476",
+    "published_sha256": "30a456ee7cf33afcc92cc158c3b5d243de0e441b2b139cd1c78aaf6e5edca0e8",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationInOrderWithCallsTest.xml": {
+    "original_sha256": "2632b54818ce66a3d68c835d780709d1c8e53088a70c52790a371c91a27d06b2",
+    "published_sha256": "bed70c0f3a0eb54c3c4156cb70ddc2cd92b3808e2a5e130d4bfd4cec20a09ce0",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationInOrderWithTimeoutTest.xml": {
+    "original_sha256": "90b19882707faa6cecef706c5b7bf5d4cdee9177c5909428f1b28fb69a8c6095",
+    "published_sha256": "b8b24eed0232e23fb4d3c1963817a9fbad03cd3f71f2ff5c1290bd48736b7ce7",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationOnMultipleMocksUsingMatchersTest.xml": {
+    "original_sha256": "d19e816c865bbddb1f9c7d05f6df0dbcd684f2adc2a5444cd9521047004cf466",
+    "published_sha256": "43c780896cc1d9698159a84304852e47b00650e17e0b49031f43930310d0418d",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationStartedListenerTest.xml": {
+    "original_sha256": "4f3420d0882067cbe30756b83e2b0f8cbfecd98e9baf4595d46bb420087e7ece",
+    "published_sha256": "d3f6849c71935d6fd77f001a424d9269b4e239c5a68b91f4373d042fec9d3ed5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationUsingMatchersTest.xml": {
+    "original_sha256": "2fbd64dc7ed30dbe9a2f63767cf332b707a5ceb5713fed2b2d9672790b07fa1d",
+    "published_sha256": "56358c79a0f30a19b366704bd88c7998c34f1d3ada9c13810f350da547cc8936",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationWithAfterAndCaptorTest.xml": {
+    "original_sha256": "c4e72331d354e51e77c98af6d526969cbc8a70cacf302026c2f8faad62ab8621",
+    "published_sha256": "8efab608601a999c8ca0815e8f6992460f02e67b3f2e86244180b486ea4785da",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationWithAfterTest.xml": {
+    "original_sha256": "dcf895a6871d7dd88af59741df3351dafcb3856ca14f988b59d9805287eb2f4c",
+    "published_sha256": "e60bfd83464e2ae953134af384d697427be9b5409b11faebfd02412cb6df835e",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerificationWithTimeoutTest.xml": {
+    "original_sha256": "f9940422dab93f33c8affedef2d5067bd306d3d8d94080e8e5d9495428c48911",
+    "published_sha256": "340c38e104e9a2f8bbc68e6aaa0e06dd47f8a1f79168a1431ba5688067e1bcc5",
+    "redacted": true
+  },
+  "xml/TEST-org.mockitousage.verification.VerifyPrintsAllInvocationsOnErrorTest.xml": {
+    "original_sha256": "fe11d72f4e39d602d81156c78fe7a5ebfb085c81e2bb53085b8fe469a85ea059",
+    "published_sha256": "97c9038753b1db898683e72d088c08b379030c6cbfc52f69a58b39571ce1781e",
+    "redacted": true
+  },
+  "no-retry.gradle": {
+    "original_sha256": "2a0caa917609fb0311fa974a9a93a07f41a6f0923318d9164817f6876148ad6f",
+    "published_sha256": "2a0caa917609fb0311fa974a9a93a07f41a6f0923318d9164817f6876148ad6f",
+    "redacted": false
+  }
+}

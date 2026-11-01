@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.MockitoTest" tests="33" skipped="2" failures="0" errors="0" timestamp="2026-11-01T08:03:33.779Z" hostname="REDACTED-HOST.local" time="0.248">
+  <properties/>
+  <testcase name="shouldGiveExplanationOnConstructionMockingMockMaker" classname="org.mockito.MockitoTest" time="0.0">
+    <skipped message="got: &lt;org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker@2d7345d0&gt;, expected: not an instance of org.mockito.plugins.InlineMockMaker" type="org.junit.AssumptionViolatedException">org.junit.AssumptionViolatedException: got: &lt;org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker@2d7345d0&gt;, expected: not an instance of org.mockito.plugins.InlineMockMaker
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.mockito.MockitoTest.shouldGiveExplanationOnConstructionMockingMockMaker(MockitoTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</skipped>
+  </testcase>
+  <testcase name="ensure_reified_mocked_static_should_not_be_called_with_parameters" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="shouldValidateMockWhenVerifying" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="newMockMethod_shouldNotBeCalledWithNullParameters" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="newMockMethod_shouldNotBeCalledWithParameters" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_construction_can_be_called_without_parameters" classname="org.mockito.MockitoTest" time="0.027"/>
+  <testcase name="ensure_reified_mocked_static_can_be_called_with_name" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="ensure_reified_mocked_static_can_be_called_with_default_answer" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="reifiedMockMethodWithNameSetsTheExpectedName" classname="org.mockito.MockitoTest" time="0.135"/>
+  <testcase name="ensure_reified_mocked_construction_can_be_called_with_initializer" classname="org.mockito.MockitoTest" time="0.002"/>
+  <testcase name="shouldRemoveStubbableFromProgressAfterStubbing" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_static_should_not_be_called_with_null" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_construction_can_be_called_with_settings_and_initializer" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="reifiedMockMethodWithDefaultAnswerSetsTheDefaultAnswer" classname="org.mockito.MockitoTest" time="0.035"/>
+  <testcase name="ensure_reified_mocked_static_can_be_called_with_settings" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="ensure_reified_mocked_construction_should_not_be_called_with_parameters" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_construction_should_not_be_called_with_null" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="shouldValidateMockWhenCreatingInOrderObject" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="automaticallyDetectsClassToSpy" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="shouldValidateMockWhenVerifyingNoMoreInteractions" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="newSpyMethod_shouldNotBeCalledWithParameters" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_construction_can_be_called_with_factory_and_initializer" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="shouldGiveExplanationOnStaticMockingMockMaker" classname="org.mockito.MockitoTest" time="0.0">
+    <skipped message="got: &lt;org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker@2d7345d0&gt;, expected: not an instance of org.mockito.plugins.InlineMockMaker" type="org.junit.AssumptionViolatedException">org.junit.AssumptionViolatedException: got: &lt;org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker@2d7345d0&gt;, expected: not an instance of org.mockito.plugins.InlineMockMaker
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.mockito.MockitoTest.shouldGiveExplanationOnStaticMockingMockMaker(MockitoTest.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</skipped>
+  </testcase>
+  <testcase name="shouldGiveExplanationOnConstructionMockingWithInlineMockMaker" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="shouldValidateMockWhenVerifyingWithExpectedNumberOfInvocations" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_construction_can_be_called_with_settings_factory" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="shouldValidateNullMockWhenVerifyingNoInteractions" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_static_can_be_called_without_parameters" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="shouldValidateMockWhenVerifyingNoInteractions" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="shouldStartingMockSettingsContainDefaultBehavior" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="automaticallyDetectsClassToMock" classname="org.mockito.MockitoTest" time="0.0"/>
+  <testcase name="ensure_reified_mocked_construction_can_be_called_with_settings" classname="org.mockito.MockitoTest" time="0.001"/>
+  <testcase name="reifiedMockMethodWithSettingsAppliesTheSettings" classname="org.mockito.MockitoTest" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

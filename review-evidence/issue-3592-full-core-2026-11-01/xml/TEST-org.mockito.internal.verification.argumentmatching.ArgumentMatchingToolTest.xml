@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:06.743Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="shouldNotFindAnySuspiciousMatchersWhenArgumentsMatch" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.0"/>
+  <testcase name="shouldNotFindNonMatchingIndexesWhenEveryArgsMatch" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.001"/>
+  <testcase name="shouldFindNonMatchingIndexesWhenSingleArgDoesNotMatch" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.0"/>
+  <testcase name="shouldFindSuspiciousMatchers" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.0"/>
+  <testcase name="shouldFindNonMatchingIndexesWhenMultiArgsDoNotMatch" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.0"/>
+  <testcase name="shouldUseMatchersSafely" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.001"/>
+  <testcase name="shouldNotFindAnySuspiciousMatchersWhenNumberOfArgumentsDoesntMatch" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.0"/>
+  <testcase name="shouldWorkFineWhenGivenArgIsNull" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.0"/>
+  <testcase name="shouldNotFindSuspiciousMatchersWhenTypesAreTheSame" classname="org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.DefaultAnswerValidatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:58.966Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="should_not_fail_if_returned_value_of_answer_is_null" classname="org.mockito.internal.stubbing.answers.DefaultAnswerValidatorTest" time="0.001"/>
+  <testcase name="should_fail_if_returned_value_of_answer_is_incompatible_with_return_type" classname="org.mockito.internal.stubbing.answers.DefaultAnswerValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

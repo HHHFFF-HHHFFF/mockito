@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.junit.UnusedStubbingsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.495Z" hostname="REDACTED-HOST.local" time="0.004">
+  <properties/>
+  <testcase name="no_unused_stubbings" classname="org.mockito.internal.junit.UnusedStubbingsTest" time="0.002"/>
+  <testcase name="unused_stubbings" classname="org.mockito.internal.junit.UnusedStubbingsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

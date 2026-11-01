@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.serialization.StrictStubsSerializableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:54.992Z" hostname="REDACTED-HOST.local" time="0.077">
+  <properties/>
+  <testcase name="should_serialize_and_deserialize_mock_created_with_serializable_and_strict_stubs" classname="org.mockitousage.serialization.StrictStubsSerializableTest" time="0.077"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

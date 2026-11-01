@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$UsingMethodObjectReferenceResult" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:12.551Z" hostname="REDACTED-HOST.local" time="0.033">
+  <properties/>
+  <testcase name="should_be_able_to_create_spy" classname="org.mockitousage.bugs.creation.ConstructorInvokingMethodShouldNotRaiseExceptionTest$UsingMethodObjectReferenceResult" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

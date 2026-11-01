@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.configuration.plugins.PluginFinderTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.108Z" hostname="REDACTED-HOST.local" time="0.099">
+  <properties/>
+  <testcase name="problems_loading_impl" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.063"/>
+  <testcase name="multiple_implementations_all_discovered" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.004"/>
+  <testcase name="multiple_implementations_duplicates_are_removed" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.005"/>
+  <testcase name="single_implementation" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.004"/>
+  <testcase name="single_implementation_disabled" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.003"/>
+  <testcase name="empty_resources" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.001"/>
+  <testcase name="no_valid_impl" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.003"/>
+  <testcase name="multiple_implementations_only_one_enabled" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.002"/>
+  <testcase name="multiple_implementations_some_not_enabled" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.005"/>
+  <testcase name="multiple_implementations_only_one_useful" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.004"/>
+  <testcase name="multiple_empty_implementations" classname="org.mockito.internal.configuration.plugins.PluginFinderTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

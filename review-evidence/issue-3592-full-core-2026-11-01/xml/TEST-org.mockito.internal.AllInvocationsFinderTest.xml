@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.AllInvocationsFinderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:34.114Z" hostname="REDACTED-HOST.local" time="0.219">
+  <properties/>
+  <testcase name="provides_invocations_in_order" classname="org.mockito.internal.AllInvocationsFinderTest" time="0.214"/>
+  <testcase name="deduplicates_interactions_from_the_same_mock" classname="org.mockito.internal.AllInvocationsFinderTest" time="0.002"/>
+  <testcase name="provides_stubbings_in_order" classname="org.mockito.internal.AllInvocationsFinderTest" time="0.002"/>
+  <testcase name="no_interactions" classname="org.mockito.internal.AllInvocationsFinderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

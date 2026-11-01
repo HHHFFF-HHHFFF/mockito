@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.junit.ArgMismatchFinderTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.424Z" hostname="REDACTED-HOST.local" time="0.005">
+  <properties/>
+  <testcase name="single_invocation_with_multiple_stubs" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.001"/>
+  <testcase name="single_mismatch_with_multiple_invocations" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.001"/>
+  <testcase name="mismatch_reports_only_unstubbed_invocations" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.001"/>
+  <testcase name="no_mismatch_when_mock_different" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.0"/>
+  <testcase name="no_mismatch_when_stubbing_used" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.001"/>
+  <testcase name="no_interactions" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.0"/>
+  <testcase name="stubbing_mismatch" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.001"/>
+  <testcase name="no_mismatch_when_method_different" classname="org.mockito.internal.junit.ArgMismatchFinderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

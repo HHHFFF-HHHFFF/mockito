@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.reflection.MemberAccessorTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:04.617Z" hostname="REDACTED-HOST.local" time="0.013">
+  <properties/>
+  <testcase name="test_new_instance[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.003"/>
+  <testcase name="test_set_final_field[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.001"/>
+  <testcase name="test_read_field[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_new_instance_invocation_exception[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.001"/>
+  <testcase name="test_invoke[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_new_instance_illegal_arguments[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_invoke_illegal_arguments[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.001"/>
+  <testcase name="test_write_static_field[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_read_static_field[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_invoke_invocation_exception[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.001"/>
+  <testcase name="test_new_instance_instantiation_exception[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.001"/>
+  <testcase name="test_write_field[0]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_new_instance[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_set_final_field[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_read_field[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_new_instance_invocation_exception[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_invoke[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_new_instance_illegal_arguments[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.003"/>
+  <testcase name="test_invoke_illegal_arguments[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_write_static_field[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.001"/>
+  <testcase name="test_read_static_field[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_invoke_invocation_exception[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_new_instance_instantiation_exception[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <testcase name="test_write_field[1]" classname="org.mockito.internal.util.reflection.MemberAccessorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

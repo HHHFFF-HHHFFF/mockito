@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.CompareMatcherTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:10.428Z" hostname="REDACTED-HOST.local" time="0.017">
+  <properties/>
+  <testcase name="matchesWithSubTypeGenericMethod" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.004"/>
+  <testcase name="compareToNull" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.002"/>
+  <testcase name="compareToIntVsString" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.001"/>
+  <testcase name="compareToNonCompareable" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.001"/>
+  <testcase name="compareToStringVsInt" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.002"/>
+  <testcase name="matchesWithSubTypeExtendingGenericClass" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.003"/>
+  <testcase name="matchesOverloadsMustBeIgnored" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.003"/>
+  <testcase name="compareNullArgument" classname="org.mockitousage.bugs.CompareMatcherTest" time="0.001"/>
+  <system-out><![CDATA[[MockitoHint] CompareMatcherTest.matchesWithSubTypeGenericMethod (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.matchesWithSubTypeGenericMethod(CompareMatcherTest.java:128)
+
+[MockitoHint] CompareMatcherTest.compareToNull (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.compareToNull(CompareMatcherTest.java:60)
+
+[MockitoHint] CompareMatcherTest.compareToIntVsString (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.compareToIntVsString(CompareMatcherTest.java:77)
+
+[MockitoHint] CompareMatcherTest.compareToNonCompareable (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.compareToNonCompareable(CompareMatcherTest.java:50)
+
+[MockitoHint] CompareMatcherTest.compareToStringVsInt (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.compareToStringVsInt(CompareMatcherTest.java:70)
+
+[MockitoHint] CompareMatcherTest.matchesWithSubTypeExtendingGenericClass (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.matchesWithSubTypeExtendingGenericClass(CompareMatcherTest.java:115)
+
+[MockitoHint] CompareMatcherTest.matchesOverloadsMustBeIgnored (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.matchesOverloadsMustBeIgnored(CompareMatcherTest.java:101)
+
+[MockitoHint] CompareMatcherTest.compareNullArgument (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.bugs.CompareMatcherTest.compareNullArgument(CompareMatcherTest.java:40)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

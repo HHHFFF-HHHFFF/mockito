@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:20.547Z" hostname="REDACTED-HOST.local" time="0.094">
+  <properties/>
+  <testcase name="with_single_arg_and_null_Object_reference" classname="org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test" time="0.087"/>
+  <testcase name="with_variable_arg_and_null_Object_array" classname="org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test" time="0.001"/>
+  <testcase name="with_variable_arg_and_null_Object_arg" classname="org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test" time="0.002"/>
+  <testcase name="with_variable_arg" classname="org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test" time="0.001"/>
+  <testcase name="with_single_arg" classname="org.mockitousage.jls.JLS_15_12_2_5Test$JLS_15_12_2_5_Java8_Test" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.PrematureGarbageCollectionTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2026-11-01T08:03:34.040Z" hostname="REDACTED-HOST.local" time="0.0">
+  <properties/>
+  <testcase name="provoke_premature_garbage_collection" classname="org.mockito.PrematureGarbageCollectionTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

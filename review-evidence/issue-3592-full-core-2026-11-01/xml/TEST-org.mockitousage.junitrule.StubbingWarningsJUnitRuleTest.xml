@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:21.207Z" hostname="REDACTED-HOST.local" time="0.044">
+  <properties/>
+  <testcase name="warns_about_unused_stubs_when_passed" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.004"/>
+  <testcase name="no_mismatch_when_stub_was_used" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.005"/>
+  <testcase name="no_stubbing_arg_mismatch_on_pass" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.003"/>
+  <testcase name="no_unused_stubs_reported_on_failure" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.004"/>
+  <testcase name="no_stubbing_warning_on_pass" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.004"/>
+  <testcase name="multiple_stubbing_arg_mismatch_on_failure" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.006"/>
+  <testcase name="no_stubbing_arg_mismatch_when_no_mismatch_on_fail" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.005"/>
+  <testcase name="reports_only_mismatching_stubs" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.004"/>
+  <testcase name="stubbing_arg_mismatch_on_failure" classname="org.mockitousage.junitrule.StubbingWarningsJUnitRuleTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:48.701Z" hostname="REDACTED-HOST.local" time="0.86">
+  <properties/>
+  <testcase name="mock_class_with_annotations" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.039"/>
+  <testcase name="is_type_mockable_excludes_sealed_classes" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.011"/>
+  <testcase name="mock_class_with_annotations_with_additional_interface" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.033"/>
+  <testcase name="is_type_mockable_excludes_primitive_classes" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.004"/>
+  <testcase name="is_type_mockable_excludes_primitive_wrapper_classes" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.002"/>
+  <testcase name="mock_interface_with_annotations_with_additional_interface" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.032"/>
+  <testcase name="is_type_mockable_give_empty_reason_if_type_is_mockable" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.003"/>
+  <testcase name="is_type_mockable_allow_anonymous" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.005"/>
+  <testcase name="mock_type_without_annotations" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.033"/>
+  <testcase name="mock_interface_with_annotations" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.043"/>
+  <testcase name="should_use_ancillary_Types" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.056"/>
+  <testcase name="should_allow_serialization" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.044"/>
+  <testcase name="should_create_mock_from_class" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.032"/>
+  <testcase name="should_create_mock_from_class_with_super_call_to_final_method" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.033"/>
+  <testcase name="instantiate_fine_when_objenesis_on_the_classpath" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.386"/>
+  <testcase name="should_create_mock_from_interface" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.021"/>
+  <testcase name="should_create_class_by_constructor" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.02"/>
+  <testcase name="should_create_mock_from_class_even_when_constructor_is_dodgy" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.021"/>
+  <testcase name="should_reset_mock_and_set_new_handler" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.02"/>
+  <testcase name="should_mocks_have_different_interceptors" classname="org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMakerTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

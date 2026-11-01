@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.EqualsWithDeltaTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:11.900Z" hostname="REDACTED-HOST.local" time="0.0">
+  <properties/>
+  <testcase name="testEqualsWithDelta_NullExpected" classname="org.mockitousage.bugs.EqualsWithDeltaTest" time="0.0"/>
+  <testcase name="testEqualsWithDelta_WhenActualAndExpectedAreTheSameObject" classname="org.mockitousage.bugs.EqualsWithDeltaTest" time="0.0"/>
+  <testcase name="testEqualsWithDelta_NullActual" classname="org.mockitousage.bugs.EqualsWithDeltaTest" time="0.0"/>
+  <testcase name="testEqualsWithDelta_NullActualAndExpected" classname="org.mockitousage.bugs.EqualsWithDeltaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

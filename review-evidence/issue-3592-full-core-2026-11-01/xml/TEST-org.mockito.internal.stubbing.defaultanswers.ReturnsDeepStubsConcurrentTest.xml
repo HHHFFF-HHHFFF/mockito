@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubsConcurrentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:59.169Z" hostname="REDACTED-HOST.local" time="2.921">
+  <properties/>
+  <testcase name="given_mock_with_returns_deep_stubs__when_called_concurrently__then_does_not_throw_concurrent_modification_exception" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubsConcurrentTest" time="2.921"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

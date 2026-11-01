@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.collections.SetsTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.594Z" hostname="REDACTED-HOST.local" time="0.062">
+  <properties/>
+  <testcase name="should_create_set_with_mixed_types_using_generics" classname="org.mockito.internal.util.collections.SetsTest" time="0.001"/>
+  <testcase name="should_allow_adding_to_mock_safe_hash_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.051"/>
+  <testcase name="should_create_mock_safe_hash_set_from_varargs" classname="org.mockito.internal.util.collections.SetsTest" time="0.001"/>
+  <testcase name="should_create_empty_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_create_empty_mock_safe_hash_set_from_empty_iterable" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_throw_exception_when_null_passed_to_new_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.001"/>
+  <testcase name="should_create_set_with_integer_elements" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_handle_null_in_iterable_for_mock_safe_hash_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.001"/>
+  <testcase name="should_create_mock_safe_hash_set_from_iterable" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_handle_duplicate_mocks_in_mock_safe_hash_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.001"/>
+  <testcase name="should_handle_duplicate_elements_in_new_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_create_set_with_string_elements" classname="org.mockito.internal.util.collections.SetsTest" time="0.002"/>
+  <testcase name="should_allow_removing_from_mock_safe_hash_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_preserve_order_in_new_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_create_empty_mock_safe_hash_set_from_no_args" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_handle_mock_safe_hash_set_with_regular_objects" classname="org.mockito.internal.util.collections.SetsTest" time="0.0"/>
+  <testcase name="should_handle_null_elements_in_new_set" classname="org.mockito.internal.util.collections.SetsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

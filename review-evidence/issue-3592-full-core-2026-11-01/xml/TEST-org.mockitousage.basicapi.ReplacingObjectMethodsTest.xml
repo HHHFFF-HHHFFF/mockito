@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.basicapi.ReplacingObjectMethodsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:09.545Z" hostname="REDACTED-HOST.local" time="0.094">
+  <properties/>
+  <testcase name="shouldProvideMockyImplementationOfToString" classname="org.mockitousage.basicapi.ReplacingObjectMethodsTest" time="0.06"/>
+  <testcase name="shouldReplaceObjectMethodsWhenOverridden" classname="org.mockitousage.basicapi.ReplacingObjectMethodsTest" time="0.033"/>
+  <testcase name="shouldReplaceObjectMethods" classname="org.mockitousage.basicapi.ReplacingObjectMethodsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

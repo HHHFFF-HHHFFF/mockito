@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrunner.DeepStubbingWithJUnitRunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:21.329Z" hostname="REDACTED-HOST.local" time="0.274">
+  <properties/>
+  <testcase name="deep_stubs_dont_trigger_unnecessary_stubbing_exception" classname="org.mockitousage.junitrunner.DeepStubbingWithJUnitRunnerTest" time="0.274"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

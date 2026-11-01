@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:58.694Z" hostname="REDACTED-HOST.local" time="2.844">
+  <properties/>
+  <testcase name="should_verify_in_order_with_at_least_once" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.117"/>
+  <testcase name="should_verify_in_order_with_at_least_x_and_fail" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.658"/>
+  <testcase name="should_not_allow_in_order_with_after" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.005"/>
+  <testcase name="should_verify_in_order_with_timeout_and_fail" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.441"/>
+  <testcase name="should_verify_in_order_with_at_least_x" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.135"/>
+  <testcase name="should_verify_in_order_with_times_x_and_fail" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.376"/>
+  <testcase name="should_verify_in_order_with_timeout" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.211"/>
+  <testcase name="should_verify_in_order_with_times_x" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.262"/>
+  <testcase name="should_not_allow_in_order_with_only" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.002"/>
+  <testcase name="should_verify_in_order_with_at_least_once_and_fail" classname="org.mockitousage.verification.VerificationInOrderWithTimeoutTest" time="0.637"/>
+  <system-out><![CDATA[[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 50 millis. Threads so far: 1
+[AsyncTesting] Starting thread that will execute the runnable after 100 millis. Threads so far: 2
+[AsyncTesting] Starting thread that will execute the runnable after 120 millis. Threads so far: 3
+[AsyncTesting] Interrupting and waiting for 4 threads to complete...
+[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 50 millis. Threads so far: 1
+[AsyncTesting] Starting thread that will execute the runnable after 100 millis. Threads so far: 2
+[AsyncTesting] Starting thread that will execute the runnable after 120 millis. Threads so far: 3
+[AsyncTesting] Interrupting and waiting for 4 threads to complete...
+[AsyncTesting] Interrupting and waiting for 0 threads to complete...
+[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 100 millis. Threads so far: 1
+[AsyncTesting] Interrupting and waiting for 2 threads to complete...
+[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 50 millis. Threads so far: 1
+[AsyncTesting] Starting thread that will execute the runnable after 100 millis. Threads so far: 2
+[AsyncTesting] Starting thread that will execute the runnable after 120 millis. Threads so far: 3
+[AsyncTesting] Interrupting and waiting for 4 threads to complete...
+[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 50 millis. Threads so far: 1
+[AsyncTesting] Starting thread that will execute the runnable after 200 millis. Threads so far: 2
+[AsyncTesting] Starting thread that will execute the runnable after 250 millis. Threads so far: 3
+[AsyncTesting] Interrupting and waiting for 4 threads to complete...
+[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 50 millis. Threads so far: 1
+[AsyncTesting] Starting thread that will execute the runnable after 200 millis. Threads so far: 2
+[AsyncTesting] Interrupting and waiting for 3 threads to complete...
+[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 50 millis. Threads so far: 1
+[AsyncTesting] Starting thread that will execute the runnable after 200 millis. Threads so far: 2
+[AsyncTesting] Starting thread that will execute the runnable after 250 millis. Threads so far: 3
+[AsyncTesting] Interrupting and waiting for 4 threads to complete...
+[AsyncTesting] Interrupting and waiting for 0 threads to complete...
+[AsyncTesting] Starting thread that will execute the runnable after 20 millis. Threads so far: 0
+[AsyncTesting] Starting thread that will execute the runnable after 50 millis. Threads so far: 1
+[AsyncTesting] Starting thread that will execute the runnable after 100 millis. Threads so far: 2
+[AsyncTesting] Starting thread that will execute the runnable after 120 millis. Threads so far: 3
+[AsyncTesting] Interrupting and waiting for 4 threads to complete...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

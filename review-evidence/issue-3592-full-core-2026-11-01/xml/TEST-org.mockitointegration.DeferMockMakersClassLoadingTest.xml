@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitointegration.DeferMockMakersClassLoadingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:06.893Z" hostname="REDACTED-HOST.local" time="0.116">
+  <properties/>
+  <testcase name="mockito_should_not_load_mock_makers_it_does_not_need" classname="org.mockitointegration.DeferMockMakersClassLoadingTest" time="0.116"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.ReturnsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:59.073Z" hostname="REDACTED-HOST.local" time="0.007">
+  <properties/>
+  <testcase name="should_fail_when_return_Value_is_set_for_void_method" classname="org.mockito.internal.stubbing.answers.ReturnsTest" time="0.002"/>
+  <testcase name="should_fail_on_return_type_mismatch" classname="org.mockito.internal.stubbing.answers.ReturnsTest" time="0.001"/>
+  <testcase name="should_fail_on_null_with_primitive" classname="org.mockito.internal.stubbing.answers.ReturnsTest" time="0.001"/>
+  <testcase name="should_fail_on_wrong_primitive" classname="org.mockito.internal.stubbing.answers.ReturnsTest" time="0.001"/>
+  <testcase name="should_return_value" classname="org.mockito.internal.stubbing.answers.ReturnsTest" time="0.0"/>
+  <testcase name="should_allow_correct_type_of_return_value" classname="org.mockito.internal.stubbing.answers.ReturnsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

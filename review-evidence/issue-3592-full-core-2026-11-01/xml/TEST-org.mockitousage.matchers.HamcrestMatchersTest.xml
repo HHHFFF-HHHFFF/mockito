@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.HamcrestMatchersTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:22.839Z" hostname="REDACTED-HOST.local" time="0.03">
+  <properties/>
+  <testcase name="supports_primitive_matchers" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.005"/>
+  <testcase name="supports_primitive_matchers_from_core_library" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.005"/>
+  <testcase name="verifies_with_hamcrest_matcher" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.004"/>
+  <testcase name="verifies_vararg_with_single_item" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.002"/>
+  <testcase name="does_not_verify_vararg_with_multiple_items" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.001"/>
+  <testcase name="does_not_verify_vararg_with_no_items" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.001"/>
+  <testcase name="coexists_with_mockito_matcher" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.003"/>
+  <testcase name="supports_non_generic_matchers" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.003"/>
+  <testcase name="verifies_vararg_with_any_num_items" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.002"/>
+  <testcase name="verify_vararg_with_multiple_item" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.002"/>
+  <testcase name="stubs_with_hamcrest_matcher" classname="org.mockitousage.matchers.HamcrestMatchersTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

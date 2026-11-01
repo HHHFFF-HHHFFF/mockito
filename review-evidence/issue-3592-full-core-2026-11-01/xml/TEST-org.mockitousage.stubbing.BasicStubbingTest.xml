@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.BasicStubbingTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:56.635Z" hostname="REDACTED-HOST.local" time="0.07">
+  <properties/>
+  <testcase name="test_stub_only_not_verifiable_verify_no_more_interactions" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.0"/>
+  <testcase name="should_stubbing_not_be_treated_as_interaction_verify_no_interactions" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.001"/>
+  <testcase name="should_allow_stubbing_to_string" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.0"/>
+  <testcase name="should_allow_mocking_when_to_string_is_final" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.06"/>
+  <testcase name="should_stubbing_be_treated_as_interaction" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.003"/>
+  <testcase name="test_stub_only_not_verifiable" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.001"/>
+  <testcase name="unfinished_stubbing_cleans_up_the_state" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.001"/>
+  <testcase name="unfinished_stubbing_cleans_up_the_state_verify_no_interactions" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.0"/>
+  <testcase name="test_stub_only_not_verifiable_in_order" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.001"/>
+  <testcase name="should_evaluate_latest_stubbing_first" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.0"/>
+  <testcase name="should_stubbing_not_be_treated_as_interaction" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.001"/>
+  <testcase name="test_stub_only_not_verifiable_fail_fast" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.001"/>
+  <testcase name="should_to_string_mock_name" classname="org.mockitousage.stubbing.BasicStubbingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

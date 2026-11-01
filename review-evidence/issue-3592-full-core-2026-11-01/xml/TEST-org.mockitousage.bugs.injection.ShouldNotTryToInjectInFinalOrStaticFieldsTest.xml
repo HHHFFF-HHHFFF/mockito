@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.injection.ShouldNotTryToInjectInFinalOrStaticFieldsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:13.299Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="dont_fail_with_CONSTANTS" classname="org.mockitousage.bugs.injection.ShouldNotTryToInjectInFinalOrStaticFieldsTest" time="0.001"/>
+  <testcase name="dont_inject_in_final" classname="org.mockitousage.bugs.injection.ShouldNotTryToInjectInFinalOrStaticFieldsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

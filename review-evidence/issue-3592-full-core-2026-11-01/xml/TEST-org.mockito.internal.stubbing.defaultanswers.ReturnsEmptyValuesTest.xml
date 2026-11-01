@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:02.091Z" hostname="REDACTED-HOST.local" time="0.462">
+  <properties/>
+  <testcase name="should_return_empty_IntStream" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.001"/>
+  <testcase name="should_return_non_zero_for_compareTo_method" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.06"/>
+  <testcase name="should_return_empty_duration" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.001"/>
+  <testcase name="should_return_empty_LongStream" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_primitive" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_empty_OptionalDouble" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.082"/>
+  <testcase name="should_return_empty_OptionalInt" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.075"/>
+  <testcase name="returnsCompletedFuture_forCompletionStage" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.032"/>
+  <testcase name="should_return_empty_sequenced_map" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_empty_sequenced_set" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_empty_Optional" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.084"/>
+  <testcase name="returnsCompletedFuture_forFuture" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.032"/>
+  <testcase name="returnsCompletedFuture_forCompletableFuture" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.03"/>
+  <testcase name="should_return_empty_collections_or_null_for_non_collections" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.001"/>
+  <testcase name="should_return_empty_DoubleStream" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_zero_if_mock_is_compared_to_itself" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_empty_iterable" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_empty_OptionalLong" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.062"/>
+  <testcase name="should_return_empty_sequenced_collection" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <testcase name="should_return_empty_Stream" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

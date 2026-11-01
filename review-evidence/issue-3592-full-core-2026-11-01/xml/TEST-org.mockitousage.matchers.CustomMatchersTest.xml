@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.CustomMatchersTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:22.492Z" hostname="REDACTED-HOST.local" time="0.171">
+  <properties/>
+  <testcase name="shouldUseCustomObjectMatcher" classname="org.mockitousage.matchers.CustomMatchersTest" time="0.003"/>
+  <testcase name="shouldAnonymousCustomMatcherPrintDefaultDescription" classname="org.mockitousage.matchers.CustomMatchersTest" time="0.002"/>
+  <testcase name="shouldCustomMatcherPrintDescriptionBasedOnName" classname="org.mockitousage.matchers.CustomMatchersTest" time="0.115"/>
+  <testcase name="shouldUseCustomCharMatcher" classname="org.mockitousage.matchers.CustomMatchersTest" time="0.03"/>
+  <testcase name="shouldUseCustomPrimitiveNumberMatchers" classname="org.mockitousage.matchers.CustomMatchersTest" time="0.005"/>
+  <testcase name="shouldUseCustomBooleanMatcher" classname="org.mockitousage.matchers.CustomMatchersTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

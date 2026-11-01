@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.injection.Issue353InjectionMightNotHappenInCertainConfigurationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:13.208Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="when_identical_types_and_the_correct_mock_name_is_greater_than_the_non_matching_name_then_injection_occurs_only_on_the_named_one" classname="org.mockitousage.bugs.injection.Issue353InjectionMightNotHappenInCertainConfigurationTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

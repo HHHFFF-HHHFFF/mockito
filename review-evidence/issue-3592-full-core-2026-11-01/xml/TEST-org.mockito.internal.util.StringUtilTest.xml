@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.StringUtilTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.514Z" hostname="REDACTED-HOST.local" time="0.002">
+  <properties/>
+  <testcase name="joins_with_line_prefix" classname="org.mockito.internal.util.StringUtilTest" time="0.0"/>
+  <testcase name="joins_single_line" classname="org.mockito.internal.util.StringUtilTest" time="0.001"/>
+  <testcase name="decamelizes_matcher_name" classname="org.mockito.internal.util.StringUtilTest" time="0.0"/>
+  <testcase name="joins_two_lines" classname="org.mockito.internal.util.StringUtilTest" time="0.0"/>
+  <testcase name="join_has_preceding_linebreak" classname="org.mockito.internal.util.StringUtilTest" time="0.0"/>
+  <testcase name="joins_empty_list" classname="org.mockito.internal.util.StringUtilTest" time="0.0"/>
+  <testcase name="removes_first_line" classname="org.mockito.internal.util.StringUtilTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.AtLeastXVerificationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:58.459Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="shouldVerifyAtLeastXTimes" classname="org.mockitousage.verification.AtLeastXVerificationTest" time="0.001"/>
+  <testcase name="shouldFailVerificationAtLeastXTimes" classname="org.mockitousage.verification.AtLeastXVerificationTest" time="0.001"/>
+  <testcase name="shouldAllowAtLeastZeroForTheSakeOfVerifyNoMoreInteractionsSometimes" classname="org.mockitousage.verification.AtLeastXVerificationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

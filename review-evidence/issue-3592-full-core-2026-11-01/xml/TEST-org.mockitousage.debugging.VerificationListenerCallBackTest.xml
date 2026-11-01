@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.VerificationListenerCallBackTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:20.356Z" hostname="REDACTED-HOST.local" time="0.106">
+  <properties/>
+  <testcase name="should_call_single_listener_on_verify" classname="org.mockitousage.debugging.VerificationListenerCallBackTest" time="0.003"/>
+  <testcase name="should_notify_when_verification_throws_runtime_exception" classname="org.mockitousage.debugging.VerificationListenerCallBackTest" time="0.001"/>
+  <testcase name="should_call_all_listeners_on_verify" classname="org.mockitousage.debugging.VerificationListenerCallBackTest" time="0.001"/>
+  <testcase name="should_not_call_listener_when_verify_was_called_incorrectly" classname="org.mockitousage.debugging.VerificationListenerCallBackTest" time="0.069"/>
+  <testcase name="should_call_verification_listeners" classname="org.mockitousage.debugging.VerificationListenerCallBackTest" time="0.029"/>
+  <testcase name="should_notify_when_verification_throws_type_error" classname="org.mockitousage.debugging.VerificationListenerCallBackTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

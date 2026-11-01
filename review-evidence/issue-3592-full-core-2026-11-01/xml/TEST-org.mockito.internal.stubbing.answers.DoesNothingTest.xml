@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.DoesNothingTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:58.972Z" hostname="REDACTED-HOST.local" time="0.053">
+  <properties/>
+  <testcase name="answer_returns_null_for_generic_parameter" classname="org.mockito.internal.stubbing.answers.DoesNothingTest" time="0.049"/>
+  <testcase name="validateFor_nonVoidReturnType_shouldFail" classname="org.mockito.internal.stubbing.answers.DoesNothingTest" time="0.001"/>
+  <testcase name="answer_returnsNull" classname="org.mockito.internal.stubbing.answers.DoesNothingTest" time="0.001"/>
+  <testcase name="validateFor_voidReturnType_shouldPass" classname="org.mockito.internal.stubbing.answers.DoesNothingTest" time="0.001"/>
+  <testcase name="validateFor_voidObjectReturnType" classname="org.mockito.internal.stubbing.answers.DoesNothingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:58.233Z" hostname="REDACTED-HOST.local" time="0.027">
+  <properties/>
+  <testcase name="should_not_fail_when_calling_varargs_method_without_arguments" classname="org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest" time="0.027"/>
+  <testcase name="should_not_fail_when_calling_varargs_method_with_null_argument" classname="org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest" time="0.0"/>
+  <testcase name="should_not_fail_when_calling_varargs_method" classname="org.mockitousage.stubbing.StubbingWithDelegateVarArgsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

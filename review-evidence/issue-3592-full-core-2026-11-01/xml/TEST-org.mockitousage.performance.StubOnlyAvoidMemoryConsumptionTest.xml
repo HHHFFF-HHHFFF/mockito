@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest" tests="2" skipped="1" failures="0" errors="0" timestamp="2026-11-01T08:04:24.321Z" hostname="REDACTED-HOST.local" time="26.476">
+  <properties/>
+  <testcase name="without_stub_only_mocks_will_store_invocations_leading_to_an_OutOfMemoryError" classname="org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="using_stub_only_wont_thrown_an_OutOfMemoryError" classname="org.mockitousage.performance.StubOnlyAvoidMemoryConsumptionTest" time="26.476"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

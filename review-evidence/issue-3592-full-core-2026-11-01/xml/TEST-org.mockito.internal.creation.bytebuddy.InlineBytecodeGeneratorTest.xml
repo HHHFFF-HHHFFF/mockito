@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.bytebuddy.InlineBytecodeGeneratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.756Z" hostname="REDACTED-HOST.local" time="0.103">
+  <properties/>
+  <testcase name="clearing_does_not_transform_classes_on_another_thread" classname="org.mockito.internal.creation.bytebuddy.InlineBytecodeGeneratorTest" time="0.076"/>
+  <testcase name="transformation_failures_are_scoped_to_their_operation" classname="org.mockito.internal.creation.bytebuddy.InlineBytecodeGeneratorTest" time="0.016"/>
+  <testcase name="clearing_reports_failure_from_its_transformation" classname="org.mockito.internal.creation.bytebuddy.InlineBytecodeGeneratorTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingReturnsSelfTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.536Z" hostname="REDACTED-HOST.local" time="0.08">
+  <properties/>
+  <testcase name="should_return_stubbed_answer_when_call_on_method_returns_self" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.03"/>
+  <testcase name="should_return_default_return_when_not_a_builder" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.0"/>
+  <testcase name="should_not_fail_when_calling_primitive_returning_method" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.0"/>
+  <testcase name="should_not_fail_when_calling_method_with_generic_return_type" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.0"/>
+  <testcase name="use_full_builder_with_terminating_method" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.026"/>
+  <testcase name="should_return_self_when_call_on_method_in_subclass" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.023"/>
+  <testcase name="should_not_fail_when_calling_void_returning_method" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.001"/>
+  <testcase name="should_return_self_when_call_on_method_in_superclass" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.0"/>
+  <testcase name="should_return_self_when_call_on_method_in_subclass_returns_superclass" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.0"/>
+  <testcase name="should_stub_builder_method" classname="org.mockitousage.stubbing.StubbingReturnsSelfTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

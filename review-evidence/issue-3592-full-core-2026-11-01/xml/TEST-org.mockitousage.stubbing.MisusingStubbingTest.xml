@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.MisusingStubbingTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.348Z" hostname="REDACTED-HOST.local" time="0.001">
+  <properties/>
+  <testcase name="clean_state_after_not_a_mock" classname="org.mockitousage.stubbing.MisusingStubbingTest" time="0.001"/>
+  <testcase name="clean_state_after_null_passed" classname="org.mockitousage.stubbing.MisusingStubbingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

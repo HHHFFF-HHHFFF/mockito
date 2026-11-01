@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingUsingDoReturnTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.619Z" hostname="REDACTED-HOST.local" time="0.007">
+  <properties/>
+  <testcase name="should_stub_with_throwable" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_stub_with_generic_answer" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.001"/>
+  <testcase name="should_detect_invalid_return_type" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_allow_stubbing_to_string" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_scream_when_null_passed" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.001"/>
+  <testcase name="should_allow_setting_valid_checked_exception" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_scream_when_not_a_mock_passed" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_allow_chained_stubbing_on_void_methods" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_verify_stubbed_call" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.001"/>
+  <testcase name="should_stub" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_allow_do_call_real_method_in_chained_stubbing" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.001"/>
+  <testcase name="should_stubbing_be_treated_as_interaction" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_not_allow_do_nothing_on_non_voids" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_allow_consecutive_return_values" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_detect_invalid_checked_exception" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.001"/>
+  <testcase name="should_allow_stubbing_when_types_match_signature" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_stub_with_args" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.001"/>
+  <testcase name="should_allow_chained_stubbing_with_exception_class" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_scream_when_return_set_for_void" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <testcase name="should_allow_chained_stubbing" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.001"/>
+  <testcase name="should_detect_when_null_assigned_to_boolean" classname="org.mockitousage.stubbing.StubbingUsingDoReturnTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.RelaxedVerificationInOrderTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:58.621Z" hostname="REDACTED-HOST.local" time="0.015">
+  <properties/>
+  <testcase name="shouldVerifyLastInvocation" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldFailTimesZeroInOrder" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyDetectAllChunksOfInvocationThatExistInManyChunks" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldVerifyInteractionsFromFirstChunk" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldFailOnLastAndFirstInWrongOrder" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldFailVerificationOfNonFirstChunk" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldAllowFirstChunkBeforeLastInvocation" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderAllInvocations" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldFailOnWrongMethodAfterLastInvocation" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderOnlyTwoInvocations" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderOnlyMockTwo" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldPassOnEdgyCombinationOfTimesAndAtLeastOnce" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldPassOnCombinationOfTimesAndAtLeastOnce" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldFailWhenMockTwoWantedZeroTimes" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifySecondAndLastInvocationWhenAtLeastOnceUsed" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldFailOnWrongMethodCalledOnMockTwo" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldVerifyInOrderMockOneAndThree" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderAndBeRelaxed" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldVerifyInteractionsFromAllChunksWhenAtLeastOnceMode" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldVerifySecondAndLastInvocation" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldFailOnLastTwoInvocationsInWrongOrder" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldVerifyDetectFirstChunkOfInvocationThatExistInManyChunks" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyMockTwoCalledTwice" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldAllowAllChunksBeforeLastInvocation" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldAllowTimesZeroButOnlyInOrder" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <testcase name="shouldVerifyMockTwoCalledAtLeastOnce" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.001"/>
+  <testcase name="shouldVerifyInOrderMockTwoAndThree" classname="org.mockitousage.verification.RelaxedVerificationInOrderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrunner.StrictRunnerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:21.690Z" hostname="REDACTED-HOST.local" time="0.072">
+  <properties/>
+  <testcase name="fails_when_stubs_were_not_used_with_noop_filter" classname="org.mockitousage.junitrunner.StrictRunnerTest" time="0.013"/>
+  <testcase name="does_not_report_unused_stubs_when_test_is_filtered" classname="org.mockitousage.junitrunner.StrictRunnerTest" time="0.006"/>
+  <testcase name="runner_can_coexist_with_rule" classname="org.mockitousage.junitrunner.StrictRunnerTest" time="0.008"/>
+  <testcase name="fails_when_stubs_were_not_used" classname="org.mockitousage.junitrunner.StrictRunnerTest" time="0.01"/>
+  <testcase name="does_not_report_unused_stubs_when_different_failure_is_present" classname="org.mockitousage.junitrunner.StrictRunnerTest" time="0.013"/>
+  <testcase name="succeeds_when_all_stubs_were_used" classname="org.mockitousage.junitrunner.StrictRunnerTest" time="0.014"/>
+  <testcase name="runner_in_multi_threaded_tests" classname="org.mockitousage.junitrunner.StrictRunnerTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

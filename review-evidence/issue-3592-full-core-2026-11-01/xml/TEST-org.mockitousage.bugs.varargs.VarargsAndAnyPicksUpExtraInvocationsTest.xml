@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.varargs.VarargsAndAnyPicksUpExtraInvocationsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:13.304Z" hostname="REDACTED-HOST.local" time="0.045">
+  <properties/>
+  <testcase name="shouldVerifyCorrectlyWithAny" classname="org.mockitousage.bugs.varargs.VarargsAndAnyPicksUpExtraInvocationsTest" time="0.042"/>
+  <testcase name="shouldVerifyCorrectlyNumberOfInvocationsUsingAnyAndEqualArgument" classname="org.mockitousage.bugs.varargs.VarargsAndAnyPicksUpExtraInvocationsTest" time="0.001"/>
+  <testcase name="shouldVerifyCorrectlyNumberOfInvocationsWithVarargs" classname="org.mockitousage.bugs.varargs.VarargsAndAnyPicksUpExtraInvocationsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

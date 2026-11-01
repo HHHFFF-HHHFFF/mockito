@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.matchers.StringMatchersTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.953Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="matchesRegex" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.001"/>
+  <testcase name="doesNotStartWithString" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="doesNotMatchRegex" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="stringDoesNotContain" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="nullContainsNothing" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="containsString" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="startsWithString" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="doesNotEndWithString" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="nullStartsWith" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="nullEndsWith" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="endsWithString" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <testcase name="nullDoesNotMatchRegex" classname="org.mockito.internal.matchers.StringMatchersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

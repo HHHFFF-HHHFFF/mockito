@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.MockTest$StrictnessToMockStrictnessTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:33.062Z" hostname="REDACTED-HOST.local" time="0.0">
+  <properties/>
+  <testcase name="should_have_matching_enum_in_mock_strictness_enum[LENIENT]" classname="org.mockito.MockTest$StrictnessToMockStrictnessTest" time="0.0"/>
+  <testcase name="should_have_matching_enum_in_mock_strictness_enum[WARN]" classname="org.mockito.MockTest$StrictnessToMockStrictnessTest" time="0.0"/>
+  <testcase name="should_have_matching_enum_in_mock_strictness_enum[STRICT_STUBS]" classname="org.mockito.MockTest$StrictnessToMockStrictnessTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

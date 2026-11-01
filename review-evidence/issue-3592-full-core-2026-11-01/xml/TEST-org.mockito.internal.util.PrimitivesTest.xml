@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.PrimitivesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.510Z" hostname="REDACTED-HOST.local" time="0.001">
+  <properties/>
+  <testcase name="should_return_null_for_everything_else" classname="org.mockito.internal.util.PrimitivesTest" time="0.0"/>
+  <testcase name="should_check_that_value_type_is_assignable_to_wrapper_reference" classname="org.mockito.internal.util.PrimitivesTest" time="0.0"/>
+  <testcase name="should_not_return_null_for_primitives_wrappers" classname="org.mockito.internal.util.PrimitivesTest" time="0.0"/>
+  <testcase name="should_not_return_null_for_primitives" classname="org.mockito.internal.util.PrimitivesTest" time="0.0"/>
+  <testcase name="should_default_values_for_wrapper" classname="org.mockito.internal.util.PrimitivesTest" time="0.001"/>
+  <testcase name="should_default_values_for_primitive" classname="org.mockito.internal.util.PrimitivesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

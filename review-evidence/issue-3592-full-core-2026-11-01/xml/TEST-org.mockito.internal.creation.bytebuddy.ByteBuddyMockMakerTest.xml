@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.bytebuddy.ByteBuddyMockMakerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.511Z" hostname="REDACTED-HOST.local" time="0.09">
+  <properties/>
+  <testcase name="should_delegate_call" classname="org.mockito.internal.creation.bytebuddy.ByteBuddyMockMakerTest" time="0.09"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

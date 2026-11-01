@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.listeners.VerificationStartedNotifierTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.559Z" hostname="REDACTED-HOST.local" time="0.297">
+  <properties/>
+  <testcase name="decent_exception_when_setting_mock_that_does_not_implement_all_desired_interfaces" classname="org.mockito.internal.listeners.VerificationStartedNotifierTest" time="0.031"/>
+  <testcase name="accepts_replacement_mock_if_all_types_are_compatible" classname="org.mockito.internal.listeners.VerificationStartedNotifierTest" time="0.263"/>
+  <testcase name="decent_exception_when_setting_mock_of_wrong_type" classname="org.mockito.internal.listeners.VerificationStartedNotifierTest" time="0.002"/>
+  <testcase name="does_not_do_anything_when_list_is_empty" classname="org.mockito.internal.listeners.VerificationStartedNotifierTest" time="0.0"/>
+  <testcase name="shows_clean_exception_message_when_illegal_null_arg_is_used" classname="org.mockito.internal.listeners.VerificationStartedNotifierTest" time="0.0"/>
+  <testcase name="decent_exception_when_setting_non_mock" classname="org.mockito.internal.listeners.VerificationStartedNotifierTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

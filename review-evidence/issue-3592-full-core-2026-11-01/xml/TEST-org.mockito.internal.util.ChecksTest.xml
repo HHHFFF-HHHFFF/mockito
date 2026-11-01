@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.ChecksTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.387Z" hostname="REDACTED-HOST.local" time="0.001">
+  <properties/>
+  <testcase name="checkNotNull_null_additonal_message" classname="org.mockito.internal.util.ChecksTest" time="0.001"/>
+  <testcase name="checkNotNull_null" classname="org.mockito.internal.util.ChecksTest" time="0.0"/>
+  <testcase name="checkNotNull_not_null_additional_message" classname="org.mockito.internal.util.ChecksTest" time="0.0"/>
+  <testcase name="checkNotNull_not_null" classname="org.mockito.internal.util.ChecksTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

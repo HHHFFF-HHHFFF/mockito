@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.InvocationListenerCallbackTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:19.983Z" hostname="REDACTED-HOST.local" time="0.106">
+  <properties/>
+  <testcase name="should_allow_same_listener" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.095"/>
+  <testcase name="should_call_single_listener_when_mock_return_normally" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.002"/>
+  <testcase name="should_call_all_listener_when_mock_return_normally" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.001"/>
+  <testcase name="should_call_all_listener_when_mock_throws_exception" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.004"/>
+  <testcase name="should_call_listeners_in_order" classname="org.mockitousage.debugging.InvocationListenerCallbackTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

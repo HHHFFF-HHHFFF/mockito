@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.verification.OnlyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:04.717Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="shouldNotMarkAsVerifiedWhenWantedButNotInvoked" classname="org.mockito.internal.verification.OnlyTest" time="0.001"/>
+  <testcase name="shouldMarkAsVerifiedWhenAssertionSucceded" classname="org.mockito.internal.verification.OnlyTest" time="0.001"/>
+  <testcase name="shouldMarkWantedOnlyAsVerified" classname="org.mockito.internal.verification.OnlyTest" time="0.001"/>
+  <testcase name="shouldMarkMultipleInvocationAsVerified" classname="org.mockito.internal.verification.OnlyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

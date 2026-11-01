@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.MockSettingsImplTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.425Z" hostname="REDACTED-HOST.local" time="0.082">
+  <properties/>
+  <testcase name="validates_invocation_listeners" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.055"/>
+  <testcase name="shouldNotAllowSettingNullInterface" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="shouldAddVerboseLoggingListenerOnlyOnce" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.002"/>
+  <testcase name="validates_strictness" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="shouldNotAllowUsingTheSameInterfaceAsExtra" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.002"/>
+  <testcase name="shouldAddVerboseLoggingListener" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.008"/>
+  <testcase name="shouldAddInvocationListener" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.002"/>
+  <testcase name="canAddDuplicateInvocationListeners_ItsNotOurBusinessThere" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="validates_listeners" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="addListeners_shouldAddMockObjectListeners" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="addListeners_canAddDuplicateMockObjectListeners_ItsNotOurBusinessThere" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="validates_stubbing_lookup_listeners" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="shouldAllowMultipleInterfaces" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="shouldSetMockToBeSerializable" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="shouldKnowIfIsSerializable" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="shouldNotAllowEmptyExtraInterfaces" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="addListeners_has_empty_listeners_by_default" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.0"/>
+  <testcase name="shouldNotAllowNullArrayOfExtraInterfaces" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.001"/>
+  <testcase name="shouldNotAllowNonInterfaces" classname="org.mockito.internal.creation.MockSettingsImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

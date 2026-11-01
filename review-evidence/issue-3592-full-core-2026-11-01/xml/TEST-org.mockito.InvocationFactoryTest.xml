@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.InvocationFactoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:32.998Z" hostname="REDACTED-HOST.local" time="0.037">
+  <properties/>
+  <testcase name="call_method_that_returns_a_string" classname="org.mockito.InvocationFactoryTest" time="0.035"/>
+  <testcase name="call_method_that_throws_a_throwable" classname="org.mockito.InvocationFactoryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

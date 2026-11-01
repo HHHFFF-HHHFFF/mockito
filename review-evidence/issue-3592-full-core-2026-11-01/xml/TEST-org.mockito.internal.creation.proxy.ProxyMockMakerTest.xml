@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.proxy.ProxyMockMakerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:55.977Z" hostname="REDACTED-HOST.local" time="0.006">
+  <properties/>
+  <testcase name="can_invoke_toString" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.005"/>
+  <testcase name="should_discover_mockable_input" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.001"/>
+  <testcase name="can_compute_hash_code" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.0"/>
+  <testcase name="can_compute_equality" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.0"/>
+  <testcase name="should_create_mock_from_interface" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.0"/>
+  <testcase name="should_create_mock_from_interface_with_extra_interface" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.0"/>
+  <testcase name="should_reset_mock_and_set_new_handler" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.0"/>
+  <testcase name="should_mocks_have_different_interceptors" classname="org.mockito.internal.creation.proxy.ProxyMockMakerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

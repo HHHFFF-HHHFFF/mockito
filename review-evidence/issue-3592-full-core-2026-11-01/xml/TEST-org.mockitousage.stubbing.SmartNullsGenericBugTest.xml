@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.SmartNullsGenericBugTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.381Z" hostname="REDACTED-HOST.local" time="0.05">
+  <properties/>
+  <testcase name="smart_nulls_generic_bug_generic_M_provided_as_varargs" classname="org.mockitousage.stubbing.SmartNullsGenericBugTest" time="0.027"/>
+  <testcase name="smart_nulls_generic_bug_generic_M_provided_in_args" classname="org.mockitousage.stubbing.SmartNullsGenericBugTest" time="0.001"/>
+  <testcase name="smart_nulls_generic_bug_generic_M" classname="org.mockitousage.stubbing.SmartNullsGenericBugTest" time="0.0"/>
+  <testcase name="smart_nulls_generic_bug_generic_T" classname="org.mockitousage.stubbing.SmartNullsGenericBugTest" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

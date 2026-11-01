@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StubbingWarningsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.627Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="stubbing_argument_mismatch" classname="org.mockitousage.stubbing.StubbingWarningsTest" time="0.001"/>
+  <testcase name="unused_stubbed_is_not_implicitly_verified" classname="org.mockitousage.stubbing.StubbingWarningsTest" time="0.0"/>
+  <testcase name="unfinished_verification_with_throwable" classname="org.mockitousage.stubbing.StubbingWarningsTest" time="0.001"/>
+  <testcase name="stubbing_used" classname="org.mockitousage.stubbing.StubbingWarningsTest" time="0.0"/>
+  <testcase name="few_interactions" classname="org.mockitousage.stubbing.StubbingWarningsTest" time="0.0"/>
+  <testcase name="unused_stubbing" classname="org.mockitousage.stubbing.StubbingWarningsTest" time="0.0"/>
+  <testcase name="unfinished_verification_without_throwable" classname="org.mockitousage.stubbing.StubbingWarningsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

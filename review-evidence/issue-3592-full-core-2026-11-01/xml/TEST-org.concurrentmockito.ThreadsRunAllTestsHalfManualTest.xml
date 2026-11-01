@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.concurrentmockito.ThreadsRunAllTestsHalfManualTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:13.216Z" hostname="REDACTED-HOST.local" time="16.971">
+  <properties/>
+  <testcase name="shouldRunInMultipleThreads" classname="org.concurrentmockito.ThreadsRunAllTestsHalfManualTest" time="16.971"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:44)
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:45)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(any());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.mockito.internal.exceptions.Reporter.misplacedArgumentMatcher(Reporter.java:677)
+	at org.mockito.internal.progress.ArgumentMatcherStorageImpl.validateState(ArgumentMatcherStorageImpl.java:74)
+	at org.mockito.internal.progress.MockingProgressImpl.validateMostStuff(MockingProgressImpl.java:139)
+	at org.mockito.internal.progress.MockingProgressImpl.validateState(MockingProgressImpl.java:116)
+	at org.mockito.internal.progress.MockingProgressImpl.verificationStarted(MockingProgressImpl.java:82)
+	at org.mockito.internal.MockitoCore.verify(MockitoCore.java:172)
+	at org.mockito.Mockito.verify(Mockito.java:3176)
+	at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.mockito.internal.runners.DefaultInternalRunner$1$1.evaluate(DefaultInternalRunner.java:55)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:100)
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:107)
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:62)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:49)
+	at org.concurrentmockito.ThreadsRunAllTestsHalfManualTest$AllTestsRunner.run(ThreadsRunAllTestsHalfManualTest.java:83)
+org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:44)
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:45)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(any());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.mockito.internal.exceptions.Reporter.misplacedArgumentMatcher(Reporter.java:677)
+	at org.mockito.internal.progress.ArgumentMatcherStorageImpl.validateState(ArgumentMatcherStorageImpl.java:74)
+	at org.mockito.internal.progress.MockingProgressImpl.validateMostStuff(MockingProgressImpl.java:139)
+	at org.mockito.internal.progress.MockingProgressImpl.validateState(MockingProgressImpl.java:116)
+	at org.mockito.internal.progress.MockingProgressImpl.verificationStarted(MockingProgressImpl.java:82)
+	at org.mockito.internal.MockitoCore.verify(MockitoCore.java:172)
+	at org.mockito.Mockito.verify(Mockito.java:3176)
+	at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.mockito.internal.runners.DefaultInternalRunner$1$1.evaluate(DefaultInternalRunner.java:55)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:100)
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:107)
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:62)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:49)
+	at org.concurrentmockito.ThreadsRunAllTestsHalfManualTest$AllTestsRunner.run(ThreadsRunAllTestsHalfManualTest.java:83)
+org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:44)
+-> at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:45)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(any());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.mockito.internal.exceptions.Reporter.misplacedArgumentMatcher(Reporter.java:677)
+	at org.mockito.internal.progress.ArgumentMatcherStorageImpl.validateState(ArgumentMatcherStorageImpl.java:74)
+	at org.mockito.internal.progress.MockingProgressImpl.validateMostStuff(MockingProgressImpl.java:139)
+	at org.mockito.internal.progress.MockingProgressImpl.validateState(MockingProgressImpl.java:116)
+	at org.mockito.internal.progress.MockingProgressImpl.verificationStarted(MockingProgressImpl.java:82)
+	at org.mockito.internal.MockitoCore.verify(MockitoCore.java:172)
+	at org.mockito.Mockito.verify(Mockito.java:3176)
+	at org.mockitousage.matchers.InvalidUseOfMatchersTest.should_detect_stupid_use_of_matchers_when_verifying(InvalidUseOfMatchersTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.mockito.internal.runners.DefaultInternalRunner$1$1.evaluate(DefaultInternalRunner.java:55)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:100)
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:107)
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:62)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:49)
+	at org.concurrentmockito.ThreadsRunAllTestsHalfManualTest$AllTestsRunner.run(ThreadsRunAllTestsHalfManualTest.java:83)
+]]></system-err>
+</testsuite>

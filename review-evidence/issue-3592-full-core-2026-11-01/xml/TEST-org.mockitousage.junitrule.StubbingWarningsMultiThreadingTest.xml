@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrule.StubbingWarningsMultiThreadingTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:21.254Z" hostname="REDACTED-HOST.local" time="0.024">
+  <properties/>
+  <testcase name="unused_stub_from_different_thread" classname="org.mockitousage.junitrule.StubbingWarningsMultiThreadingTest" time="0.008"/>
+  <testcase name="using_stubbing_from_different_thread" classname="org.mockitousage.junitrule.StubbingWarningsMultiThreadingTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

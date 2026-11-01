@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.junit.JUnitRuleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.482Z" hostname="REDACTED-HOST.local" time="0.005">
+  <properties/>
+  <testcase name="rethrows_exception" classname="org.mockito.internal.junit.JUnitRuleTest" time="0.002"/>
+  <testcase name="does_not_check_invalid_mockito_usage_on_failure" classname="org.mockito.internal.junit.JUnitRuleTest" time="0.001"/>
+  <testcase name="detects_invalid_mockito_usage_on_success" classname="org.mockito.internal.junit.JUnitRuleTest" time="0.001"/>
+  <testcase name="injects_into_test_case" classname="org.mockito.internal.junit.JUnitRuleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

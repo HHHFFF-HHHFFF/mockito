@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.constructor.CreatingMocksWithConstructorTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:16.429Z" hostname="REDACTED-HOST.local" time="1.098">
+  <properties/>
+  <testcase name="can_spy_abstract_classes_with_constructor_primitive_args" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.171"/>
+  <testcase name="calls_real_interface_method" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.003"/>
+  <testcase name="can_spy_abstract_classes" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.004"/>
+  <testcase name="explains_constructor_exceptions" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.041"/>
+  <testcase name="abstract_method_returns_default" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.183"/>
+  <testcase name="can_mock_unambigous_constructor_with_inheritance_multiple_base_class_exact_match" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.098"/>
+  <testcase name="can_mock_unambigous_constructor_with_inheritance_non_exact_match" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.096"/>
+  <testcase name="exception_message_when_constructor_not_found" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.051"/>
+  <testcase name="can_spy_abstract_classes_with_constructor_array_of_nulls" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.003"/>
+  <testcase name="can_mock_unambigous_constructor_with_inheritance_base_class_exact_match" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.003"/>
+  <testcase name="forbid_spy_on_mock" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.003"/>
+  <testcase name="can_create_mock_with_constructor" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.067"/>
+  <testcase name="can_spy_abstract_classes_with_casted_null" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.003"/>
+  <testcase name="can_mock_unambigous_constructor_with_inheritance_extending_class_exact_match" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.003"/>
+  <testcase name="handles_bridge_methods_correctly" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.138"/>
+  <testcase name="mocking_interfaces_with_constructor" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.004"/>
+  <testcase name="can_mock_inner_classes" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.092"/>
+  <testcase name="fail_when_multiple_matching_constructors_with_inheritence" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.004"/>
+  <testcase name="abstract_method_stubbed" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.006"/>
+  <testcase name="can_spy_abstract_classes_with_constructor_args" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.004"/>
+  <testcase name="can_spy_abstract_classes_with_null_varargs" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.002"/>
+  <testcase name="can_spy_ambiguius_constructor_with_primitive" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.087"/>
+  <testcase name="prevents_across_jvm_serialization_with_constructor" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.002"/>
+  <testcase name="mocking_inner_classes_with_wrong_outer_instance" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.003"/>
+  <testcase name="can_mock_unambigous_constructor_with_inheritance_second_extending_class_exact_match" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.004"/>
+  <testcase name="interface_method_stubbed" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.005"/>
+  <testcase name="can_mock_unambigous_constructor_with_inheritance_first_extending_class_exact_match" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.009"/>
+  <testcase name="can_mock_abstract_classes" classname="org.mockitousage.constructor.CreatingMocksWithConstructorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

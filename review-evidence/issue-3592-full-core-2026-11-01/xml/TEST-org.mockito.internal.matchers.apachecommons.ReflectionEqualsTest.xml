@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.matchers.apachecommons.ReflectionEqualsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:57.011Z" hostname="REDACTED-HOST.local" time="0.015">
+  <properties/>
+  <testcase name="prints_null_as_null" classname="org.mockito.internal.matchers.apachecommons.ReflectionEqualsTest" time="0.003"/>
+  <testcase name="prints_fields_reflectively_when_toString_not_overridden" classname="org.mockito.internal.matchers.apachecommons.ReflectionEqualsTest" time="0.006"/>
+  <testcase name="uses_declared_toString_when_present" classname="org.mockito.internal.matchers.apachecommons.ReflectionEqualsTest" time="0.002"/>
+  <testcase name="truncates_long_field_values" classname="org.mockito.internal.matchers.apachecommons.ReflectionEqualsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

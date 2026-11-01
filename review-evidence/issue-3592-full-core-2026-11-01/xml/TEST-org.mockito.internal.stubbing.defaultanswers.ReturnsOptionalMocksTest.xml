@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.176Z" hostname="REDACTED-HOST.local" time="0.04">
+  <properties/>
+  <testcase name="normal_mock_Optional_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.032"/>
+  <testcase name="deepStubs_Optional_should_return_normal_optional_empty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="deepStubs_OptionalInt_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="normal_mock_OptionalInt_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="normal_mock_OptionalInt_should_return_normal_optional_empty" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.001"/>
+  <testcase name="deepStubs_OptionalDouble_should_normal_optional_empty" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.001"/>
+  <testcase name="deepStubs_OptionalLong_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="normal_mock_OptionalLong_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="normal_mock_OptionalDouble_should_return_normal_optional_empty" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="deepStubs_OptionalInt_should_normal_optional_empty" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="deepStubs_Optional_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="deepStubs_OptionalLong_should_return_normal_optional_empty" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.002"/>
+  <testcase name="normal_mock_OptionalLong_should_return_normal_optional_empty" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="normal_mock_Optional_should_return_normal_optional_empty" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="normal_mock_OptionalDouble_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.0"/>
+  <testcase name="deepStubs_OptionalDouble_isPresent_isEmpty_Issue2865" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsOptionalMocksTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

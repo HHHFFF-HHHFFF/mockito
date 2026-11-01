@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.DefaultMockingDetailsTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.392Z" hostname="REDACTED-HOST.local" time="0.096">
+  <properties/>
+  <testcase name="manipulating_invocations_is_safe" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.081"/>
+  <testcase name="fails_when_getting_invocations_when_not_mock" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="provides_invocations" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="fails_when_getting_creation_settings_for_incorrect_input" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="should_check_that_a_spy_is_also_a_mock" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="provides_stubbings_of_mock_in_declaration_order" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.003"/>
+  <testcase name="fails_when_getting_stubbings_from_non_mock" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="fails_when_printin_invocations_from_non_mock" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.0"/>
+  <testcase name="prints_invocations" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.003"/>
+  <testcase name="should_know_mock" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.0"/>
+  <testcase name="should_know_spy" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="should_provide_original_mock" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="mock_with_no_stubbings" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.0"/>
+  <testcase name="manipulating_stubbings_explicitly_is_safe" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="fails_when_getting_invocations_when_null" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.0"/>
+  <testcase name="should_handle_non_mocks" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.001"/>
+  <testcase name="provides_mock_creation_settings" classname="org.mockito.internal.util.DefaultMockingDetailsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

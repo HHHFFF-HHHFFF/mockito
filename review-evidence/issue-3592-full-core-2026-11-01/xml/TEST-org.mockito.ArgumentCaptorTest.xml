@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.ArgumentCaptorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:32.941Z" hostname="REDACTED-HOST.local" time="0.007">
+  <properties/>
+  <testcase name="getCaptorType_returns_captor_type" classname="org.mockito.ArgumentCaptorTest" time="0.004"/>
+  <testcase name="tell_handy_return_values_to_return_value_for" classname="org.mockito.ArgumentCaptorTest" time="0.001"/>
+  <testcase name="captor_called_with_explicit_varargs_is_invalid" classname="org.mockito.ArgumentCaptorTest" time="0.001"/>
+  <testcase name="captor_calls_forClass_with_the_inferred_argument" classname="org.mockito.ArgumentCaptorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

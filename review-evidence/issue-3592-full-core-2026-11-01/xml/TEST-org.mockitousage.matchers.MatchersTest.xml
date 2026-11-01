@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.MatchersTest" tests="42" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:22.899Z" hostname="REDACTED-HOST.local" time="0.095">
+  <properties/>
+  <testcase name="assertArg_matcher_can_accept_throwing_consumer" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="greater_than_matcher_overloaded" classname="org.mockitousage.matchers.MatchersTest" time="0.004"/>
+  <testcase name="less_or_equal_overloaded" classname="org.mockitousage.matchers.MatchersTest" time="0.003"/>
+  <testcase name="matches_Pattern_matcher_in_subregion" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="contains_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="should_array_equals_deal_with_null_array" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="delta_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.004"/>
+  <testcase name="greater_than_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="or_overloaded" classname="org.mockitousage.matchers.MatchersTest" time="0.005"/>
+  <testcase name="or_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="null_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="not_overloaded" classname="org.mockitousage.matchers.MatchersTest" time="0.005"/>
+  <testcase name="can_verify_on_mock_after_assert_arg" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="find_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="same_matcher_and_nulls" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="greater_or_equal_matcher_overloaded" classname="org.mockitousage.matchers.MatchersTest" time="0.004"/>
+  <testcase name="should_use_smart_equals_for_primitive_arrays" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="and_overloaded" classname="org.mockitousage.matchers.MatchersTest" time="0.005"/>
+  <testcase name="greater_or_equal_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="should_use_smart_equals_for_arrays" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="null_matcher_for_primitive_wrappers" classname="org.mockitousage.matchers.MatchersTest" time="0.003"/>
+  <testcase name="array_equals_should_throw_ArgumentsAreDifferentException_for_non_matching_arguments" classname="org.mockitousage.matchers.MatchersTest" time="0.003"/>
+  <testcase name="eq_matcher_and_nulls" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="assertArg_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="delta_matcher_prints_itself" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="less_than_overloaded" classname="org.mockitousage.matchers.MatchersTest" time="0.003"/>
+  <testcase name="matches_Pattern_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="any_T_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.004"/>
+  <testcase name="matches_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="nullable_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="same_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="ends_with_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="array_equals_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.005"/>
+  <testcase name="compare_to_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.003"/>
+  <testcase name="assertArg_matcher_fails_when_assertion_fails" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="can_invoke_method_on_mock_after_assert_arg" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="any_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="any_String_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="less_than_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="less_or_equal_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <testcase name="not_null_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.001"/>
+  <testcase name="starts_with_matcher" classname="org.mockitousage.matchers.MatchersTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

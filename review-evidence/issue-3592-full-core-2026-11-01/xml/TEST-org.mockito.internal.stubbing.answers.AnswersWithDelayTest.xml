@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.AnswersWithDelayTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:57.926Z" hostname="REDACTED-HOST.local" time="0.517">
+  <properties/>
+  <testcase name="should_fail_when_contained_answer_should_fail" classname="org.mockito.internal.stubbing.answers.AnswersWithDelayTest" time="0.004"/>
+  <testcase name="should_succeed_when_contained_answer_should_succeed" classname="org.mockito.internal.stubbing.answers.AnswersWithDelayTest" time="0.001"/>
+  <testcase name="should_delay" classname="org.mockito.internal.stubbing.answers.AnswersWithDelayTest" time="0.508"/>
+  <testcase name="should_return_value" classname="org.mockito.internal.stubbing.answers.AnswersWithDelayTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:12.625Z" hostname="REDACTED-HOST.local" time="0.241">
+  <properties/>
+  <testcase name="should_be_able_to_mock_interface_method_package_private_return" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.042"/>
+  <testcase name="should_be_able_to_mock_package_private_extra_interface" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.036"/>
+  <testcase name="should_be_able_to_mock_package_private_method" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.036"/>
+  <testcase name="classloader_with_parent_but_does_not_delegate" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.033"/>
+  <testcase name="should_be_able_to_mock_package_private_interface" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.006"/>
+  <testcase name="should_be_able_to_mock_interface_method_package_private_return_override" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.033"/>
+  <testcase name="should_be_able_to_mock_package_private_class" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.025"/>
+  <testcase name="should_be_able_to_mock_interface_method_package_private_param" classname="org.mockitousage.bugs.creation.PackagePrivateWithContextClassLoaderTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

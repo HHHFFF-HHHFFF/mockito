@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.DeepStubReturnsEnumJava11Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:58.715Z" hostname="REDACTED-HOST.local" time="0.248">
+  <properties/>
+  <testcase name="deep_stub_can_mock_enum_getter_Issue_2984" classname="org.mockito.internal.stubbing.answers.DeepStubReturnsEnumJava11Test" time="0.243"/>
+  <testcase name="deep_stub_can_mock_enum_method_Issue_2984" classname="org.mockito.internal.stubbing.answers.DeepStubReturnsEnumJava11Test" time="0.001"/>
+  <testcase name="mock_mocking_enum_getter_Issue_2984" classname="org.mockito.internal.stubbing.answers.DeepStubReturnsEnumJava11Test" time="0.001"/>
+  <testcase name="deep_stub_can_mock_enum_class_Issue_2984" classname="org.mockito.internal.stubbing.answers.DeepStubReturnsEnumJava11Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

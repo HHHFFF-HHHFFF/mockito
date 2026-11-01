@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.MockitoClearTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:33.064Z" hostname="REDACTED-HOST.local" time="0.701">
+  <properties/>
+  <testcase name="preserves_interface_parameter_metadata_when_clearing_all_caches" classname="org.mockito.MockitoClearTest" time="0.552"/>
+  <testcase name="can_clear_mock" classname="org.mockito.MockitoClearTest" time="0.149"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

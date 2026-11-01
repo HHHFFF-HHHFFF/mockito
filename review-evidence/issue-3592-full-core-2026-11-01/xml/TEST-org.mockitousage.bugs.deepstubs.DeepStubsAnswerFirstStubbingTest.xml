@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:12.987Z" hostname="REDACTED-HOST.local" time="0.101">
+  <properties/>
+  <testcase name="unfinished_stubbing_inside_deep_stub_answer_is_rejected" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.05"/>
+  <testcase name="answer_failure_does_not_leave_ongoing_stubbing" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="do_nothing_when_deep_stub_path" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="successful_deep_stub_answer_first_stubbing_does_not_leave_stubbing_state" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.0"/>
+  <testcase name="completed_stubbing_inside_answer_preserves_multi_level_path" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="extracting_deep_stub_before_answer_first_stubbing_still_works" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="do_nothing_when_fresh_multi_level_deep_stub_path" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="non_mock_deep_stub_target_clears_ongoing_stubbing" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="answer_first_stubbing_without_a_method_is_still_rejected" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="null_deep_stub_target_clears_ongoing_stubbing" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.0"/>
+  <testcase name="reported_error_inside_deep_stub_answer_clears_stubbing_state" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="deep_stub_invocation_during_then_return_is_still_rejected" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="do_return_when_deep_stub_path" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="rejected_answer_on_deep_stub_target_clears_ongoing_stubbing" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <testcase name="failed_matcher_binding_during_deep_stub_path_does_not_leave_stubbing_state" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.038"/>
+  <testcase name="do_nothing_when_cached_multi_level_deep_stub_path" classname="org.mockitousage.bugs.deepstubs.DeepStubsAnswerFirstStubbingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

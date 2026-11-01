@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.annotation.MockInjectionUsingConstructorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:07.563Z" hostname="REDACTED-HOST.local" time="0.083">
+  <properties/>
+  <testcase name="innerMockShouldRaiseAnExceptionThatChangesOuterMockBehavior" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.059"/>
+  <testcase name="injectMocksMustFailWithInterface" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.005"/>
+  <testcase name="shouldNotFailWhenNotInitialized" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.0"/>
+  <testcase name="objects_created_with_constructor_initialization_can_be_spied" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.001"/>
+  <testcase name="injectMocksMustSucceedWithStaticInnerClass" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.002"/>
+  <testcase name="injectMocksMustFailWithEnum" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.002"/>
+  <testcase name="injectMocksMustFailWithAbstractClass" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.002"/>
+  <testcase name="should_report_failure_only_when_object_initialization_throws_exception" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.002"/>
+  <testcase name="injectMocksMustSucceedWithInstance" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.001"/>
+  <testcase name="injectMocksMustFailWithNonStaticInnerClass" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.002"/>
+  <testcase name="constructor_is_called_for_each_test_in_test_class" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.006"/>
+  <testcase name="mockJustWorks" classname="org.mockitousage.annotation.MockInjectionUsingConstructorTest" time="0.001"/>
+  <system-out><![CDATA[...
+Time: 0.001
+
+OK (3 tests)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

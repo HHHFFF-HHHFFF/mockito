@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.ThrowsExceptionForClassTypeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:59.082Z" hostname="REDACTED-HOST.local" time="0.002">
+  <properties/>
+  <testcase name="should_return_throwable_of_expected_class" classname="org.mockito.internal.stubbing.answers.ThrowsExceptionForClassTypeTest" time="0.001"/>
+  <testcase name="should_return_different_throwables" classname="org.mockito.internal.stubbing.answers.ThrowsExceptionForClassTypeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:58.652Z" hostname="REDACTED-HOST.local" time="0.009">
+  <properties/>
+  <testcase name="shouldAllowOneMethodVerifiedInOrder" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldFailOnLastInvocationTooEarly" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldUseEqualsToVerifyMethodArguments" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.0"/>
+  <testcase name="shouldAllowOrdinarilyVerifyingMockPassedToInOrderObject" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldAllowRedundantVerifications" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldScreamWhenUnfamiliarMockPassedToInOrderObject" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldFailOnNoMoreInteractions" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldFailOnNoMoreInteractionsOnMockVerifiedInOrder" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldMixVerificationInOrderAndOrdinaryVerification" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <testcase name="shouldUseEqualsToVerifyMethodVarargs" classname="org.mockitousage.verification.VerificationInOrderMixedWithOrdinaryVerificationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

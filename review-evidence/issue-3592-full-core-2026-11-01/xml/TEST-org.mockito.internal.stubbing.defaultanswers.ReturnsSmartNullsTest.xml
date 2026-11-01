@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.219Z" hostname="REDACTED-HOST.local" time="0.166">
+  <properties/>
+  <testcase name="should_return_a_empty_map_that_has_been_defined_with_method_generic_and_provided_in_argument" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.037"/>
+  <testcase name="should_return_a_String_that_has_been_defined_with_method_generic_and_provided_in_argument" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_print_the_parameters_when_calling_a_method_with_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.032"/>
+  <testcase name="should_return_a_empty_map_that_has_been_defined_with_method_generic_and_provided_in_var_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.0"/>
+  <testcase name="should_return_a_String_that_has_been_defined_with_method_generic_and_provided_in_var_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_throw_a_error_on_invocation_of_returned_mock" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.034"/>
+  <testcase name="should_return_an_object_that_allows_object_methods" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_a_empty_set_that_has_been_defined_with_method_generic_and_provided_in_argument" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.0"/>
+  <testcase name="should_return_the_usual_default_values_for_primitives" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_a_empty_set_that_has_been_defined_with_method_generic_and_provided_in_var_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.0"/>
+  <testcase name="should_print_the_parameters_on_SmartNullPointerException_message" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_an_object_that_fails_on_any_method_invocation_for_non_primitives" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.0"/>
+  <testcase name="should_return_a_new_mock_that_has_been_defined_with_method_generic_and_provided_in_argument" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_a_empty_list_that_has_been_defined_with_method_generic_and_provided_in_argument" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_an_Object_that_has_been_defined_with_method_generic_and_provided_in_argument" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.027"/>
+  <testcase name="should_return_an_object_that_has_been_defined_with_class_generic" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_an_object_that_has_been_defined_with_method_generic" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.0"/>
+  <testcase name="should_return_a_new_mock_that_has_been_defined_with_method_generic_and_provided_in_var_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.001"/>
+  <testcase name="should_return_a_empty_list_that_has_been_defined_with_method_generic_and_provided_in_var_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.0"/>
+  <testcase name="should_return_an_Object_that_has_been_defined_with_method_generic_and_provided_in_var_args" classname="org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

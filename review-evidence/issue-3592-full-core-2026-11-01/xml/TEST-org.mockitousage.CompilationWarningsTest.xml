@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.CompilationWarningsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:07.016Z" hostname="REDACTED-HOST.local" time="0.01">
+  <properties/>
+  <testcase name="no_warnings_for_most_common_api" classname="org.mockitousage.CompilationWarningsTest" time="0.008"/>
+  <testcase name="heap_pollution_JDK7plus_warning_avoided_BUT_now_unchecked_generic_array_creation_warnings_ON_JDK5plus_environment" classname="org.mockitousage.CompilationWarningsTest" time="0.001"/>
+  <testcase name="unchecked_confusing_null_argument_warnings" classname="org.mockitousage.CompilationWarningsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

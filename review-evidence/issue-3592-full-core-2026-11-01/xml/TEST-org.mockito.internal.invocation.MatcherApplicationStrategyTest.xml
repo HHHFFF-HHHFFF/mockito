@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.invocation.MatcherApplicationStrategyTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.361Z" hostname="REDACTED-HOST.local" time="0.044">
+  <properties/>
+  <testcase name="shouldNotMatchVarargsWithNoMatchers" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.002"/>
+  <testcase name="shouldMatchAnyEvenIfOneOfTheArgsIsNull" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.001"/>
+  <testcase name="shouldKnowWhenActualArgsSizeIsDifferent1" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldKnowWhenActualArgsSizeIsDifferent2" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldAllowAnyMatchEntireVararg" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.001"/>
+  <testcase name="shouldReturnEmptyLoadingNonExistingClasses" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldNotAllowAnyWithMixedVarargs" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldMatchAnyThatMatchesRawVarArgType" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.001"/>
+  <testcase name="shouldAnyDealWithDifferentSizeOfArgs" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldDetectScalaVarargsProperly" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.035"/>
+  <testcase name="shouldKnowWhenMatchersSizeIsDifferent" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldMatchAnyEvenIfMatcherIsDecorated" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldAllowAnyWithMixedVarargs" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <testcase name="shouldLoadExistingClasses" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.001"/>
+  <testcase name="shouldMatchAnyEvenIfMatcherIsWrappedInHamcrestMatcher" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.001"/>
+  <testcase name="shouldKnowWhenActualArgsSizeIsDifferent" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.001"/>
+  <testcase name="shouldKnowWhenVarargsMatch" classname="org.mockito.internal.invocation.MatcherApplicationStrategyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

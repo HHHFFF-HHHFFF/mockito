@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.stubbing.StrictStubbingEndToEndTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:57.506Z" hostname="REDACTED-HOST.local" time="0.013">
+  <properties/>
+  <testcase name="concurrent_sessions_in_different_threads" classname="org.mockitousage.stubbing.StrictStubbingEndToEndTest" time="0.005"/>
+  <testcase name="detects_unfinished_session" classname="org.mockitousage.stubbing.StrictStubbingEndToEndTest" time="0.001"/>
+  <testcase name="finish_mocking_exception_does_not_hide_the_exception_from_test" classname="org.mockitousage.stubbing.StrictStubbingEndToEndTest" time="0.002"/>
+  <testcase name="strict_stubbing_does_not_leak_to_other_tests" classname="org.mockitousage.stubbing.StrictStubbingEndToEndTest" time="0.003"/>
+  <testcase name="does_not_report_unused_stubbing_if_mismatch_reported" classname="org.mockitousage.stubbing.StrictStubbingEndToEndTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

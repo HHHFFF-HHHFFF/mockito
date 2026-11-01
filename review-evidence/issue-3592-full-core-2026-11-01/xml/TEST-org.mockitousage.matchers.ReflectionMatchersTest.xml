@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.ReflectionMatchersTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:23.054Z" hostname="REDACTED-HOST.local" time="0.196">
+  <properties/>
+  <testcase name="shouldMatchWhenFieldValuesEqualWithOneFieldExcluded" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.163"/>
+  <testcase name="shouldMatchWhenFieldValuesEqual" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.002"/>
+  <testcase name="shouldNotMatchWhenFieldValuesDiffer" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.008"/>
+  <testcase name="shouldNotMatchWithFieldsExclusion" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.005"/>
+  <testcase name="shouldNotMatchAgain" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.004"/>
+  <testcase name="shouldNotMatchYetAgain" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.004"/>
+  <testcase name="shouldNotMatch" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.006"/>
+  <testcase name="shouldMatchWhenFieldValuesEqualWithTwoFieldsExcluded" classname="org.mockitousage.matchers.ReflectionMatchersTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

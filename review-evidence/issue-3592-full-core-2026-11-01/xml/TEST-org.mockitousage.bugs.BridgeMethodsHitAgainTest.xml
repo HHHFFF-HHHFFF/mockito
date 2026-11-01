@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.BridgeMethodsHitAgainTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:10.073Z" hostname="REDACTED-HOST.local" time="0.216">
+  <properties/>
+  <testcase name="testBridgeInvocationIsRecordedForInterceptedMethod" classname="org.mockitousage.bugs.BridgeMethodsHitAgainTest" time="0.214"/>
+  <testcase name="basicCheck" classname="org.mockitousage.bugs.BridgeMethodsHitAgainTest" time="0.001"/>
+  <testcase name="checkWithExtraCast" classname="org.mockitousage.bugs.BridgeMethodsHitAgainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

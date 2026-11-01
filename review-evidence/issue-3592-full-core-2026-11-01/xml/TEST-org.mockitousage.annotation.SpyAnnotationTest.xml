@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.annotation.SpyAnnotationTest" tests="20" skipped="1" failures="0" errors="0" timestamp="2026-11-01T08:04:07.861Z" hostname="REDACTED-HOST.local" time="0.638">
+  <properties/>
+  <testcase name="should_create_spy_with_specified_mock_maker_for_auto_created_instance" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.18"/>
+  <testcase name="should_create_spy_with_specified_mock_maker_for_injected_field" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.015"/>
+  <testcase name="should_report_private_static_abstract_inner_not_supported" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.002"/>
+  <testcase name="should_spy_abstract_class" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.057"/>
+  <testcase name="should_allow_spying_on_interfaces" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.005"/>
+  <testcase name="should_spy_inner_class" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.051"/>
+  <testcase name="should_spy_private_inner" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.166"/>
+  <testcase name="should_report_private_abstract_inner_not_supported" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.007"/>
+  <testcase name="should_be_able_to_stub_and_verify_via_varargs_of_matchers_for_list_params" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.01"/>
+  <testcase name="should_allow_spying_on_interfaces_when_instance_is_concrete" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.003"/>
+  <testcase name="should_init_spy_and_automatically_create_instance" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.008"/>
+  <testcase name="should_not_set_mock_maker_when_unspecified" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.002"/>
+  <testcase name="should_report_when_constructor_is_explosive" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.104"/>
+  <testcase name="should_init_spy_by_instance" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.003"/>
+  <testcase name="should_report_when_no_arg_less_constructor" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.005"/>
+  <testcase name="should_create_spy_with_specified_mock_maker_for_provided_instance" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.004"/>
+  <testcase name="should_reset_spy" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.003"/>
+  <testcase name="should_report_when_enclosing_instance_is_needed" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.005"/>
+  <testcase name="should_be_able_to_stub_and_verify_via_varargs_for_list_params" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.004"/>
+  <testcase name="should_report_private_inner_not_supported" classname="org.mockitousage.annotation.SpyAnnotationTest" time="0.002">
+    <skipped message="got: &lt;org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker@2d7345d0&gt;, expected: not an instance of org.mockito.plugins.InlineMockMaker" type="org.junit.AssumptionViolatedException">org.junit.AssumptionViolatedException: got: &lt;org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker@2d7345d0&gt;, expected: not an instance of org.mockito.plugins.InlineMockMaker
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.mockitousage.annotation.SpyAnnotationTest.should_report_private_inner_not_supported(SpyAnnotationTest.java:212)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:258)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy2/jdk.proxy2.$Proxy6.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</skipped>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

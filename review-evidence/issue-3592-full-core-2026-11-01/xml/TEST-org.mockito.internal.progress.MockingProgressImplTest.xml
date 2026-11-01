@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.progress.MockingProgressImplTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:57.105Z" hostname="REDACTED-HOST.local" time="0.078">
+  <properties/>
+  <testcase name="shouldNotifyListenerSafely" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.001"/>
+  <testcase name="should_not_allow_redundant_listeners" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.017"/>
+  <testcase name="shouldStartVerificationAndPullVerificationMode" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.0"/>
+  <testcase name="should_keep_stubbing_unfinished_after_target_selection" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.001"/>
+  <testcase name="should_keep_stubbing_inactive_when_target_selection_finishes_after_reset" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.0"/>
+  <testcase name="should_restore_without_a_stubbing_location" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.0"/>
+  <testcase name="shouldCheckIfVerificationWasFinished" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.0"/>
+  <testcase name="should_clean_up_listeners_automatically" classname="org.mockito.internal.progress.MockingProgressImplTest" time="0.058"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

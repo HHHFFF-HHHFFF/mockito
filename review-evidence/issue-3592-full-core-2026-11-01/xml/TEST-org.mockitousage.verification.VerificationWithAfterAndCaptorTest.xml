@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.VerificationWithAfterAndCaptorTest" tests="3" skipped="2" failures="0" errors="0" timestamp="2026-11-01T08:05:01.586Z" hostname="REDACTED-HOST.local" time="0.201">
+  <properties/>
+  <testcase name="shouldReturnListOfArgumentsWithSameSizeAsGivenInTimesVerification" classname="org.mockitousage.verification.VerificationWithAfterAndCaptorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldReturnListOfArgumentsWithSameSizeAsGivenInAtMostVerification" classname="org.mockitousage.verification.VerificationWithAfterAndCaptorTest" time="0.201"/>
+  <testcase name="shouldReturnListOfArgumentsWithSameSizeAsGivenInAtLeastVerification" classname="org.mockitousage.verification.VerificationWithAfterAndCaptorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

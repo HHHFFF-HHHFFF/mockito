@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.InvalidStateDetectionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:34.344Z" hostname="REDACTED-HOST.local" time="0.025">
+  <properties/>
+  <testcase name="shouldCorrectStateAfterDetectingUnfinishedVerification" classname="org.mockito.internal.InvalidStateDetectionTest" time="0.008"/>
+  <testcase name="shouldCorrectStateAfterDetectingUnfinishedStubbing" classname="org.mockito.internal.InvalidStateDetectionTest" time="0.003"/>
+  <testcase name="shouldDetectUnfinishedStubbing" classname="org.mockito.internal.InvalidStateDetectionTest" time="0.004"/>
+  <testcase name="shouldDetectMisplacedArgumentMatcher" classname="org.mockito.internal.InvalidStateDetectionTest" time="0.003"/>
+  <testcase name="shouldDetectUnfinishedDoAnswerStubbing" classname="org.mockito.internal.InvalidStateDetectionTest" time="0.002"/>
+  <testcase name="shouldDetectUnfinishedVerification" classname="org.mockito.internal.InvalidStateDetectionTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

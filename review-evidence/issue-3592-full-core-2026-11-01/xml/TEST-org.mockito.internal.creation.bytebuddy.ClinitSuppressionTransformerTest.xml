@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.610Z" hostname="REDACTED-HOST.local" time="0.03">
+  <properties/>
+  <testcase name="transformer_suppresses_matching_class_on_initial_load" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.018"/>
+  <testcase name="transformer_suppresses_class_matched_by_package_predicate" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.002"/>
+  <testcase name="suppress_clinit_preserves_implicit_serialVersionUID" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.003"/>
+  <testcase name="suppress_clinit_leaves_static_fields_at_zero_defaults" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.002"/>
+  <testcase name="transformer_returns_null_for_retransformation" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.001"/>
+  <testcase name="transformer_returns_null_for_non_matching_class" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.001"/>
+  <testcase name="suppress_clinit_removes_static_initializer" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.0"/>
+  <testcase name="suppress_clinit_on_class_without_clinit_is_harmless" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.002"/>
+  <testcase name="suppress_clinit_preserves_other_methods_and_fields" classname="org.mockito.internal.creation.bytebuddy.ClinitSuppressionTransformerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.invocation.InvocationMatcherTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.342Z" hostname="REDACTED-HOST.local" time="0.006">
+  <properties/>
+  <testcase name="should_capture_arguments_from_invocation" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.0"/>
+  <testcase name="should_be_a_citizen_of_hashes" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.001"/>
+  <testcase name="should_not_be_similar_to_verified_invocation" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.0"/>
+  <testcase name="should_not_equal_if_number_of_arguments_differ" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.001"/>
+  <testcase name="should_to_string_with_matchers" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.0"/>
+  <testcase name="should_capture_varargs_as_vararg" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.001"/>
+  <testcase name="should_not_be_similar_if_is_overloaded_but_used_with_the_same_arg" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.001"/>
+  <testcase name="should_know_if_is_similar_to" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.0"/>
+  <testcase name="should_match_varargs_using_any_varargs" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.001"/>
+  <testcase name="should_capture_arguments_when_args_count_does_NOT_match" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.0"/>
+  <testcase name="should_not_be_similar_if_mocks_are_different" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.001"/>
+  <testcase name="should_create_from_invocations" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.0"/>
+  <testcase name="should_be_similar_if_is_overloaded_but_used_with_different_arg" classname="org.mockito.internal.invocation.InvocationMatcherTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

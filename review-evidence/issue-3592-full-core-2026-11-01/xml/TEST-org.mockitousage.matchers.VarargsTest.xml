@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.VarargsTest" tests="59" skipped="1" failures="0" errors="0" timestamp="2026-11-01T08:04:23.383Z" hostname="REDACTED-HOST.local" time="0.254">
+  <properties/>
+  <testcase name="shouldMockVarargInvocation_eq_raw" classname="org.mockitousage.matchers.VarargsTest" time="0.006"/>
+  <testcase name="shouldCaptureVarArgsAsArray" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <testcase name="shouldMatchVarArgs_oneArgIsNotNull" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <testcase name="shouldCaptureVarArgs_oneNullArgument2" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <testcase name="shouldMatchVarArgs_nullArrayArg" classname="org.mockitousage.matchers.VarargsTest" time="0.007"/>
+  <testcase name="shouldVerifyVarArgArray_isA2" classname="org.mockitousage.matchers.VarargsTest" time="0.01"/>
+  <testcase name="shouldVerifyExactlyOneVarArg_any" classname="org.mockitousage.matchers.VarargsTest" time="0.009"/>
+  <testcase name="shouldVerifyExactlyOneVarArg_isA" classname="org.mockitousage.matchers.VarargsTest" time="0.005"/>
+  <testcase name="shouldMockVarargsInvocationForSuperType" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldCaptureVarArgs_oneNullArg_eqNull" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldNotVerifyExactlyOneVarArg_any" classname="org.mockitousage.matchers.VarargsTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldNotVerifyExactlyOneVarArg_isA" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldNotMatchRegualrAndVaraArgs" classname="org.mockitousage.matchers.VarargsTest" time="0.005"/>
+  <testcase name="shouldCaptureVarArgs_twoArgsOneCapture" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldCaptureVarArgs_noArgs" classname="org.mockitousage.matchers.VarargsTest" time="0.006"/>
+  <testcase name="shouldMockVarargInvocation_eq" classname="org.mockitousage.matchers.VarargsTest" time="0.006"/>
+  <testcase name="shouldHandleArrayVarargsMethods" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldMatchEmptyVarArgs_noArgsIsNotNull" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldMatchVarArgs_oneNullArgument" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldMatchVarArgs_noArgs" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldVerifyVarArgs_isNull_NullArrayArg2" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldVerifyVarArgs_eq_NullArrayArg1" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldVerifyVarArgs_eq_NullArrayArg2" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldMatchVarArgs_oneArgsOneAnyMatcher" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldCaptureVarArgs_NullArrayArg1" classname="org.mockitousage.matchers.VarargsTest" time="0.001"/>
+  <testcase name="shouldCaptureVarArgs_NullArrayArg2" classname="org.mockitousage.matchers.VarargsTest" time="0.001"/>
+  <testcase name="shouldVerifyVarArgs_isNull_NullArrayArg" classname="org.mockitousage.matchers.VarargsTest" time="0.001"/>
+  <testcase name="shouldVerifyInvocation_same" classname="org.mockitousage.matchers.VarargsTest" time="0.007"/>
+  <testcase name="shouldNotMatchVaraArgs" classname="org.mockitousage.matchers.VarargsTest" time="0.008"/>
+  <testcase name="shouldMatchVarArgs_twoArgsThreeAnyMatcher" classname="org.mockitousage.matchers.VarargsTest" time="0.005"/>
+  <testcase name="shouldnotMatchVarArgs_twoArgsOneMatcher" classname="org.mockitousage.matchers.VarargsTest" time="0.005"/>
+  <testcase name="shouldMatchVarArgs_twoArgsTwoAnyMatcher" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldVerifyVarArgArray_isA" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldMatchVarArgs_emptyByteArray" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldVerifyInvocation_eq_raw" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldVerifyInvocation_eq" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <testcase name="shouldVerifyInvocation_or" classname="org.mockitousage.matchers.VarargsTest" time="0.011"/>
+  <testcase name="shouldCaptureVarArgs_3argsCaptorMatcherMix" classname="org.mockitousage.matchers.VarargsTest" time="0.007"/>
+  <testcase name="shouldDifferentiateNonVarargVariant" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldMatchEmptyVarArgs_noArgsIsNull" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldMatchVarArgs_oneNullArg_eqNull" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <testcase name="shouldNotCaptureVarArgs_3args2captures" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldMatchVarArgs_oneNullArg_isNull" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldMatchVarArgs_nullByteArray" classname="org.mockitousage.matchers.VarargsTest" time="0.001"/>
+  <testcase name="shouldMatchVarArgs_emptyVarArgsOneAnyMatcher" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldVerifyVarArgs_any_NullArrayArg1" classname="org.mockitousage.matchers.VarargsTest" time="0.023"/>
+  <testcase name="shouldVerifyVarArgs_any_NullArrayArg2" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldCaptureVarArgs_nullArrayArg" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldMatchVarArgs_onebyte" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <testcase name="shouldMatchVarArgs_twoArgsOneAnyMatcher" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldVerifySubTypes" classname="org.mockitousage.matchers.VarargsTest" time="0.006"/>
+  <testcase name="shouldNotCaptureVarArgs_1args2captures" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldNotCaptureVarArgs_3argsCaptorMatcherMix" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldMockVarargsInvocation_single_vararg_matcher" classname="org.mockitousage.matchers.VarargsTest" time="0.002"/>
+  <testcase name="shouldMatchEmptyVarArgs_emptyArrayIsNotNull" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <testcase name="shouldMockVarargsInvocation_multiple_vararg_matcher" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldCaptureVarArgs_twoArgsTwoCaptures" classname="org.mockitousage.matchers.VarargsTest" time="0.003"/>
+  <testcase name="shouldVerifyInvocation_and" classname="org.mockitousage.matchers.VarargsTest" time="0.005"/>
+  <testcase name="shouldVerifyInvocation_not" classname="org.mockitousage.matchers.VarargsTest" time="0.004"/>
+  <system-out><![CDATA[[MockitoHint] VarargsTest.shouldNotMatchVaraArgs (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at org.mockitousage.matchers.VarargsTest.shouldNotMatchVaraArgs(VarargsTest.java:319)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

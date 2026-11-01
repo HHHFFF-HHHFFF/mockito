@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.serialization.DeepStubsSerializableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:50.963Z" hostname="REDACTED-HOST.local" time="0.202">
+  <properties/>
+  <testcase name="should_serialize_and_deserialize_parameterized_class_mocked_with_deep_stubs" classname="org.mockitousage.serialization.DeepStubsSerializableTest" time="0.09"/>
+  <testcase name="should_discard_generics_metadata_when_serialized_then_disabling_deep_stubs_with_generics" classname="org.mockitousage.serialization.DeepStubsSerializableTest" time="0.004"/>
+  <testcase name="should_serialize_and_deserialize_mock_created_with_deep_stubs" classname="org.mockitousage.serialization.DeepStubsSerializableTest" time="0.108"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

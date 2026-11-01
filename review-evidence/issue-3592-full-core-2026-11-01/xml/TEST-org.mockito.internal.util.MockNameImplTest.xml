@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.MockNameImplTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.494Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="shouldProvideTheGivenNameOnStatic" classname="org.mockito.internal.util.MockNameImplTest" time="0.001"/>
+  <testcase name="shouldProvideTheNameForClass" classname="org.mockito.internal.util.MockNameImplTest" time="0.0"/>
+  <testcase name="shouldProvideTheNameForClassOnStaticMock" classname="org.mockito.internal.util.MockNameImplTest" time="0.0"/>
+  <testcase name="shouldProvideTheNameForAnonymousClass" classname="org.mockito.internal.util.MockNameImplTest" time="0.001"/>
+  <testcase name="shouldProvideTheGivenName" classname="org.mockito.internal.util.MockNameImplTest" time="0.001"/>
+  <testcase name="shouldProvideTheNameForAnonymousClassOnStatic" classname="org.mockito.internal.util.MockNameImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

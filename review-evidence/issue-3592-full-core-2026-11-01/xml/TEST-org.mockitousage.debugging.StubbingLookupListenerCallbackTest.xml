@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:20.119Z" hostname="REDACTED-HOST.local" time="0.069">
+  <properties/>
+  <testcase name="should_call_all_listeners_in_order" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.006"/>
+  <testcase name="should_call_listener_when_mock_return_normally_with_stubbed_answer" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.006"/>
+  <testcase name="should_allow_same_listener" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.005"/>
+  <testcase name="should_clear_listeners" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.003"/>
+  <testcase name="add_listeners_concurrently_sanity_check" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.028"/>
+  <testcase name="should_call_listener_when_mock_return_normally_with_default_answer" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.007"/>
+  <testcase name="should_delete_listener" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.005"/>
+  <testcase name="should_not_call_listener_when_mock_is_not_called" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.003"/>
+  <testcase name="should_call_all_listeners_when_mock_throws_exception" classname="org.mockitousage.debugging.StubbingLookupListenerCallbackTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

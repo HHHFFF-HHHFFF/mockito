@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.bugs.ThreadLocalTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:12.341Z" hostname="REDACTED-HOST.local" time="0.118">
+  <properties/>
+  <testcase name="spy_ThreadLocal_does_not_raise_StackOverflowError" classname="org.mockitousage.bugs.ThreadLocalTest" time="0.064"/>
+  <testcase name="spy_class_extending_ThreadLocal_does_not_raise_StackOverflowError" classname="org.mockitousage.bugs.ThreadLocalTest" time="0.052"/>
+  <testcase name="mock_ThreadLocal_does_not_raise_StackOverflowError" classname="org.mockitousage.bugs.ThreadLocalTest" time="0.001"/>
+  <testcase name="mock_class_extending_ThreadLocal_does_not_raise_StackOverflowError" classname="org.mockitousage.bugs.ThreadLocalTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

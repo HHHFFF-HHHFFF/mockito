@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.collections.WeakIdentityMapTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:03.664Z" hostname="REDACTED-HOST.local" time="0.52">
+  <properties/>
+  <testcase name="weakReferenceBehavior" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.517"/>
+  <testcase name="removeReturnsNullForAbsentKey" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <testcase name="usesIdentityNotEquals" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <testcase name="putAndGet" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <testcase name="remove" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <testcase name="getReturnsNullForAbsentKey" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <testcase name="putOverwritesPreviousValue" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <testcase name="sizeReflectsContents" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <testcase name="doesNotCallHashCodeOnKeys" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.002"/>
+  <testcase name="entrySetReflectsContents" classname="org.mockito.internal.util.collections.WeakIdentityMapTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.basicapi.UsingVarargsTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:09.658Z" hostname="REDACTED-HOST.local" time="0.159">
+  <properties/>
+  <testcase name="shouldVerifyWithNullVarArgArray" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.103"/>
+  <testcase name="shouldStubBooleanVarargs" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.002"/>
+  <testcase name="shouldMatchEasilyEmptyVararg" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.001"/>
+  <testcase name="shouldVerifyBooleanVarargs" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.002"/>
+  <testcase name="shouldStubCorrectlyWhenMixedVarargsUsed" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.043"/>
+  <testcase name="shouldVerifyWithAny" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.001"/>
+  <testcase name="shouldStubStringVarargs" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.003"/>
+  <testcase name="shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.001"/>
+  <testcase name="shouldVerifyStringVarargs" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.001"/>
+  <testcase name="shouldVerifyObjectVarargs" classname="org.mockitousage.basicapi.UsingVarargsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

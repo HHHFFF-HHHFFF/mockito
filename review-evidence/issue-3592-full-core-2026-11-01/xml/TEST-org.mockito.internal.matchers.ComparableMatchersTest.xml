@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.matchers.ComparableMatchersTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:56.918Z" hostname="REDACTED-HOST.local" time="0.0">
+  <properties/>
+  <testcase name="testLessThan" classname="org.mockito.internal.matchers.ComparableMatchersTest" time="0.0"/>
+  <testcase name="testGreaterOrEqual" classname="org.mockito.internal.matchers.ComparableMatchersTest" time="0.0"/>
+  <testcase name="testGreaterThan" classname="org.mockito.internal.matchers.ComparableMatchersTest" time="0.0"/>
+  <testcase name="testCompareEqual" classname="org.mockito.internal.matchers.ComparableMatchersTest" time="0.0"/>
+  <testcase name="testLessOrEqual" classname="org.mockito.internal.matchers.ComparableMatchersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.util.reflection.FieldInitializerTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:04.204Z" hostname="REDACTED-HOST.local" time="0.044">
+  <properties/>
+  <testcase name="should_fail_to_instantiate_field_if_no_default_constructor" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.002"/>
+  <testcase name="should_not_fail_if_interface_field_is_instantiated" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <testcase name="should_instantiate_field_when_type_has_no_constructor" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <testcase name="should_fail_for_local_type_field" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.001"/>
+  <testcase name="can_instantiate_class_with_parameterized_constructor" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.035"/>
+  <testcase name="should_fail_for_interface_field" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <testcase name="should_fail_for_abstract_field" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.001"/>
+  <testcase name="should_keep_same_instance_if_field_initialized" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <testcase name="should_fail_for_inner_class_field" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <testcase name="should_instantiate_field_with_private_default_constructor" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.001"/>
+  <testcase name="should_instantiate_field_with_default_constructor" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <testcase name="should_not_fail_if_inner_class_field_is_instantiated" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <testcase name="should_fail_to_instantiate_field_if_default_constructor_throws_exception" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.001"/>
+  <testcase name="should_not_fail_if_local_type_field_is_instantiated" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.002"/>
+  <testcase name="should_not_fail_if_abstract_field_is_instantiated" classname="org.mockito.internal.util.reflection.FieldInitializerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:55.967Z" hostname="REDACTED-HOST.local" time="0.008">
+  <properties/>
+  <testcase name="creates_instances_with_arguments" classname="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" time="0.002"/>
+  <testcase name="explains_when_constructor_cannot_be_found" classname="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" time="0.001"/>
+  <testcase name="creates_instances_of_inner_classes" classname="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" time="0.002"/>
+  <testcase name="fails_when_null_is_passed_for_a_primitive" classname="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" time="0.001"/>
+  <testcase name="creates_instances_with_null_arguments" classname="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" time="0.0"/>
+  <testcase name="creates_instances" classname="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" time="0.001"/>
+  <testcase name="creates_instances_with_primitive_arguments" classname="org.mockito.internal.creation.instance.ConstructorInstantiatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

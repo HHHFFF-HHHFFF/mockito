@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.VerificationStartedListenerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:05:01.545Z" hostname="REDACTED-HOST.local" time="0.036">
+  <properties/>
+  <testcase name="shows_clean_exception_when_null_array_passed" classname="org.mockitousage.verification.VerificationStartedListenerTest" time="0.001"/>
+  <testcase name="listeners_are_executed_in_sequence" classname="org.mockitousage.verification.VerificationStartedListenerTest" time="0.002"/>
+  <testcase name="shows_clean_exception_when_null_listener_passed" classname="org.mockitousage.verification.VerificationStartedListenerTest" time="0.031"/>
+  <testcase name="verified_mock_can_be_replaced" classname="org.mockitousage.verification.VerificationStartedListenerTest" time="0.001"/>
+  <testcase name="verification_started_event_contains_correct_mock" classname="org.mockitousage.verification.VerificationStartedListenerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

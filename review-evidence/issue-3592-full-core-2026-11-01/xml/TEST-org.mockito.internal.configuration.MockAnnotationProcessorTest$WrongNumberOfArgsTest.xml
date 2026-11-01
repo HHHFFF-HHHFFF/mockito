@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.configuration.MockAnnotationProcessorTest$WrongNumberOfArgsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:34.783Z" hostname="REDACTED-HOST.local" time="0.065">
+  <properties/>
+  <testcase name="ensure_parameterized_types_with_more_than_one_arg_cannot_be_inferred[0]" classname="org.mockito.internal.configuration.MockAnnotationProcessorTest$WrongNumberOfArgsTest" time="0.063"/>
+  <testcase name="ensure_parameterized_types_with_more_than_one_arg_cannot_be_inferred[1]" classname="org.mockito.internal.configuration.MockAnnotationProcessorTest$WrongNumberOfArgsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

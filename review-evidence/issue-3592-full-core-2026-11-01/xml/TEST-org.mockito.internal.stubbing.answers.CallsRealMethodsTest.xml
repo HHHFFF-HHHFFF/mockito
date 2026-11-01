@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.stubbing.answers.CallsRealMethodsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:58.451Z" hostname="REDACTED-HOST.local" time="0.258">
+  <properties/>
+  <testcase name="should_fail_when_calling_real_method_on_interface" classname="org.mockito.internal.stubbing.answers.CallsRealMethodsTest" time="0.005"/>
+  <testcase name="should_delegate_to_returns_default_when_abstract_method" classname="org.mockito.internal.stubbing.answers.CallsRealMethodsTest" time="0.003"/>
+  <testcase name="should_be_OK_when_calling_real_method_on_concrete_class" classname="org.mockito.internal.stubbing.answers.CallsRealMethodsTest" time="0.246"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

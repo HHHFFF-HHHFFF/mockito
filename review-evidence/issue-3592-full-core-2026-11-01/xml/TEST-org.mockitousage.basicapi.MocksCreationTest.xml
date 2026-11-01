@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.basicapi.MocksCreationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:08.672Z" hostname="REDACTED-HOST.local" time="0.079">
+  <properties/>
+  <testcase name="should_strip_annotations" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.042"/>
+  <testcase name="should_allow_inline_mock_creation" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.001"/>
+  <testcase name="should_combine_mock_name_and_extra_interfaces" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.0"/>
+  <testcase name="should_allow_creating_spies_with_correct_type" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.001"/>
+  <testcase name="should_scream_when_spy_created_with_wrong_type" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.0"/>
+  <testcase name="should_specify_mock_name_via_settings" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.001"/>
+  <testcase name="should_create_mock_when_constructor_is_private" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.033"/>
+  <testcase name="should_combine_mock_name_and_smart_nulls" classname="org.mockitousage.basicapi.MocksCreationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

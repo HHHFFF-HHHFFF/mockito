@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.configuration.ClassCacheVersusClassReloadingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:13.391Z" hostname="REDACTED-HOST.local" time="3.005">
+  <properties/>
+  <testcase name="should_not_throw_ClassCastException_when_objenesis_cache_disabled" classname="org.mockitousage.configuration.ClassCacheVersusClassReloadingTest" time="3.005"/>
+  <system-out><![CDATA[org.mockitoutil.SimplePerRealmReloadingClassLoader.detectCallerClassPath(SimplePerRealmReloadingClassLoader.java:55)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.getPossibleClassPathsUrls(SimplePerRealmReloadingClassLoader.java:39)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.<init>(SimplePerRealmReloadingClassLoader.java:26)
+org.mockitousage.configuration.ClassCacheVersusClassReloadingTest.<init>(ClassCacheVersusClassReloadingTest.java:19)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.detectCallerClassPath(SimplePerRealmReloadingClassLoader.java:55)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.getPossibleClassPathsUrls(SimplePerRealmReloadingClassLoader.java:39)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.<init>(SimplePerRealmReloadingClassLoader.java:32)
+org.mockitousage.configuration.ClassCacheVersusClassReloadingTest.doInNewChildRealm(ClassCacheVersusClassReloadingTest.java:46)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.detectCallerClassPath(SimplePerRealmReloadingClassLoader.java:55)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.getPossibleClassPathsUrls(SimplePerRealmReloadingClassLoader.java:39)
+org.mockitoutil.SimplePerRealmReloadingClassLoader.<init>(SimplePerRealmReloadingClassLoader.java:32)
+org.mockitousage.configuration.ClassCacheVersusClassReloadingTest.doInNewChildRealm(ClassCacheVersusClassReloadingTest.java:46)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

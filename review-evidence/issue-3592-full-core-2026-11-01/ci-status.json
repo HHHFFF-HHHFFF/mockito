@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-01T08:03:48.599004+00:00",
+  "runs": [
+    {
+      "pr": 3901,
+      "head": "566bace5dd8a2ed573de6b66c633176fc8e227ad",
+      "url": "https://github.com/mockito/mockito/actions/runs/41266725385",
+      "status": "completed",
+      "conclusion": "action_required",
+      "jobs": 0
+    },
+    {
+      "pr": 3902,
+      "head": "701aec6bd42bc03e9bb5b7795969ac4cd29f0b6e",
+      "url": "https://github.com/mockito/mockito/actions/runs/41266739678",
+      "status": "completed",
+      "conclusion": "action_required",
+      "jobs": 0
+    }
+  ],
+  "interpretation": "No remote test execution is recorded; likely awaiting maintainer workflow approval. Approval reason not explicitly exposed by queried API."
+}

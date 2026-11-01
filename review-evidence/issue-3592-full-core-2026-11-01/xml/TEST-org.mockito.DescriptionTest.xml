@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.DescriptionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:32.951Z" hostname="REDACTED-HOST.local" time="0.043">
+  <properties/>
+  <testcase name="verify_method_not_called_should_include_description_in_report" classname="org.mockito.DescriptionTest" time="0.039"/>
+  <testcase name="verify_method_called_with_unexpected_argument_should_include_description_in_report" classname="org.mockito.DescriptionTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

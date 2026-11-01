@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:06.767Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="shouldReportWithAllInvocationsStackTrace" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.001"/>
+  <testcase name="shouldNotReportWithLastInvocationStackTraceIfNoInvocationsFound" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <testcase name="shouldReportWithFirstUndesiredInvocationStackTrace" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <testcase name="shouldReportTooManyActual" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.001"/>
+  <testcase name="shouldMarkInvocationsAsVerified" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <testcase name="shouldMarkAsVerifiedInOrder" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <testcase name="shouldReportNeverWantedButInvoked" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <testcase name="shouldReportTooFewActual" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.001"/>
+  <testcase name="shouldPassIfWantedIsZeroAndMatchingChunkIsEmpty" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <testcase name="shouldReportTooFewInvocations" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <testcase name="shouldPassIfChunkMatches" classname="org.mockito.internal.verification.checkers.NumberOfInvocationsInOrderCheckerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

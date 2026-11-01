@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.internal.configuration.plugins.PluginLoaderTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:03:35.210Z" hostname="REDACTED-HOST.local" time="0.149">
+  <properties/>
+  <testcase name="loads_alternative_plugin_inheritance" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.108"/>
+  <testcase name="loads_alternative_plugin_inheritance_lowest_common_denominator" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.005"/>
+  <testcase name="loads_default_plugin_inheritance" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.005"/>
+  <testcase name="loads_preferred_plugin_inheritance_lowest_common_denominator" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.002"/>
+  <testcase name="loads_alternative_plugin_inheritance_reversed" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.001"/>
+  <testcase name="loads_preferred_plugin_inheritance" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.001"/>
+  <testcase name="loads_preferred_plugin" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.004"/>
+  <testcase name="loads_default_plugin" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.002"/>
+  <testcase name="fails_to_load_plugin" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.005"/>
+  <testcase name="loads_default_plugin_inheritance_lowest_common_denominator" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.002"/>
+  <testcase name="loads_default_plugin_inheritance_reversed" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.002"/>
+  <testcase name="loads_preferred_plugin_inheritance_reversed" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.003"/>
+  <testcase name="loads_alternative_plugin" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.003"/>
+  <testcase name="loads_plugin" classname="org.mockito.internal.configuration.plugins.PluginLoaderTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

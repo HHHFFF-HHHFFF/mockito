@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.verification.OnlyVerificationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:58.574Z" hostname="REDACTED-HOST.local" time="0.003">
+  <properties/>
+  <testcase name="shouldFailIfMethodWasNotInvoked" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <testcase name="shouldVerifyMethodWasInvokedExclusivelyWithMatchersUsage" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.001"/>
+  <testcase name="shouldFailIfMethodWasInvokedMoreThanOnce" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <testcase name="shouldFailIfMethodWasInvokedButWithDifferentArguments" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.001"/>
+  <testcase name="shouldVerifyMethodWasInvokedExclusivelyWhenTwoMocksInUse" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <testcase name="shouldFailIfExtraMethodWithDifferentArgsFound" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.001"/>
+  <testcase name="shouldVerifyMethodWasInvokedExclusively" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <testcase name="should_return_formatted_output_from_toString_method" classname="org.mockitousage.verification.OnlyVerificationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

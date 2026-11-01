@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.matchers.GenericMatchersTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:22.668Z" hostname="REDACTED-HOST.local" time="0.165">
+  <properties/>
+  <testcase name="shouldCompile" classname="org.mockitousage.matchers.GenericMatchersTest" time="0.165"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

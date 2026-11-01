@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockitousage.junitrule.VerificationCollectorImplTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-01T08:04:21.284Z" hostname="REDACTED-HOST.local" time="0.038">
+  <properties/>
+  <testcase name="should_collect_verification_failures" classname="org.mockitousage.junitrule.VerificationCollectorImplTest" time="0.009"/>
+  <testcase name="should_not_throw_any_exceptions_when_verifications_are_successful" classname="org.mockitousage.junitrule.VerificationCollectorImplTest" time="0.001"/>
+  <testcase name="should_invoke_collector_rule_after_test" classname="org.mockitousage.junitrule.VerificationCollectorImplTest" time="0.011"/>
+  <testcase name="should_only_collect_failures_ignore_successful_verifications" classname="org.mockitousage.junitrule.VerificationCollectorImplTest" time="0.002"/>
+  <testcase name="should_collect_matching_error_from_non_matching_arguments" classname="org.mockitousage.junitrule.VerificationCollectorImplTest" time="0.007"/>
+  <testcase name="should_collect_multiple_verification_failures" classname="org.mockitousage.junitrule.VerificationCollectorImplTest" time="0.004"/>
+  <testcase name="should_continue_collecting_after_failing_verification" classname="org.mockitousage.junitrule.VerificationCollectorImplTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
